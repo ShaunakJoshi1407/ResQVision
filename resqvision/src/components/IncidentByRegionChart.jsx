@@ -13,7 +13,6 @@ import {
 
 const IncidentByRegionChart = () => {
   const svgRef = useRef();
-  const tooltipRef = useRef(null);
   const [data, setData] = useState([]);
   const [selectedRegion, setSelectedRegion] = useState('All');
   const [incidentTypes, setIncidentTypes] = useState([]);
@@ -43,7 +42,6 @@ const IncidentByRegionChart = () => {
     const height = 500 - margin.top - margin.bottom;
 
     const grouped = d3.groups(filtered, d => d.Region_Type);
-
     const color = d3.scaleOrdinal()
       .domain(incidentTypes)
       .range(d3.schemeCategory10);
@@ -74,7 +72,19 @@ const IncidentByRegionChart = () => {
       .append('g')
       .attr('transform', `translate(${margin.left},${margin.top})`);
 
-    // Axes
+    // Create tooltip div
+    const tooltip = d3.select(document.body)
+      .append('div')
+      .attr('class', 'tooltip')
+      .style('position', 'absolute')
+      .style('pointer-events', 'none')
+      .style('opacity', 0)
+      .style('background', 'white')
+      .style('padding', '8px')
+      .style('border-radius', '4px')
+      .style('box-shadow', '0 2px 4px rgba(0,0,0,0.2)');
+
+    // Axes and labels (same as before)
     container.append('g')
       .attr('transform', `translate(0,${height})`)
       .call(d3.axisBottom(xScale));
@@ -82,7 +92,6 @@ const IncidentByRegionChart = () => {
     container.append('g')
       .call(d3.axisLeft(yScale));
 
-    // X-axis Label
     container.append('text')
       .attr('x', width / 2)
       .attr('y', height + 40)
@@ -91,19 +100,17 @@ const IncidentByRegionChart = () => {
       .style('font-size', '14px')
       .text('Region');
 
-    // Y-axis Label
     container.append('text')
       .attr('transform', 'rotate(-90)')
       .attr('x', -height / 2)
-      .attr('y', -70) // Adjusted for spacing
+      .attr('y', -70)
       .attr('dy', '1em')
       .style('text-anchor', 'middle')
       .attr('fill', '#374151')
       .style('font-size', '14px')
       .text('Total Incidents');
 
-    const tooltip = d3.select(tooltipRef.current);
-
+    // Draw bars with new tooltip handling
     container.selectAll('g.layer')
       .data(stackedData)
       .enter().append('g')
@@ -116,36 +123,40 @@ const IncidentByRegionChart = () => {
       .attr('y', yScale(0))
       .attr('height', 0)
       .on('mouseover', (event, d) => {
-        tooltip
-          .style('display', 'block')
-          .style('left', `${event.pageX + 10}px`)
-          .style('top', `${event.pageY - 60}px`)
-          .html(`
-            <div style="min-width: 180px;"
-                class="rounded-md border border-gray-300 bg-white/90 shadow-xl backdrop-blur-md px-5 py-3 text-[13px] text-gray-800 font-normal">
-                <div class="mb-1">
-                    <span class="text-gray-500">Incident:</span>
-                    <span class="float-right font-medium text-gray-700">${d.key}</span>
-                </div>
-                <div>
-                    <span class="text-gray-500">Number:</span>
-                    <span class="float-right font-semibold text-gray-900">${d[1] - d[0]}</span>
-                </div>
+        tooltip.transition()
+          .duration(200)
+          .style('opacity', 1);
+        tooltip.html(`
+          <div style="min-width: 180px;">
+            <div class="mb-1">
+              <span class="text-gray-500">Incident:</span>
+              <span class="float-right font-medium text-gray-700">${d.key}</span>
             </div>
-          `);
+            <div>
+              <span class="text-gray-500">Number:</span>
+              <span class="float-right font-semibold text-gray-900">${d[1] - d[0]}</span>
+            </div>
+          </div>
+        `);
       })
       .on('mousemove', (event) => {
         tooltip
           .style('left', `${event.pageX + 10}px`)
-          .style('top', `${event.pageY - 60}px`);
+          .style('top', `${event.pageY - 28}px`);
       })
       .on('mouseout', () => {
-        tooltip.style('display', 'none');
+        tooltip.transition()
+          .duration(500)
+          .style('opacity', 0);
       })
       .transition()
       .duration(600)
       .attr('y', d => yScale(d[1]))
       .attr('height', d => yScale(d[0]) - yScale(d[1]));
+
+    return () => {
+      tooltip.remove(); // Cleanup tooltip on component unmount
+    };
   }, [data, selectedRegion, incidentTypes]);
 
   return (
@@ -156,18 +167,7 @@ const IncidentByRegionChart = () => {
         </Typography>
 
         <Box className="mb-6 max-w-xs">
-          <FormControl
-            fullWidth
-            sx={{
-              minWidth: 200,
-              '& .MuiOutlinedInput-root:hover': {
-                boxShadow: '0 0 0 2px rgba(59, 130, 246, 0.2)',
-              },
-              '& .MuiOutlinedInput-root.Mui-focused': {
-                boxShadow: '0 0 0 2px rgba(59, 130, 246, 0.3)',
-              },
-            }}
-          >
+          <FormControl fullWidth>
             <InputLabel id="region-select-label">Select Region</InputLabel>
             <Select
               labelId="region-select-label"
@@ -185,11 +185,6 @@ const IncidentByRegionChart = () => {
 
         <div className="flex justify-center mt-10 relative overflow-x-auto">
           <svg ref={svgRef}></svg>
-          <div
-            ref={tooltipRef}
-            className="absolute z-50 pointer-events-none"
-            style={{ display: 'none' }}
-          ></div>
         </div>
       </CardContent>
     </Card>
