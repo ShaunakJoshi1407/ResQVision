@@ -118,7 +118,7 @@ const IncidentByRegionChart = () => {
       .selectAll('rect')
       .data(d => d.map(bar => ({ ...bar, key: d.key })))
       .enter().append('rect')
-      .attr('x', (d, i) => xScale(grouped[i][0]))
+      .attr('x', d => xScale(d.data[0]))
       .attr('width', xScale.bandwidth())
       .attr('y', yScale(0))
       .attr('height', 0)
