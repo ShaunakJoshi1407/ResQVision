@@ -1,0 +1,6050 @@
+[
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-01",
+    "Count": 210
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-02",
+    "Count": 208
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-03",
+    "Count": 200
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-04",
+    "Count": 215
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-05",
+    "Count": 223
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-06",
+    "Count": 224
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-07",
+    "Count": 233
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-08",
+    "Count": 228
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-09",
+    "Count": 213
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-10",
+    "Count": 220
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-11",
+    "Count": 200
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-12",
+    "Count": 211
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-01",
+    "Count": 226
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-02",
+    "Count": 206
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-03",
+    "Count": 212
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-04",
+    "Count": 214
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-05",
+    "Count": 234
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-06",
+    "Count": 207
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-07",
+    "Count": 208
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-08",
+    "Count": 227
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-09",
+    "Count": 196
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-10",
+    "Count": 240
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-11",
+    "Count": 218
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-12",
+    "Count": 228
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-01",
+    "Count": 237
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-02",
+    "Count": 205
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-03",
+    "Count": 249
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-04",
+    "Count": 210
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-05",
+    "Count": 209
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-06",
+    "Count": 205
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-07",
+    "Count": 218
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-08",
+    "Count": 250
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-09",
+    "Count": 210
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-10",
+    "Count": 212
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-11",
+    "Count": 221
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-12",
+    "Count": 216
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-01",
+    "Count": 237
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-02",
+    "Count": 190
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-03",
+    "Count": 217
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-04",
+    "Count": 207
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-05",
+    "Count": 225
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-06",
+    "Count": 218
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-07",
+    "Count": 224
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-08",
+    "Count": 222
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-09",
+    "Count": 201
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-10",
+    "Count": 204
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-11",
+    "Count": 219
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-12",
+    "Count": 216
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-01",
+    "Count": 211
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-02",
+    "Count": 183
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-03",
+    "Count": 213
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-04",
+    "Count": 206
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-05",
+    "Count": 236
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-06",
+    "Count": 220
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-07",
+    "Count": 258
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-08",
+    "Count": 209
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-09",
+    "Count": 241
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-10",
+    "Count": 195
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-11",
+    "Count": 231
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-12",
+    "Count": 194
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-01",
+    "Count": 234
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-02",
+    "Count": 176
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-03",
+    "Count": 229
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-04",
+    "Count": 222
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-05",
+    "Count": 237
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-06",
+    "Count": 210
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-07",
+    "Count": 224
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-08",
+    "Count": 212
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-09",
+    "Count": 195
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-10",
+    "Count": 205
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-11",
+    "Count": 225
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-12",
+    "Count": 230
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-01",
+    "Count": 213
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-02",
+    "Count": 223
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-03",
+    "Count": 201
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-04",
+    "Count": 217
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-05",
+    "Count": 206
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-06",
+    "Count": 221
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-07",
+    "Count": 242
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-08",
+    "Count": 208
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-09",
+    "Count": 232
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-10",
+    "Count": 207
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-11",
+    "Count": 191
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-12",
+    "Count": 226
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-01",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-02",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-03",
+    "Count": 94
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-04",
+    "Count": 74
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-05",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-06",
+    "Count": 91
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-07",
+    "Count": 82
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-08",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-09",
+    "Count": 93
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-10",
+    "Count": 100
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-11",
+    "Count": 102
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-12",
+    "Count": 100
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-01",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-02",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-03",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-04",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-05",
+    "Count": 93
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-06",
+    "Count": 91
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-07",
+    "Count": 86
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-08",
+    "Count": 85
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-09",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-10",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-11",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-12",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-01",
+    "Count": 95
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-02",
+    "Count": 81
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-03",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-04",
+    "Count": 78
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-05",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-06",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-07",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-08",
+    "Count": 73
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-09",
+    "Count": 79
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-10",
+    "Count": 95
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-11",
+    "Count": 72
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-12",
+    "Count": 85
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-01",
+    "Count": 91
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-02",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-03",
+    "Count": 98
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-04",
+    "Count": 77
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-05",
+    "Count": 92
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-06",
+    "Count": 78
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-07",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-08",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-09",
+    "Count": 82
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-10",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-11",
+    "Count": 98
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-12",
+    "Count": 86
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-01",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-02",
+    "Count": 85
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-03",
+    "Count": 94
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-04",
+    "Count": 78
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-05",
+    "Count": 92
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-06",
+    "Count": 75
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-07",
+    "Count": 78
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-08",
+    "Count": 105
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-09",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-10",
+    "Count": 96
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-11",
+    "Count": 79
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-12",
+    "Count": 110
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-01",
+    "Count": 99
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-02",
+    "Count": 72
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-03",
+    "Count": 95
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-04",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-05",
+    "Count": 91
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-06",
+    "Count": 82
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-07",
+    "Count": 91
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-08",
+    "Count": 65
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-09",
+    "Count": 68
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-10",
+    "Count": 97
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-11",
+    "Count": 97
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-12",
+    "Count": 81
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-01",
+    "Count": 95
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-02",
+    "Count": 77
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-03",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-04",
+    "Count": 76
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-05",
+    "Count": 92
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-06",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-07",
+    "Count": 80
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-08",
+    "Count": 96
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-09",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-10",
+    "Count": 99
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-11",
+    "Count": 76
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-12",
+    "Count": 80
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-01",
+    "Count": 31
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-02",
+    "Count": 34
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-03",
+    "Count": 37
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-04",
+    "Count": 46
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-05",
+    "Count": 44
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-06",
+    "Count": 38
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-07",
+    "Count": 49
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-08",
+    "Count": 44
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-09",
+    "Count": 41
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-10",
+    "Count": 41
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-11",
+    "Count": 52
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-12",
+    "Count": 35
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-01",
+    "Count": 41
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-02",
+    "Count": 35
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-03",
+    "Count": 32
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-04",
+    "Count": 56
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-05",
+    "Count": 58
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-06",
+    "Count": 36
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-07",
+    "Count": 50
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-08",
+    "Count": 46
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-09",
+    "Count": 33
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-10",
+    "Count": 48
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-11",
+    "Count": 46
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-12",
+    "Count": 34
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-01",
+    "Count": 41
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-02",
+    "Count": 45
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-03",
+    "Count": 44
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-04",
+    "Count": 41
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-05",
+    "Count": 48
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-06",
+    "Count": 31
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-07",
+    "Count": 54
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-08",
+    "Count": 35
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-09",
+    "Count": 41
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-10",
+    "Count": 44
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-11",
+    "Count": 54
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-12",
+    "Count": 50
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-01",
+    "Count": 44
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-02",
+    "Count": 51
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-03",
+    "Count": 46
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-04",
+    "Count": 39
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-05",
+    "Count": 46
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-06",
+    "Count": 52
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-07",
+    "Count": 44
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-08",
+    "Count": 42
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-09",
+    "Count": 55
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-10",
+    "Count": 36
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-11",
+    "Count": 51
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-12",
+    "Count": 63
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-01",
+    "Count": 48
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-02",
+    "Count": 55
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-03",
+    "Count": 34
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-04",
+    "Count": 37
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-05",
+    "Count": 36
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-06",
+    "Count": 47
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-07",
+    "Count": 43
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-08",
+    "Count": 54
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-09",
+    "Count": 36
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-10",
+    "Count": 52
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-11",
+    "Count": 35
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-12",
+    "Count": 41
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-01",
+    "Count": 50
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-02",
+    "Count": 46
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-03",
+    "Count": 40
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-04",
+    "Count": 46
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-05",
+    "Count": 54
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-06",
+    "Count": 40
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-07",
+    "Count": 42
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-08",
+    "Count": 71
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-09",
+    "Count": 36
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-10",
+    "Count": 56
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-11",
+    "Count": 35
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-12",
+    "Count": 52
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-01",
+    "Count": 53
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-02",
+    "Count": 43
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-03",
+    "Count": 55
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-04",
+    "Count": 50
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-05",
+    "Count": 44
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-06",
+    "Count": 42
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-07",
+    "Count": 42
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-08",
+    "Count": 37
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-09",
+    "Count": 28
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-10",
+    "Count": 35
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-11",
+    "Count": 39
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-12",
+    "Count": 44
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-01",
+    "Count": 95
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-02",
+    "Count": 63
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-03",
+    "Count": 96
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-04",
+    "Count": 91
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-05",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-06",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-07",
+    "Count": 96
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-08",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-09",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-10",
+    "Count": 96
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-11",
+    "Count": 68
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-12",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-01",
+    "Count": 101
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-02",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-03",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-04",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-05",
+    "Count": 77
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-06",
+    "Count": 79
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-07",
+    "Count": 78
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-08",
+    "Count": 92
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-09",
+    "Count": 94
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-10",
+    "Count": 81
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-11",
+    "Count": 91
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-12",
+    "Count": 80
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-01",
+    "Count": 75
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-02",
+    "Count": 86
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-03",
+    "Count": 81
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-04",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-05",
+    "Count": 95
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-06",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-07",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-08",
+    "Count": 97
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-09",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-10",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-11",
+    "Count": 85
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-12",
+    "Count": 77
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-01",
+    "Count": 78
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-02",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-03",
+    "Count": 101
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-04",
+    "Count": 80
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-05",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-06",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-07",
+    "Count": 100
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-08",
+    "Count": 103
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-09",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-10",
+    "Count": 82
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-11",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-12",
+    "Count": 93
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-01",
+    "Count": 106
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-02",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-03",
+    "Count": 99
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-04",
+    "Count": 75
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-05",
+    "Count": 101
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-06",
+    "Count": 93
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-07",
+    "Count": 85
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-08",
+    "Count": 85
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-09",
+    "Count": 100
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-10",
+    "Count": 93
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-11",
+    "Count": 85
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-12",
+    "Count": 82
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-01",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-02",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-03",
+    "Count": 104
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-04",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-05",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-06",
+    "Count": 100
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-07",
+    "Count": 70
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-08",
+    "Count": 85
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-09",
+    "Count": 77
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-10",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-11",
+    "Count": 96
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-12",
+    "Count": 76
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-01",
+    "Count": 106
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-02",
+    "Count": 73
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-03",
+    "Count": 98
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-04",
+    "Count": 97
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-05",
+    "Count": 100
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-06",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-07",
+    "Count": 102
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-08",
+    "Count": 100
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-09",
+    "Count": 81
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-10",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-11",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Rural",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-12",
+    "Count": 92
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-01",
+    "Count": 430
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-02",
+    "Count": 357
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-03",
+    "Count": 456
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-04",
+    "Count": 450
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-05",
+    "Count": 433
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-06",
+    "Count": 447
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-07",
+    "Count": 463
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-08",
+    "Count": 457
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-09",
+    "Count": 436
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-10",
+    "Count": 465
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-11",
+    "Count": 421
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-12",
+    "Count": 448
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-01",
+    "Count": 449
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-02",
+    "Count": 410
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-03",
+    "Count": 474
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-04",
+    "Count": 444
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-05",
+    "Count": 423
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-06",
+    "Count": 458
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-07",
+    "Count": 460
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-08",
+    "Count": 436
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-09",
+    "Count": 424
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-10",
+    "Count": 461
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-11",
+    "Count": 434
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-12",
+    "Count": 444
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-01",
+    "Count": 445
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-02",
+    "Count": 432
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-03",
+    "Count": 451
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-04",
+    "Count": 418
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-05",
+    "Count": 436
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-06",
+    "Count": 426
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-07",
+    "Count": 486
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-08",
+    "Count": 490
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-09",
+    "Count": 429
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-10",
+    "Count": 407
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-11",
+    "Count": 417
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-12",
+    "Count": 455
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-01",
+    "Count": 422
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-02",
+    "Count": 384
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-03",
+    "Count": 446
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-04",
+    "Count": 413
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-05",
+    "Count": 483
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-06",
+    "Count": 432
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-07",
+    "Count": 467
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-08",
+    "Count": 457
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-09",
+    "Count": 431
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-10",
+    "Count": 443
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-11",
+    "Count": 441
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-12",
+    "Count": 415
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-01",
+    "Count": 451
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-02",
+    "Count": 380
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-03",
+    "Count": 424
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-04",
+    "Count": 424
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-05",
+    "Count": 444
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-06",
+    "Count": 412
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-07",
+    "Count": 434
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-08",
+    "Count": 446
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-09",
+    "Count": 423
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-10",
+    "Count": 468
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-11",
+    "Count": 480
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-12",
+    "Count": 455
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-01",
+    "Count": 414
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-02",
+    "Count": 394
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-03",
+    "Count": 471
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-04",
+    "Count": 430
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-05",
+    "Count": 464
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-06",
+    "Count": 434
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-07",
+    "Count": 463
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-08",
+    "Count": 455
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-09",
+    "Count": 426
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-10",
+    "Count": 465
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-11",
+    "Count": 409
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-12",
+    "Count": 486
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-01",
+    "Count": 446
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-02",
+    "Count": 417
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-03",
+    "Count": 461
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-04",
+    "Count": 431
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-05",
+    "Count": 457
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-06",
+    "Count": 441
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-07",
+    "Count": 473
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-08",
+    "Count": 439
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-09",
+    "Count": 433
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-10",
+    "Count": 471
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-11",
+    "Count": 414
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-12",
+    "Count": 439
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-01",
+    "Count": 198
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-02",
+    "Count": 135
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-03",
+    "Count": 167
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-04",
+    "Count": 150
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-05",
+    "Count": 190
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-06",
+    "Count": 176
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-07",
+    "Count": 194
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-08",
+    "Count": 176
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-09",
+    "Count": 165
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-10",
+    "Count": 174
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-11",
+    "Count": 189
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-12",
+    "Count": 163
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-01",
+    "Count": 166
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-02",
+    "Count": 143
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-03",
+    "Count": 181
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-04",
+    "Count": 168
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-05",
+    "Count": 182
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-06",
+    "Count": 165
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-07",
+    "Count": 193
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-08",
+    "Count": 155
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-09",
+    "Count": 168
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-10",
+    "Count": 159
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-11",
+    "Count": 197
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-12",
+    "Count": 181
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-01",
+    "Count": 175
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-02",
+    "Count": 180
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-03",
+    "Count": 186
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-04",
+    "Count": 179
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-05",
+    "Count": 168
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-06",
+    "Count": 189
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-07",
+    "Count": 169
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-08",
+    "Count": 157
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-09",
+    "Count": 171
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-10",
+    "Count": 169
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-11",
+    "Count": 175
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-12",
+    "Count": 192
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-01",
+    "Count": 174
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-02",
+    "Count": 171
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-03",
+    "Count": 167
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-04",
+    "Count": 168
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-05",
+    "Count": 184
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-06",
+    "Count": 172
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-07",
+    "Count": 174
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-08",
+    "Count": 166
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-09",
+    "Count": 183
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-10",
+    "Count": 194
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-11",
+    "Count": 188
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-12",
+    "Count": 190
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-01",
+    "Count": 184
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-02",
+    "Count": 193
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-03",
+    "Count": 191
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-04",
+    "Count": 177
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-05",
+    "Count": 164
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-06",
+    "Count": 172
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-07",
+    "Count": 155
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-08",
+    "Count": 191
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-09",
+    "Count": 185
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-10",
+    "Count": 185
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-11",
+    "Count": 183
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-12",
+    "Count": 175
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-01",
+    "Count": 173
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-02",
+    "Count": 168
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-03",
+    "Count": 170
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-04",
+    "Count": 190
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-05",
+    "Count": 141
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-06",
+    "Count": 198
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-07",
+    "Count": 178
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-08",
+    "Count": 189
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-09",
+    "Count": 167
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-10",
+    "Count": 185
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-11",
+    "Count": 175
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-12",
+    "Count": 201
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-01",
+    "Count": 193
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-02",
+    "Count": 163
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-03",
+    "Count": 179
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-04",
+    "Count": 193
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-05",
+    "Count": 169
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-06",
+    "Count": 166
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-07",
+    "Count": 194
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-08",
+    "Count": 165
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-09",
+    "Count": 174
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-10",
+    "Count": 160
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-11",
+    "Count": 175
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-12",
+    "Count": 172
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-01",
+    "Count": 93
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-02",
+    "Count": 97
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-03",
+    "Count": 99
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-04",
+    "Count": 82
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-05",
+    "Count": 91
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-06",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-07",
+    "Count": 71
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-08",
+    "Count": 79
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-09",
+    "Count": 82
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-10",
+    "Count": 105
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-11",
+    "Count": 79
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-12",
+    "Count": 85
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-01",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-02",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-03",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-04",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-05",
+    "Count": 98
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-06",
+    "Count": 94
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-07",
+    "Count": 108
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-08",
+    "Count": 78
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-09",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-10",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-11",
+    "Count": 72
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-12",
+    "Count": 92
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-01",
+    "Count": 85
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-02",
+    "Count": 71
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-03",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-04",
+    "Count": 76
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-05",
+    "Count": 76
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-06",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-07",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-08",
+    "Count": 97
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-09",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-10",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-11",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-12",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-01",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-02",
+    "Count": 77
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-03",
+    "Count": 86
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-04",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-05",
+    "Count": 85
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-06",
+    "Count": 77
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-07",
+    "Count": 93
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-08",
+    "Count": 78
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-09",
+    "Count": 81
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-10",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-11",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-12",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-01",
+    "Count": 74
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-02",
+    "Count": 74
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-03",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-04",
+    "Count": 86
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-05",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-06",
+    "Count": 86
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-07",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-08",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-09",
+    "Count": 78
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-10",
+    "Count": 85
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-11",
+    "Count": 92
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-12",
+    "Count": 86
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-01",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-02",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-03",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-04",
+    "Count": 79
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-05",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-06",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-07",
+    "Count": 84
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-08",
+    "Count": 88
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-09",
+    "Count": 76
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-10",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-11",
+    "Count": 71
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-12",
+    "Count": 83
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-01",
+    "Count": 104
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-02",
+    "Count": 72
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-03",
+    "Count": 91
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-04",
+    "Count": 110
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-05",
+    "Count": 89
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-06",
+    "Count": 74
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-07",
+    "Count": 87
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-08",
+    "Count": 100
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-09",
+    "Count": 82
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-10",
+    "Count": 90
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-11",
+    "Count": 94
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-12",
+    "Count": 118
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-01",
+    "Count": 181
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-02",
+    "Count": 152
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-03",
+    "Count": 192
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-04",
+    "Count": 189
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-05",
+    "Count": 184
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-06",
+    "Count": 142
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-07",
+    "Count": 175
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-08",
+    "Count": 212
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-09",
+    "Count": 184
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-10",
+    "Count": 181
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-11",
+    "Count": 180
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-12",
+    "Count": 196
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-01",
+    "Count": 166
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-02",
+    "Count": 156
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-03",
+    "Count": 170
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-04",
+    "Count": 187
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-05",
+    "Count": 184
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-06",
+    "Count": 188
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-07",
+    "Count": 182
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-08",
+    "Count": 184
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-09",
+    "Count": 161
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-10",
+    "Count": 172
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-11",
+    "Count": 174
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-12",
+    "Count": 178
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-01",
+    "Count": 157
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-02",
+    "Count": 153
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-03",
+    "Count": 178
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-04",
+    "Count": 171
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-05",
+    "Count": 189
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-06",
+    "Count": 193
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-07",
+    "Count": 189
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-08",
+    "Count": 165
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-09",
+    "Count": 176
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-10",
+    "Count": 185
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-11",
+    "Count": 158
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-12",
+    "Count": 155
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-01",
+    "Count": 201
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-02",
+    "Count": 174
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-03",
+    "Count": 168
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-04",
+    "Count": 161
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-05",
+    "Count": 174
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-06",
+    "Count": 181
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-07",
+    "Count": 179
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-08",
+    "Count": 167
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-09",
+    "Count": 164
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-10",
+    "Count": 187
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-11",
+    "Count": 166
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-12",
+    "Count": 198
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-01",
+    "Count": 199
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-02",
+    "Count": 164
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-03",
+    "Count": 190
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-04",
+    "Count": 160
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-05",
+    "Count": 188
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-06",
+    "Count": 190
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-07",
+    "Count": 169
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-08",
+    "Count": 170
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-09",
+    "Count": 190
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-10",
+    "Count": 194
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-11",
+    "Count": 162
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-12",
+    "Count": 170
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-01",
+    "Count": 175
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-02",
+    "Count": 163
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-03",
+    "Count": 183
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-04",
+    "Count": 165
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-05",
+    "Count": 182
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-06",
+    "Count": 178
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-07",
+    "Count": 173
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-08",
+    "Count": 178
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-09",
+    "Count": 177
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-10",
+    "Count": 183
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-11",
+    "Count": 170
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-12",
+    "Count": 176
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-01",
+    "Count": 189
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-02",
+    "Count": 176
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-03",
+    "Count": 187
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-04",
+    "Count": 168
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-05",
+    "Count": 177
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-06",
+    "Count": 158
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-07",
+    "Count": 186
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-08",
+    "Count": 169
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-09",
+    "Count": 196
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-10",
+    "Count": 183
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-11",
+    "Count": 151
+  },
+  {
+    "Region_Type": "Suburban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-12",
+    "Count": 162
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-01",
+    "Count": 1583
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-02",
+    "Count": 1441
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-03",
+    "Count": 1579
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-04",
+    "Count": 1500
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-05",
+    "Count": 1612
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-06",
+    "Count": 1513
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-07",
+    "Count": 1567
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-08",
+    "Count": 1576
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-09",
+    "Count": 1517
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-10",
+    "Count": 1588
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-11",
+    "Count": 1549
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2018-12",
+    "Count": 1562
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-01",
+    "Count": 1586
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-02",
+    "Count": 1426
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-03",
+    "Count": 1539
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-04",
+    "Count": 1485
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-05",
+    "Count": 1540
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-06",
+    "Count": 1484
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-07",
+    "Count": 1525
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-08",
+    "Count": 1639
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-09",
+    "Count": 1528
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-10",
+    "Count": 1518
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-11",
+    "Count": 1483
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2019-12",
+    "Count": 1531
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-01",
+    "Count": 1603
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-02",
+    "Count": 1456
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-03",
+    "Count": 1524
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-04",
+    "Count": 1541
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-05",
+    "Count": 1610
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-06",
+    "Count": 1531
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-07",
+    "Count": 1555
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-08",
+    "Count": 1581
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-09",
+    "Count": 1537
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-10",
+    "Count": 1582
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-11",
+    "Count": 1516
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2020-12",
+    "Count": 1611
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-01",
+    "Count": 1530
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-02",
+    "Count": 1398
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-03",
+    "Count": 1565
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-04",
+    "Count": 1520
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-05",
+    "Count": 1520
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-06",
+    "Count": 1500
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-07",
+    "Count": 1573
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-08",
+    "Count": 1518
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-09",
+    "Count": 1521
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-10",
+    "Count": 1587
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-11",
+    "Count": 1488
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2021-12",
+    "Count": 1575
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-01",
+    "Count": 1513
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-02",
+    "Count": 1423
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-03",
+    "Count": 1577
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-04",
+    "Count": 1531
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-05",
+    "Count": 1583
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-06",
+    "Count": 1530
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-07",
+    "Count": 1569
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-08",
+    "Count": 1565
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-09",
+    "Count": 1477
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-10",
+    "Count": 1567
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-11",
+    "Count": 1475
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2022-12",
+    "Count": 1584
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-01",
+    "Count": 1622
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-02",
+    "Count": 1410
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-03",
+    "Count": 1561
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-04",
+    "Count": 1495
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-05",
+    "Count": 1506
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-06",
+    "Count": 1523
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-07",
+    "Count": 1554
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-08",
+    "Count": 1533
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-09",
+    "Count": 1566
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-10",
+    "Count": 1567
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-11",
+    "Count": 1479
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2023-12",
+    "Count": 1549
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-01",
+    "Count": 1553
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-02",
+    "Count": 1466
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-03",
+    "Count": 1505
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-04",
+    "Count": 1528
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-05",
+    "Count": 1564
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-06",
+    "Count": 1520
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-07",
+    "Count": 1557
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-08",
+    "Count": 1576
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-09",
+    "Count": 1512
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-10",
+    "Count": 1544
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-11",
+    "Count": 1533
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Accident",
+    "MonthYear": "2024-12",
+    "Count": 1498
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-01",
+    "Count": 630
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-02",
+    "Count": 605
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-03",
+    "Count": 594
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-04",
+    "Count": 584
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-05",
+    "Count": 603
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-06",
+    "Count": 648
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-07",
+    "Count": 633
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-08",
+    "Count": 625
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-09",
+    "Count": 605
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-10",
+    "Count": 588
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-11",
+    "Count": 576
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2018-12",
+    "Count": 650
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-01",
+    "Count": 633
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-02",
+    "Count": 568
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-03",
+    "Count": 624
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-04",
+    "Count": 618
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-05",
+    "Count": 619
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-06",
+    "Count": 605
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-07",
+    "Count": 644
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-08",
+    "Count": 641
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-09",
+    "Count": 640
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-10",
+    "Count": 656
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-11",
+    "Count": 653
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2019-12",
+    "Count": 626
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-01",
+    "Count": 637
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-02",
+    "Count": 590
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-03",
+    "Count": 584
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-04",
+    "Count": 610
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-05",
+    "Count": 639
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-06",
+    "Count": 580
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-07",
+    "Count": 619
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-08",
+    "Count": 583
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-09",
+    "Count": 584
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-10",
+    "Count": 639
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-11",
+    "Count": 574
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2020-12",
+    "Count": 607
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-01",
+    "Count": 683
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-02",
+    "Count": 579
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-03",
+    "Count": 643
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-04",
+    "Count": 615
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-05",
+    "Count": 613
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-06",
+    "Count": 599
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-07",
+    "Count": 630
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-08",
+    "Count": 621
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-09",
+    "Count": 652
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-10",
+    "Count": 587
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-11",
+    "Count": 610
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2021-12",
+    "Count": 621
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-01",
+    "Count": 630
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-02",
+    "Count": 543
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-03",
+    "Count": 635
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-04",
+    "Count": 602
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-05",
+    "Count": 603
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-06",
+    "Count": 619
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-07",
+    "Count": 645
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-08",
+    "Count": 618
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-09",
+    "Count": 606
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-10",
+    "Count": 600
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-11",
+    "Count": 607
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2022-12",
+    "Count": 654
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-01",
+    "Count": 630
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-02",
+    "Count": 580
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-03",
+    "Count": 624
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-04",
+    "Count": 607
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-05",
+    "Count": 635
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-06",
+    "Count": 592
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-07",
+    "Count": 638
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-08",
+    "Count": 655
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-09",
+    "Count": 647
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-10",
+    "Count": 629
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-11",
+    "Count": 683
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2023-12",
+    "Count": 594
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-01",
+    "Count": 624
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-02",
+    "Count": 602
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-03",
+    "Count": 612
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-04",
+    "Count": 565
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-05",
+    "Count": 643
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-06",
+    "Count": 600
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-07",
+    "Count": 596
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-08",
+    "Count": 662
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-09",
+    "Count": 580
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-10",
+    "Count": 647
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-11",
+    "Count": 616
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Cardiac Arrest",
+    "MonthYear": "2024-12",
+    "Count": 623
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-01",
+    "Count": 322
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-02",
+    "Count": 264
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-03",
+    "Count": 320
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-04",
+    "Count": 323
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-05",
+    "Count": 297
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-06",
+    "Count": 265
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-07",
+    "Count": 304
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-08",
+    "Count": 273
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-09",
+    "Count": 286
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-10",
+    "Count": 305
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-11",
+    "Count": 304
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2018-12",
+    "Count": 303
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-01",
+    "Count": 294
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-02",
+    "Count": 270
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-03",
+    "Count": 295
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-04",
+    "Count": 297
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-05",
+    "Count": 305
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-06",
+    "Count": 309
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-07",
+    "Count": 302
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-08",
+    "Count": 303
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-09",
+    "Count": 303
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-10",
+    "Count": 315
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-11",
+    "Count": 275
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2019-12",
+    "Count": 342
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-01",
+    "Count": 313
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-02",
+    "Count": 288
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-03",
+    "Count": 344
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-04",
+    "Count": 321
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-05",
+    "Count": 293
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-06",
+    "Count": 326
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-07",
+    "Count": 315
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-08",
+    "Count": 316
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-09",
+    "Count": 332
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-10",
+    "Count": 298
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-11",
+    "Count": 335
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2020-12",
+    "Count": 325
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-01",
+    "Count": 331
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-02",
+    "Count": 263
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-03",
+    "Count": 303
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-04",
+    "Count": 322
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-05",
+    "Count": 324
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-06",
+    "Count": 307
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-07",
+    "Count": 286
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-08",
+    "Count": 330
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-09",
+    "Count": 281
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-10",
+    "Count": 311
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-11",
+    "Count": 302
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2021-12",
+    "Count": 288
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-01",
+    "Count": 342
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-02",
+    "Count": 310
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-03",
+    "Count": 300
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-04",
+    "Count": 312
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-05",
+    "Count": 287
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-06",
+    "Count": 292
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-07",
+    "Count": 310
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-08",
+    "Count": 308
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-09",
+    "Count": 324
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-10",
+    "Count": 309
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-11",
+    "Count": 283
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2022-12",
+    "Count": 297
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-01",
+    "Count": 302
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-02",
+    "Count": 268
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-03",
+    "Count": 293
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-04",
+    "Count": 299
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-05",
+    "Count": 336
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-06",
+    "Count": 291
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-07",
+    "Count": 286
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-08",
+    "Count": 297
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-09",
+    "Count": 290
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-10",
+    "Count": 298
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-11",
+    "Count": 306
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2023-12",
+    "Count": 300
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-01",
+    "Count": 293
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-02",
+    "Count": 293
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-03",
+    "Count": 322
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-04",
+    "Count": 315
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-05",
+    "Count": 318
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-06",
+    "Count": 302
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-07",
+    "Count": 326
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-08",
+    "Count": 294
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-09",
+    "Count": 308
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-10",
+    "Count": 327
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-11",
+    "Count": 303
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Fire",
+    "MonthYear": "2024-12",
+    "Count": 291
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-01",
+    "Count": 608
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-02",
+    "Count": 588
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-03",
+    "Count": 630
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-04",
+    "Count": 616
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-05",
+    "Count": 609
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-06",
+    "Count": 602
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-07",
+    "Count": 597
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-08",
+    "Count": 624
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-09",
+    "Count": 614
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-10",
+    "Count": 601
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-11",
+    "Count": 600
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2018-12",
+    "Count": 621
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-01",
+    "Count": 626
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-02",
+    "Count": 559
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-03",
+    "Count": 670
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-04",
+    "Count": 585
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-05",
+    "Count": 651
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-06",
+    "Count": 604
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-07",
+    "Count": 628
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-08",
+    "Count": 578
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-09",
+    "Count": 601
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-10",
+    "Count": 646
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-11",
+    "Count": 589
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2019-12",
+    "Count": 638
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-01",
+    "Count": 601
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-02",
+    "Count": 589
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-03",
+    "Count": 646
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-04",
+    "Count": 588
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-05",
+    "Count": 618
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-06",
+    "Count": 582
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-07",
+    "Count": 596
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-08",
+    "Count": 620
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-09",
+    "Count": 586
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-10",
+    "Count": 657
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-11",
+    "Count": 625
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2020-12",
+    "Count": 602
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-01",
+    "Count": 589
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-02",
+    "Count": 572
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-03",
+    "Count": 624
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-04",
+    "Count": 629
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-05",
+    "Count": 628
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-06",
+    "Count": 621
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-07",
+    "Count": 607
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-08",
+    "Count": 670
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-09",
+    "Count": 582
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-10",
+    "Count": 662
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-11",
+    "Count": 586
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2021-12",
+    "Count": 635
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-01",
+    "Count": 622
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-02",
+    "Count": 538
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-03",
+    "Count": 618
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-04",
+    "Count": 632
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-05",
+    "Count": 641
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-06",
+    "Count": 584
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-07",
+    "Count": 630
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-08",
+    "Count": 623
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-09",
+    "Count": 573
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-10",
+    "Count": 620
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-11",
+    "Count": 608
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2022-12",
+    "Count": 616
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-01",
+    "Count": 592
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-02",
+    "Count": 581
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-03",
+    "Count": 606
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-04",
+    "Count": 621
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-05",
+    "Count": 640
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-06",
+    "Count": 589
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-07",
+    "Count": 661
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-08",
+    "Count": 636
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-09",
+    "Count": 595
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-10",
+    "Count": 601
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-11",
+    "Count": 574
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2023-12",
+    "Count": 636
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-01",
+    "Count": 595
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-02",
+    "Count": 571
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-03",
+    "Count": 669
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-04",
+    "Count": 570
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-05",
+    "Count": 605
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-06",
+    "Count": 625
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-07",
+    "Count": 579
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-08",
+    "Count": 618
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-09",
+    "Count": 604
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-10",
+    "Count": 614
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-11",
+    "Count": 639
+  },
+  {
+    "Region_Type": "Urban",
+    "Incident_Type": "Other",
+    "MonthYear": "2024-12",
+    "Count": 576
+  }
+]
