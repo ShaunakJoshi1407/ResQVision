@@ -1,0 +1,10 @@
+[
+  {
+    "Ambulance_Availability":"Available",
+    "Avg_Response_Time":15.0584792791
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Avg_Response_Time":15.0451469975
+  }
+]
