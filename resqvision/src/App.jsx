@@ -3,29 +3,21 @@ import {
   AppBar,
   Toolbar,
   Typography,
-  IconButton,
-  Drawer,
-  List,
-  ListItem,
-  ListItemText,
+  Button,
+  Box,
 } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
-import IncidentByRegionChart from './components/IncidentByRegionChart';
+// import IncidentSeverityDashboard from './components/IncidentSeverityDashboard';
+import ResponseTimesDashboard from './components/ResponseDashboard';
 
 function App() {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [activeView, setActiveView] = useState('incident');
-
-  const toggleDrawer = (open) => () => {
-    setSidebarOpen(open);
-  };
+  const [activeView] = useState('response');
 
   const renderActiveContent = () => {
     switch (activeView) {
       case 'incident':
-        return <IncidentByRegionChart />;
+        return <div className="p-4 text-gray-600">[Incident Chart Coming Soon]</div>;
       case 'response':
-        return <div className="p-4 text-gray-600">[Response Chart Coming Soon]</div>;
+        return <ResponseTimesDashboard />;
       default:
         return null;
     }
@@ -33,37 +25,28 @@ function App() {
 
   return (
     <div className="bg-gradient-to-br from-blue-50 to-slate-100 min-h-screen">
-      {/* Muted Navbar */}
-      <AppBar position="static" className="bg-slate-800 shadow-md">
-        <Toolbar>
-          <IconButton edge="start" onClick={toggleDrawer(true)}>
-            <MenuIcon className="text-white" />
-          </IconButton>
-          <Typography variant="h6" className="text-white font-semibold ml-3">
-            ResQVision
-          </Typography>
+      {/* Beautified Top Navbar without hamburger */}
+      <AppBar position="static" sx={{ background: 'linear-gradient(to right, #1e3a8a, #3b82f6)' }}>
+        <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
+          <Box display="flex" alignItems="center">
+            <Typography variant="h6" sx={{ fontWeight: 600, color: 'white' }}>
+              ResQVision
+            </Typography>
+          </Box>
+          <Box>
+            <Button
+              color="inherit"
+              sx={{ color: 'white', ml: 2 }}
+              href="/about"
+            >
+              ABOUT US
+            </Button>
+          </Box>
         </Toolbar>
       </AppBar>
 
-      {/* Sidebar */}
-      <Drawer anchor="left" open={sidebarOpen} onClose={toggleDrawer(false)}>
-        <div className="w-60 bg-white h-full">
-          <List>
-            <ListItem button onClick={() => { setActiveView('incident'); setSidebarOpen(false); }}>
-              <ListItemText primary="Incidents Overview" />
-            </ListItem>
-            <ListItem button onClick={() => { setActiveView('response'); setSidebarOpen(false); }}>
-              <ListItemText primary="Response Performance" />
-            </ListItem>
-          </List>
-        </div>
-      </Drawer>
-
-      {/* Content with Sidebar Width Reserved */}
-      <main className="flex">
-        <div className="w-60 hidden md:block"></div> {/* Reserve space for sidebar on wide screens */}
-        <div className="flex-1 p-6">{renderActiveContent()}</div>
-      </main>
+      {/* Main Content Area */}
+      <main className="flex-1 p-4 md:p-6">{renderActiveContent()}</main>
     </div>
   );
 }

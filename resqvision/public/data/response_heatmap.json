@@ -1,0 +1,92 @@
+[
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Avg_Response_Time":15.026924301
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Avg_Response_Time":15.0870831046
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Avg_Response_Time":15.0930213652
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Avg_Response_Time":15.0251543649
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Avg_Response_Time":15.0867200384
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Avg_Response_Time":13.898071143
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Avg_Response_Time":15.0615003422
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Avg_Response_Time":15.0691508843
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Avg_Response_Time":15.0704835963
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Avg_Response_Time":14.9935657237
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Avg_Response_Time":15.0815201423
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Avg_Response_Time":17.0834590458
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Avg_Response_Time":15.0170402145
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Avg_Response_Time":14.9253281935
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Avg_Response_Time":15.0461557669
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Avg_Response_Time":15.089948702
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Avg_Response_Time":15.0160846764
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"50+",
+    "Avg_Response_Time":14.8696998557
+  }
+]
