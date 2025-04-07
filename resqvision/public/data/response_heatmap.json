@@ -2,91 +2,1058 @@
   {
     "Road_Type":"Highway",
     "Distance_Bin":"0-10",
-    "Avg_Response_Time":15.026924301
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.1497154848
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.1616933857
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.1273030802
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.8708541255
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.976654723
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":14.9775167479
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.9227522207
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.0689044867
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0328190531
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"10-20",
-    "Avg_Response_Time":15.0870831046
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.8376728469
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.0253581537
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0492328965
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.1319258631
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.0937891442
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.1568279051
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.1403499597
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.2596849664
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0199702655
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"20-30",
-    "Avg_Response_Time":15.0930213652
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.9390913298
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.9673708962
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0897647036
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.2529455283
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.0149044289
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.1099223115
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.9375816021
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.1587339665
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.1004606506
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"30-40",
-    "Avg_Response_Time":15.0251543649
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.3243081157
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.8314811662
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.1001315035
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.8800428881
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.20336842
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0180823575
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.1183106359
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.991610649
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0059503591
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"40-50",
-    "Avg_Response_Time":15.0867200384
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.8945272558
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.1332974852
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.1469433199
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.8793042393
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.1660946819
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.1917369762
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.0975875339
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.9953891095
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0768881034
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"50+",
-    "Avg_Response_Time":13.898071143
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":7.3123255994
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":19.6345224591
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":12.8169586442
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":13.80215956
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":12.8591650793
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":10.6895591136
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.9005570392
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"0-10",
-    "Avg_Response_Time":15.0615003422
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.0937767509
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.9438363621
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.2041842731
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.2294980105
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.7112963233
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.001757363
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.0011329524
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.0457258004
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0966718335
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"10-20",
-    "Avg_Response_Time":15.0691508843
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.3648653705
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.1449471845
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0044696379
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.1511933904
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.2133238746
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0194533104
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.9315616894
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.1129538117
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0751251496
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"20-30",
-    "Avg_Response_Time":15.0704835963
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.3523874124
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.3243045769
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.1619855126
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.7566741038
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.8757416272
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":14.9690193045
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.1583562189
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.0817124501
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0866024191
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"30-40",
-    "Avg_Response_Time":14.9935657237
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.8067560323
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.6258979111
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.164684169
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.4888106213
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.7449409601
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0937207413
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.9790197803
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.0989332757
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":14.9729025565
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"40-50",
-    "Avg_Response_Time":15.0815201423
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.0198178859
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.4072757678
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.1779133274
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.3536871179
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.3438921502
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0538035646
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.9838262605
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.1662356307
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0221848022
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"50+",
-    "Avg_Response_Time":17.0834590458
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":9.0985190651
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":19.6646206494
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":13.6578734896
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":21.1806389552
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":19.9206173499
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":11.3691049704
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":16.7534343816
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"0-10",
-    "Avg_Response_Time":15.0170402145
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":13.7999809831
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.1117919558
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.1267400029
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.57332034
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.6002352375
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":14.9929785886
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.1400935371
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.9717755594
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0037371199
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"10-20",
-    "Avg_Response_Time":14.9253281935
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.2574765396
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.7973518585
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":14.7347278704
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.1644441416
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.9238425551
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":14.9103749414
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.7281422578
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.9610918294
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":14.9854902392
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"20-30",
-    "Avg_Response_Time":15.0461557669
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.2850938816
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.7168584329
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":14.9685297742
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.8032256973
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.6678334847
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.3187750414
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.424798748
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.0011327877
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":14.9446916721
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"30-40",
-    "Avg_Response_Time":15.089948702
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.6101787909
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.8848580525
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.4372490596
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.8289739445
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.8692639217
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0691055168
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.8014194466
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.9257351849
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.1173620371
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"40-50",
-    "Avg_Response_Time":15.0160846764
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":14.9116464489
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.6762195122
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":14.803462226
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.0533877626
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":14.7887077988
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":14.9816701587
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Avg_Response_Time":15.1089568335
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.0889000635
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":15.0129121557
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"50+",
-    "Avg_Response_Time":14.8696998557
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Avg_Response_Time":15.0027613829
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Avg_Response_Time":14.7366383286
   }
 ]

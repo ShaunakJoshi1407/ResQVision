@@ -14,6 +14,8 @@ import {
 
 import AmbulanceAvailabilityChart from "./charts/AmbulanceAvailabilityChart";
 import InjuriesResponseLineChart from "./charts/InjuriesResponseLineChart";
+import ResponseHeatmap from "./charts/ResponseHeatmap";
+
 
 const regionOptions = ["Rural", "Suburban", "Urban"];
 const emergencyLevels = ["Minor", "Major", "Critical"];
@@ -146,6 +148,21 @@ const ResponseDashboard = () => {
               </CardContent>
             </Card>
           </Grid>
+
+          <Grid item xs={12}>
+            <Card variant="outlined">
+                <CardContent>
+                <Typography variant="h6" gutterBottom>
+                    Response Time Heatmap (Distance vs Road Type)
+                </Typography>
+                <ResponseHeatmap
+                  selectedRegions={selectedRegions}
+                  selectedLevels={selectedLevels}
+                />
+                </CardContent>
+            </Card>
+            </Grid>
+
         </Grid>
       </Box>
     </Box>
