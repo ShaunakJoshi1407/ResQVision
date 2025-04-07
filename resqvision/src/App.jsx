@@ -3,67 +3,117 @@ import {
   AppBar,
   Toolbar,
   Typography,
-  IconButton,
-  Drawer,
-  List,
-  ListItem,
-  ListItemText,
+  Box,
+  Tabs,
+  Tab,
 } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
-import IncidentByRegionChart from './components/IncidentByRegionChart';
+import IncidentSeverityDashboard from './components/IncidentSeverityDashboard';
+
+function HomePage() {
+  return (
+    <div className="p-4 text-gray-600">
+      <Typography variant="h4">Welcome to ResQVision</Typography>
+      <p>This is the home page.</p>
+    </div>
+  );
+}
+
+function ResponseDashboard() {
+  return (
+    <div className="p-4 text-gray-600">
+      <Typography variant="h4">Response Analysis Dashboard</Typography>
+      <p>[Coming Soon]</p>
+    </div>
+  );
+}
+
+function AboutPage() {
+  return (
+    <div className="p-4 text-gray-600">
+      <Typography variant="h4">About Us</Typography>
+      <p>Details about the team, vision, and project.</p>
+    </div>
+  );
+}
 
 function App() {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [activeView, setActiveView] = useState('incident');
+  const [activeTab, setActiveTab] = useState('incident');
 
-  const toggleDrawer = (open) => () => {
-    setSidebarOpen(open);
-  };
-
-  const renderActiveContent = () => {
-    switch (activeView) {
-      case 'incident':
-        return <IncidentByRegionChart />;
+  const renderContent = () => {
+    switch (activeTab) {
+      case 'home':
+        return <HomePage />;
       case 'response':
-        return <div className="p-4 text-gray-600">[Response Chart Coming Soon]</div>;
+        return <ResponseDashboard />;
+      case 'about':
+        return <AboutPage />;
+      case 'incident':
       default:
-        return null;
+        return <IncidentSeverityDashboard />;
     }
   };
 
   return (
     <div className="bg-gradient-to-br from-blue-50 to-slate-100 min-h-screen">
-      {/* Muted Navbar */}
-      <AppBar position="static" className="bg-slate-800 shadow-md">
+      <AppBar
+        position="static"
+        sx={{
+          background: 'linear-gradient(to right, #1e3a8a, #3b82f6)',
+          paddingY: 0.5,
+        }}
+      >
         <Toolbar>
-          <IconButton edge="start" onClick={toggleDrawer(true)}>
-            <MenuIcon className="text-white" />
-          </IconButton>
-          <Typography variant="h6" className="text-white font-semibold ml-3">
-            ResQVision
-          </Typography>
+          {/* Left logo and tabs */}
+          <Box display="flex" alignItems="center" gap={4} sx={{ flexGrow: 1 }}>
+            <Typography variant="h6" sx={{ fontWeight: 600, color: 'white' }}>
+              ResQVision
+            </Typography>
+            <Tabs
+              value={activeTab}
+              onChange={(e, newValue) => setActiveTab(newValue)}
+              textColor="inherit"
+              TabIndicatorProps={{ style: { backgroundColor: 'white' } }}
+            >
+              <Tab
+                label="Home"
+                value="home"
+                sx={{ color: 'white', textTransform: 'none' }}
+              />
+              <Tab
+                label="Response Analysis Dashboard"
+                value="response"
+                sx={{ color: 'white', textTransform: 'none' }}
+              />
+              <Tab
+                label="Incident Dashboard"
+                value="incident"
+                sx={{
+                  color: 'white',
+                  fontWeight: 'bold',
+                  textTransform: 'none',
+                }}
+              />
+            </Tabs>
+          </Box>
+
+          {/* About Us on the far right */}
+          <Tabs
+            value={activeTab === 'about' ? 'about' : false}
+            onChange={(e, newValue) => setActiveTab(newValue)}
+            textColor="inherit"
+            TabIndicatorProps={{ style: { backgroundColor: 'white' } }}
+          >
+            <Tab
+              label="About Us"
+              value="about"
+              sx={{ color: 'white', textTransform: 'none' }}
+            />
+          </Tabs>
         </Toolbar>
       </AppBar>
 
-      {/* Sidebar */}
-      <Drawer anchor="left" open={sidebarOpen} onClose={toggleDrawer(false)}>
-        <div className="w-60 bg-white h-full">
-          <List>
-            <ListItem button onClick={() => { setActiveView('incident'); setSidebarOpen(false); }}>
-              <ListItemText primary="Incidents Overview" />
-            </ListItem>
-            <ListItem button onClick={() => { setActiveView('response'); setSidebarOpen(false); }}>
-              <ListItemText primary="Response Performance" />
-            </ListItem>
-          </List>
-        </div>
-      </Drawer>
-
-      {/* Content with Sidebar Width Reserved */}
-      <main className="flex">
-        <div className="w-60 hidden md:block"></div> {/* Reserve space for sidebar on wide screens */}
-        <div className="flex-1 p-6">{renderActiveContent()}</div>
-      </main>
+      {/* Main Page Content */}
+      <main className="flex-1 p-4 md:p-6">{renderContent()}</main>
     </div>
   );
 }
