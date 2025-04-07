@@ -1,9 +1,141 @@
-import React from 'react';
+import React, { useEffect, useRef } from "react";
+import * as d3 from "d3";
 
-const InjuriesResponseLineChart = () => {
+const InjuriesResponseLineChart = ({
+  selectedRegions = ["Urban", "Suburban", "Rural"],
+  selectedLevels = ["Minor", "Major", "Critical"],
+}) => {
+  const svgRef = useRef();
+
+  useEffect(() => {
+    d3.json("/data/injuries_response.json").then((data) => {
+      if (!data) return;
+
+      // Filter by selected Region and Emergency Level
+      const filtered = data.filter(
+        (d) =>
+          selectedRegions.includes(d.Region_Type) &&
+          selectedLevels.includes(d.Emergency_Level)
+      );
+
+      // Group by Emergency Level for one line per group
+      const grouped = d3.groups(filtered, (d) => d.Emergency_Level);
+
+      // Clear previous chart
+      const svg = d3.select(svgRef.current);
+      svg.selectAll("*").remove();
+
+      const margin = { top: 40, right: 30, bottom: 50, left: 80 };
+      const width = 500 - margin.left - margin.right;
+      const height = 300 - margin.top - margin.bottom;
+
+      const container = svg
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+      // Scales
+      const x = d3
+        .scaleLinear()
+        .domain(d3.extent(filtered, (d) => d.Number_of_Injuries))
+        .nice()
+        .range([0, width]);
+
+      const y = d3
+        .scaleLinear()
+        .domain([0, d3.max(filtered, (d) => d.Avg_Response_Time)])
+        .nice()
+        .range([height, 0]);
+
+      const color = d3.scaleOrdinal()
+        .domain(["Minor", "Major", "Critical"])
+        .range(["#60a5fa", "#facc15", "#f87171"]);
+
+      // Axes
+      container.append("g")
+        .attr("transform", `translate(0, ${height})`)
+        .call(d3.axisBottom(x));
+
+      container.append("g")
+        .call(d3.axisLeft(y));
+
+      // Axis Labels
+      container.append("text")
+        .attr("x", width / 2)
+        .attr("y", height + 40)
+        .attr("text-anchor", "middle")
+        .text("Number of Injuries");
+
+      container.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("x", -height / 2)
+        .attr("y", -60)
+        .attr("text-anchor", "middle")
+        .text("Avg. Response Time (min)");
+
+      // Draw lines and dots
+      grouped.forEach(([level, values]) => {
+        const sorted = values.sort((a, b) => a.Number_of_Injuries - b.Number_of_Injuries);
+
+        const line = d3.line()
+          .x((d) => x(d.Number_of_Injuries))
+          .y((d) => y(d.Avg_Response_Time));
+
+        container.append("path")
+          .datum(sorted)
+          .attr("fill", "none")
+          .attr("stroke", color(level))
+          .attr("stroke-width", 2.5)
+          .attr("d", line);
+
+        container.selectAll(`circle-${level}`)
+          .data(sorted)
+          .enter()
+          .append("circle")
+          .attr("cx", (d) => x(d.Number_of_Injuries))
+          .attr("cy", (d) => y(d.Avg_Response_Time))
+          .attr("r", 3)
+          .attr("fill", color(level));
+
+        // Labels above each dot
+        container.selectAll(`text-${level}`)
+          .data(sorted)
+          .enter()
+          .append("text")
+          .attr("x", (d) => x(d.Number_of_Injuries))
+          .attr("y", (d) => y(d.Avg_Response_Time) - 8)
+          .attr("text-anchor", "middle")
+          .attr("font-size", "11px")
+          .attr("fill", "#333")
+          .text((d) => d.Avg_Response_Time.toFixed(2));
+      });
+
+      // Legend
+      const legend = container.selectAll(".legend")
+        .data(color.domain().filter((lvl) => selectedLevels.includes(lvl)))
+        .enter()
+        .append("g")
+        .attr("transform", (d, i) => `translate(${width - 100}, ${i * 20})`);
+
+      legend.append("rect")
+        .attr("x", 0)
+        .attr("width", 12)
+        .attr("height", 12)
+        .attr("fill", (d) => color(d));
+
+      legend.append("text")
+        .attr("x", 18)
+        .attr("y", 10)
+        .text((d) => d)
+        .attr("font-size", "0.8rem")
+        .attr("fill", "#333");
+    });
+  }, [selectedRegions, selectedLevels]);
+
   return (
-    <div className="p-4 text-gray-500 text-center">
-      [InjuriesResponseLineChart Placeholder]
+    <div className="flex justify-center">
+      <svg ref={svgRef}></svg>
     </div>
   );
 };

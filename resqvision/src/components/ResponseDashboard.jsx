@@ -10,10 +10,10 @@ import {
   Checkbox,
   Grid,
   Slider,
-  Button,
 } from "@mui/material";
 
 import AmbulanceAvailabilityChart from "./charts/AmbulanceAvailabilityChart";
+import InjuriesResponseLineChart from "./charts/InjuriesResponseLineChart";
 
 const regionOptions = ["Rural", "Suburban", "Urban"];
 const emergencyLevels = ["Minor", "Major", "Critical"];
@@ -97,7 +97,7 @@ const ResponseDashboard = () => {
           </CardContent>
         </Card>
 
-        {/* Time Range (inactive placeholder) */}
+        {/* Time Range (non-functional for now) */}
         <Card variant="outlined">
           <CardContent>
             <Typography variant="subtitle2" gutterBottom>
@@ -117,7 +117,7 @@ const ResponseDashboard = () => {
       {/* Main Chart Area */}
       <Box flex={1} p={3}>
         <Grid container spacing={3}>
-          {/* Chart 1: Ambulance Availability */}
+          {/* Row 1: Bar Chart */}
           <Grid item xs={12} md={6}>
             <Card variant="outlined">
               <CardContent>
@@ -125,6 +125,21 @@ const ResponseDashboard = () => {
                   Avg. Response Time vs Ambulance Availability
                 </Typography>
                 <AmbulanceAvailabilityChart
+                  selectedRegions={selectedRegions}
+                  selectedLevels={selectedLevels}
+                />
+              </CardContent>
+            </Card>
+          </Grid>
+
+          {/* Row 1: Line Chart */}
+          <Grid item xs={12} md={6}>
+            <Card variant="outlined">
+              <CardContent>
+                <Typography variant="h6" gutterBottom>
+                  Avg. Response Time vs Number of Injuries
+                </Typography>
+                <InjuriesResponseLineChart
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}
                 />
