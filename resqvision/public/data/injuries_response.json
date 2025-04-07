@@ -1,62 +1,218 @@
 [
   {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
     "Number_of_Injuries":1,
-    "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.0487781435
+    "Avg_Response_Time":15.0594777886
   },
   {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
     "Number_of_Injuries":2,
-    "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.9942677932
+    "Avg_Response_Time":14.8452737131
   },
   {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
     "Number_of_Injuries":3,
-    "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.9502752855
+    "Avg_Response_Time":15.321144659
   },
   {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
     "Number_of_Injuries":4,
-    "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.2633425659
+    "Avg_Response_Time":15.4929843332
   },
   {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
     "Number_of_Injuries":1,
-    "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0713387353
+    "Avg_Response_Time":15.0193953395
   },
   {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
     "Number_of_Injuries":2,
-    "Emergency_Level":"Major",
-    "Avg_Response_Time":15.1005437789
+    "Avg_Response_Time":15.1055499446
   },
   {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
     "Number_of_Injuries":3,
-    "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0404464776
+    "Avg_Response_Time":15.1810669183
   },
   {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
     "Number_of_Injuries":4,
-    "Emergency_Level":"Major",
-    "Avg_Response_Time":15.00987021
+    "Avg_Response_Time":15.2507460268
   },
   {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
     "Number_of_Injuries":1,
-    "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0499075529
+    "Avg_Response_Time":15.1127405611
   },
   {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
     "Number_of_Injuries":2,
-    "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0613438493
+    "Avg_Response_Time":15.1139843142
   },
   {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
     "Number_of_Injuries":3,
-    "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0750778849
+    "Avg_Response_Time":15.0737646588
   },
   {
-    "Number_of_Injuries":4,
+    "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0665092242
+    "Number_of_Injuries":4,
+    "Avg_Response_Time":14.8791643566
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Avg_Response_Time":15.0112566368
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Avg_Response_Time":15.0351646883
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Avg_Response_Time":14.889362108
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Avg_Response_Time":15.098639981
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Avg_Response_Time":15.0373946618
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Avg_Response_Time":15.1096789694
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Avg_Response_Time":14.8988044205
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Avg_Response_Time":14.9357847977
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Avg_Response_Time":15.0627752268
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Avg_Response_Time":15.0795267839
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Avg_Response_Time":15.0873122143
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Avg_Response_Time":15.0457174696
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Avg_Response_Time":15.0582637393
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Avg_Response_Time":15.0033269194
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Avg_Response_Time":14.9132804022
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Avg_Response_Time":15.2655387476
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Avg_Response_Time":15.0884465539
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Avg_Response_Time":15.0972769265
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Avg_Response_Time":15.0604431368
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Avg_Response_Time":14.9897830586
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Avg_Response_Time":15.0373001003
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Avg_Response_Time":15.0486397731
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Avg_Response_Time":15.0718306444
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Avg_Response_Time":15.0994707583
   }
 ]
