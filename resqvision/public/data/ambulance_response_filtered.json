@@ -3,108 +3,882 @@
     "Ambulance_Availability":"Available",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.0139512546
+    "Year":2018,
+    "Avg_Response_Time":23.4716770186
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":23.8478800857
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":24.0571663244
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":23.8074481328
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":23.9093926247
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":24.3203571429
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":23.7990987124
   },
   {
     "Ambulance_Availability":"Available",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.033146006
+    "Year":2018,
+    "Avg_Response_Time":19.6967755532
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":19.7798672566
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":19.9484729586
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":20.0722765073
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":19.5108510638
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":19.840748156
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":19.7488376963
   },
   {
     "Ambulance_Availability":"Available",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1024355449
+    "Year":2018,
+    "Avg_Response_Time":17.8309886399
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":17.7612835191
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":17.7763340564
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":17.9046443515
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":17.9117257968
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":17.9595626911
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":17.7884453268
   },
   {
     "Ambulance_Availability":"Available",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.0075762302
+    "Year":2018,
+    "Avg_Response_Time":21.8381333333
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":21.6890091931
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":21.3863825137
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":21.8175501584
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":21.5081269841
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":21.4009590517
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":21.7696365422
   },
   {
     "Ambulance_Availability":"Available",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0483869237
+    "Year":2018,
+    "Avg_Response_Time":17.967538299
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":18.2562336985
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":18.1432035306
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":18.2140021517
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":18.2701818182
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":18.0243446852
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":17.8722222222
   },
   {
     "Ambulance_Availability":"Available",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0812656685
+    "Year":2018,
+    "Avg_Response_Time":16.2882245114
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":16.3572535856
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":16.2642060606
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":16.3772855197
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":16.3548956613
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":16.3660228468
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":16.2838230459
   },
   {
     "Ambulance_Availability":"Available",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.0441252745
+    "Year":2018,
+    "Avg_Response_Time":20.6565176965
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":20.6892202254
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":20.6613409501
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":20.282264208
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":20.6156785605
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":20.6265177242
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":20.727272456
   },
   {
     "Ambulance_Availability":"Available",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0878324337
+    "Year":2018,
+    "Avg_Response_Time":17.246449848
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":17.1864758114
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":17.1749595929
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":17.2130664675
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":17.2688826731
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":17.270464135
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":17.2069339693
   },
   {
     "Ambulance_Availability":"Available",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0442830107
+    "Year":2018,
+    "Avg_Response_Time":15.5928331327
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":15.6029693037
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":15.559120657
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":15.5504885951
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":15.5955371936
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":15.5839293761
+  },
+  {
+    "Ambulance_Availability":"Available",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":15.6352228133
   },
   {
     "Ambulance_Availability":"Unavailable",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.1824801418
+    "Year":2018,
+    "Avg_Response_Time":26.269245283
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":27.827761194
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":26.2963265306
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":26.0921568627
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":26.8991666667
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":26.524137931
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":25.9406
   },
   {
     "Ambulance_Availability":"Unavailable",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.3320761818
+    "Year":2018,
+    "Avg_Response_Time":21.8548672566
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":21.1266363636
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":22.8867241379
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":22.0262790698
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":21.428
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":22.0653763441
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":20.788559322
   },
   {
     "Ambulance_Availability":"Unavailable",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1313194682
+    "Year":2018,
+    "Avg_Response_Time":19.843265896
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":19.4583241758
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":19.5479112272
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":19.2690935673
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":19.7004709141
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":19.3298976982
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":19.2926790451
   },
   {
     "Ambulance_Availability":"Unavailable",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.03526247
+    "Year":2018,
+    "Avg_Response_Time":24.3896039604
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":23.7439473684
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":22.5764646465
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":23.7727358491
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":24.8433870968
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":23.3354166667
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":24.6126415094
   },
   {
     "Ambulance_Availability":"Unavailable",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0189866155
+    "Year":2018,
+    "Avg_Response_Time":19.8873737374
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":20.5513989637
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":20.3490277778
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":19.6690047393
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":20.0288613861
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":20.3737572254
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":19.1737172775
   },
   {
     "Ambulance_Availability":"Unavailable",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.9647240772
+    "Year":2018,
+    "Avg_Response_Time":18.1368117978
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":18.0296262887
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":17.9803678474
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":17.987348285
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":17.9752179657
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":17.8902506596
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":17.7825565912
   },
   {
     "Ambulance_Availability":"Unavailable",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.9450356328
+    "Year":2018,
+    "Avg_Response_Time":23.1120679887
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":22.7871542553
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":22.5556589147
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":22.9971633238
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":22.4268985507
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":22.3200547945
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":23.2206020942
   },
   {
     "Ambulance_Availability":"Unavailable",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0775814389
+    "Year":2018,
+    "Avg_Response_Time":18.9522468793
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":18.9771794872
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":18.7492633015
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":19.0203781513
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":18.9066755319
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":18.9896639785
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":19.1027372765
   },
   {
     "Ambulance_Availability":"Unavailable",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0486995538
+    "Year":2018,
+    "Avg_Response_Time":17.0572805643
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":17.181608871
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":17.13864
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":17.1077928102
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":17.1586220319
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":17.1431791908
+  },
+  {
+    "Ambulance_Availability":"Unavailable",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":17.0622713178
   }
 ]

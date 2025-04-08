@@ -4,6 +4,7 @@ import * as d3 from "d3";
 const ResponseHeatmap = ({
   selectedRegions = ["Urban", "Suburban", "Rural"],
   selectedLevels = ["Minor", "Major", "Critical"],
+  timeRange = [2018, 2024]
 }) => {
   const svgRef = useRef();
 
@@ -15,7 +16,9 @@ const ResponseHeatmap = ({
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
-          selectedLevels.includes(d.Emergency_Level)
+          selectedLevels.includes(d.Emergency_Level) &&
+          d.Year >= timeRange[0] &&
+          d.Year <= timeRange[1]
       );
 
       // Aggregate again to average out over selected filters
@@ -134,7 +137,7 @@ const ResponseHeatmap = ({
         .select(".domain")
         .remove();
     });
-  }, [selectedRegions, selectedLevels]);
+  }, [selectedRegions, selectedLevels, timeRange]);
 
   return (
     <div className="flex justify-center">

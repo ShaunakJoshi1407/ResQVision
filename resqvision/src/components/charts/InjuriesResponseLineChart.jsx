@@ -4,6 +4,7 @@ import * as d3 from "d3";
 const InjuriesResponseLineChart = ({
   selectedRegions = ["Urban", "Suburban", "Rural"],
   selectedLevels = ["Minor", "Major", "Critical"],
+  timeRange = [2018, 2024]
 }) => {
   const svgRef = useRef();
 
@@ -15,7 +16,9 @@ const InjuriesResponseLineChart = ({
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
-          selectedLevels.includes(d.Emergency_Level)
+          selectedLevels.includes(d.Emergency_Level) &&
+          d.Year >= timeRange[0] &&
+          d.Year <= timeRange[1]
       );
 
       // Aggregate: get avg across same (level, injury count)
@@ -146,7 +149,7 @@ const InjuriesResponseLineChart = ({
         .attr("font-size", "0.8rem")
         .attr("fill", "#333");
     });
-  }, [selectedRegions, selectedLevels]);
+  }, [selectedRegions, selectedLevels, timeRange]);
 
   return (
     <div className="flex justify-center">

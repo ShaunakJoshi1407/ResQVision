@@ -4,6 +4,7 @@ import * as d3 from "d3";
 const AmbulanceAvailabilityChart = ({
     selectedRegions = ["Urban", "Suburban", "Rural"],
     selectedLevels = ["Minor", "Major", "Critical"],
+    timeRange = [2018, 2024],
 }) => {
     const svgRef = useRef();
 
@@ -11,10 +12,14 @@ const AmbulanceAvailabilityChart = ({
         d3.json("/data/ambulance_response_filtered.json").then((data) => {
             if (!data) return;
 
+            const [startYear, endYear] = timeRange;
+
             const filtered = data.filter(
                 (d) =>
                     selectedRegions.includes(d.Region_Type) &&
-                    selectedLevels.includes(d.Emergency_Level)
+                    selectedLevels.includes(d.Emergency_Level) &&
+                    d.Year >= startYear &&
+                    d.Year <= endYear
             );
 
             const aggregated = d3.rollups(
@@ -102,7 +107,7 @@ const AmbulanceAvailabilityChart = ({
                 .text((d) => d.Avg_Response_Time.toFixed(5));
 
         });
-    }, [selectedRegions, selectedLevels]);
+    }, [selectedRegions, selectedLevels, timeRange]);
 
     return (
         <div className="flex justify-center">

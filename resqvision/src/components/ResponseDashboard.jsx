@@ -109,7 +109,7 @@ const ResponseDashboard = () => {
               value={timeRange}
               onChange={(e, newValue) => setTimeRange(newValue)}
               valueLabelDisplay="auto"
-              min={2012}
+              min={2018}
               max={2024}
             />
           </CardContent>
@@ -129,6 +129,7 @@ const ResponseDashboard = () => {
                 <AmbulanceAvailabilityChart
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}
+                  timeRange={timeRange}
                 />
               </CardContent>
             </Card>
@@ -144,6 +145,7 @@ const ResponseDashboard = () => {
                 <InjuriesResponseLineChart
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}
+                  timeRange={timeRange}
                 />
               </CardContent>
             </Card>
@@ -158,6 +160,7 @@ const ResponseDashboard = () => {
                 <ResponseHeatmap
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}
+                  timeRange={timeRange}
                 />
                 </CardContent>
             </Card>

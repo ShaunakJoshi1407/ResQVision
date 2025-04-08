@@ -3,216 +3,1764 @@
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
     "Number_of_Injuries":1,
-    "Avg_Response_Time":15.0594777886
+    "Year":2018,
+    "Avg_Response_Time":14.9815704516
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2019,
+    "Avg_Response_Time":15.4631411154
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2020,
+    "Avg_Response_Time":15.3000578044
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2021,
+    "Avg_Response_Time":14.7214665531
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2022,
+    "Avg_Response_Time":15.2581402785
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2023,
+    "Avg_Response_Time":14.5866660939
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2024,
+    "Avg_Response_Time":15.08341627
   },
   {
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
     "Number_of_Injuries":2,
-    "Avg_Response_Time":14.8452737131
+    "Year":2018,
+    "Avg_Response_Time":14.6903904814
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2019,
+    "Avg_Response_Time":14.8204864036
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2020,
+    "Avg_Response_Time":14.709705827
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2021,
+    "Avg_Response_Time":15.203140644
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2022,
+    "Avg_Response_Time":14.565104182
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2023,
+    "Avg_Response_Time":14.8349749872
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2024,
+    "Avg_Response_Time":15.0027178488
   },
   {
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
     "Number_of_Injuries":3,
-    "Avg_Response_Time":15.321144659
+    "Year":2018,
+    "Avg_Response_Time":14.9150693379
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2019,
+    "Avg_Response_Time":16.264787757
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2020,
+    "Avg_Response_Time":14.3229570464
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2021,
+    "Avg_Response_Time":14.7158194099
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2022,
+    "Avg_Response_Time":15.790845675
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2023,
+    "Avg_Response_Time":15.6691046466
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2024,
+    "Avg_Response_Time":15.7757492498
   },
   {
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
     "Number_of_Injuries":4,
-    "Avg_Response_Time":15.4929843332
+    "Year":2018,
+    "Avg_Response_Time":17.6580910228
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2019,
+    "Avg_Response_Time":16.037691212
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2020,
+    "Avg_Response_Time":14.1370340075
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2021,
+    "Avg_Response_Time":14.7998698153
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2022,
+    "Avg_Response_Time":14.1365504571
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2023,
+    "Avg_Response_Time":16.5854721198
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2024,
+    "Avg_Response_Time":15.646970298
   },
   {
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
     "Number_of_Injuries":1,
-    "Avg_Response_Time":15.0193953395
+    "Year":2018,
+    "Avg_Response_Time":15.0369555699
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2019,
+    "Avg_Response_Time":15.2431282559
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2020,
+    "Avg_Response_Time":15.0979325849
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2021,
+    "Avg_Response_Time":14.7902187546
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2022,
+    "Avg_Response_Time":15.1068625191
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2023,
+    "Avg_Response_Time":14.7455316106
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2024,
+    "Avg_Response_Time":15.1058022973
   },
   {
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
     "Number_of_Injuries":2,
-    "Avg_Response_Time":15.1055499446
+    "Year":2018,
+    "Avg_Response_Time":14.9093279751
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2019,
+    "Avg_Response_Time":15.4972223244
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2020,
+    "Avg_Response_Time":14.504463822
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2021,
+    "Avg_Response_Time":15.2761457784
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2022,
+    "Avg_Response_Time":15.4178327062
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2023,
+    "Avg_Response_Time":15.0673552909
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2024,
+    "Avg_Response_Time":15.1306136728
   },
   {
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
     "Number_of_Injuries":3,
-    "Avg_Response_Time":15.1810669183
+    "Year":2018,
+    "Avg_Response_Time":14.4195536816
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2019,
+    "Avg_Response_Time":15.5086109381
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2020,
+    "Avg_Response_Time":14.9279531961
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2021,
+    "Avg_Response_Time":15.1973671119
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2022,
+    "Avg_Response_Time":14.9733551643
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2023,
+    "Avg_Response_Time":15.908962103
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2024,
+    "Avg_Response_Time":15.4879624491
   },
   {
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
     "Number_of_Injuries":4,
-    "Avg_Response_Time":15.2507460268
+    "Year":2018,
+    "Avg_Response_Time":13.8989379156
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2019,
+    "Avg_Response_Time":15.2569552495
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2020,
+    "Avg_Response_Time":15.5299890397
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2021,
+    "Avg_Response_Time":16.3404725938
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2022,
+    "Avg_Response_Time":15.5531464699
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2023,
+    "Avg_Response_Time":14.9194496464
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2024,
+    "Avg_Response_Time":15.0014060841
   },
   {
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
     "Number_of_Injuries":1,
-    "Avg_Response_Time":15.1127405611
+    "Year":2018,
+    "Avg_Response_Time":15.0023813277
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2019,
+    "Avg_Response_Time":15.2527483377
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2020,
+    "Avg_Response_Time":14.8075003302
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2021,
+    "Avg_Response_Time":15.2104857561
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2022,
+    "Avg_Response_Time":15.2088114184
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2023,
+    "Avg_Response_Time":15.0462765052
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2024,
+    "Avg_Response_Time":15.2458775996
   },
   {
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
     "Number_of_Injuries":2,
-    "Avg_Response_Time":15.1139843142
+    "Year":2018,
+    "Avg_Response_Time":14.9959042351
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2019,
+    "Avg_Response_Time":15.0554992045
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2020,
+    "Avg_Response_Time":15.1965773021
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2021,
+    "Avg_Response_Time":15.127654599
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2022,
+    "Avg_Response_Time":15.1500100249
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2023,
+    "Avg_Response_Time":15.1631239099
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2024,
+    "Avg_Response_Time":15.1089068342
   },
   {
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
     "Number_of_Injuries":3,
-    "Avg_Response_Time":15.0737646588
+    "Year":2018,
+    "Avg_Response_Time":15.4255085703
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2019,
+    "Avg_Response_Time":15.1453311265
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2020,
+    "Avg_Response_Time":15.3462956204
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2021,
+    "Avg_Response_Time":14.4154734841
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2022,
+    "Avg_Response_Time":15.1616600549
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2023,
+    "Avg_Response_Time":15.1484628169
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2024,
+    "Avg_Response_Time":14.7592700074
   },
   {
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
     "Number_of_Injuries":4,
-    "Avg_Response_Time":14.8791643566
+    "Year":2018,
+    "Avg_Response_Time":14.2723826482
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2019,
+    "Avg_Response_Time":14.5922841916
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2020,
+    "Avg_Response_Time":15.4871718365
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2021,
+    "Avg_Response_Time":13.8066234733
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2022,
+    "Avg_Response_Time":15.1646951112
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2023,
+    "Avg_Response_Time":15.4665455154
+  },
+  {
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2024,
+    "Avg_Response_Time":15.4819233963
   },
   {
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
     "Number_of_Injuries":1,
-    "Avg_Response_Time":15.0112566368
+    "Year":2018,
+    "Avg_Response_Time":15.1089021461
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2019,
+    "Avg_Response_Time":14.9276507851
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2020,
+    "Avg_Response_Time":14.8884395322
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2021,
+    "Avg_Response_Time":15.1085613718
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2022,
+    "Avg_Response_Time":14.8069382256
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2023,
+    "Avg_Response_Time":14.9994230496
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2024,
+    "Avg_Response_Time":15.2242234281
   },
   {
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
     "Number_of_Injuries":2,
-    "Avg_Response_Time":15.0351646883
+    "Year":2018,
+    "Avg_Response_Time":15.1263170641
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2019,
+    "Avg_Response_Time":14.8570713971
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2020,
+    "Avg_Response_Time":15.0942697372
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2021,
+    "Avg_Response_Time":15.7224576642
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2022,
+    "Avg_Response_Time":14.8788114832
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2023,
+    "Avg_Response_Time":15.1277524732
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2024,
+    "Avg_Response_Time":14.4899713938
   },
   {
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
     "Number_of_Injuries":3,
-    "Avg_Response_Time":14.889362108
+    "Year":2018,
+    "Avg_Response_Time":15.4469314767
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2019,
+    "Avg_Response_Time":14.0118061556
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2020,
+    "Avg_Response_Time":15.0716456927
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2021,
+    "Avg_Response_Time":14.9775082973
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2022,
+    "Avg_Response_Time":15.21043006
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2023,
+    "Avg_Response_Time":15.0154278412
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2024,
+    "Avg_Response_Time":14.3907285902
   },
   {
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
     "Number_of_Injuries":4,
-    "Avg_Response_Time":15.098639981
+    "Year":2018,
+    "Avg_Response_Time":16.2234765693
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2019,
+    "Avg_Response_Time":14.4373740068
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2020,
+    "Avg_Response_Time":16.3038258357
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2021,
+    "Avg_Response_Time":14.5369022199
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2022,
+    "Avg_Response_Time":15.4424886355
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2023,
+    "Avg_Response_Time":12.862829724
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2024,
+    "Avg_Response_Time":16.0524758727
   },
   {
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
     "Number_of_Injuries":1,
-    "Avg_Response_Time":15.0373946618
+    "Year":2018,
+    "Avg_Response_Time":15.2379129378
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2019,
+    "Avg_Response_Time":15.2807038548
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2020,
+    "Avg_Response_Time":14.9496498297
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2021,
+    "Avg_Response_Time":15.1291307775
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2022,
+    "Avg_Response_Time":14.9535476921
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2023,
+    "Avg_Response_Time":14.7694490879
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2024,
+    "Avg_Response_Time":14.9269968262
   },
   {
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
     "Number_of_Injuries":2,
-    "Avg_Response_Time":15.1096789694
+    "Year":2018,
+    "Avg_Response_Time":15.2002198125
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2019,
+    "Avg_Response_Time":15.1125186713
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2020,
+    "Avg_Response_Time":15.385269693
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2021,
+    "Avg_Response_Time":15.0105028594
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2022,
+    "Avg_Response_Time":15.1351281109
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2023,
+    "Avg_Response_Time":15.0851776207
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2024,
+    "Avg_Response_Time":14.816319149
   },
   {
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
     "Number_of_Injuries":3,
-    "Avg_Response_Time":14.8988044205
+    "Year":2018,
+    "Avg_Response_Time":14.6595128758
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2019,
+    "Avg_Response_Time":14.7672736901
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2020,
+    "Avg_Response_Time":14.5619495209
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2021,
+    "Avg_Response_Time":14.8071006296
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2022,
+    "Avg_Response_Time":15.665288164
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2023,
+    "Avg_Response_Time":15.2670834383
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2024,
+    "Avg_Response_Time":14.4568610984
   },
   {
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
     "Number_of_Injuries":4,
-    "Avg_Response_Time":14.9357847977
+    "Year":2018,
+    "Avg_Response_Time":13.8813225804
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2019,
+    "Avg_Response_Time":15.2436369561
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2020,
+    "Avg_Response_Time":15.8935609949
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2021,
+    "Avg_Response_Time":16.7500332379
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2022,
+    "Avg_Response_Time":14.4339449469
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2023,
+    "Avg_Response_Time":14.6375763196
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2024,
+    "Avg_Response_Time":14.2036830348
   },
   {
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
     "Number_of_Injuries":1,
-    "Avg_Response_Time":15.0627752268
+    "Year":2018,
+    "Avg_Response_Time":15.2203606743
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2019,
+    "Avg_Response_Time":15.0952600707
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2020,
+    "Avg_Response_Time":15.0340311687
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2021,
+    "Avg_Response_Time":15.0104789292
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2022,
+    "Avg_Response_Time":15.0437198696
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2023,
+    "Avg_Response_Time":14.9704608737
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2024,
+    "Avg_Response_Time":15.0652534253
   },
   {
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
     "Number_of_Injuries":2,
-    "Avg_Response_Time":15.0795267839
+    "Year":2018,
+    "Avg_Response_Time":15.2142554097
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2019,
+    "Avg_Response_Time":15.1031025995
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2020,
+    "Avg_Response_Time":15.1091970286
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2021,
+    "Avg_Response_Time":14.9336477783
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2022,
+    "Avg_Response_Time":14.9445661765
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2023,
+    "Avg_Response_Time":15.03807772
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2024,
+    "Avg_Response_Time":15.2101988328
   },
   {
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
     "Number_of_Injuries":3,
-    "Avg_Response_Time":15.0873122143
+    "Year":2018,
+    "Avg_Response_Time":15.1429949379
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2019,
+    "Avg_Response_Time":15.2774546403
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2020,
+    "Avg_Response_Time":15.0172070422
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2021,
+    "Avg_Response_Time":15.0061504201
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2022,
+    "Avg_Response_Time":15.4491470759
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2023,
+    "Avg_Response_Time":15.0353172061
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2024,
+    "Avg_Response_Time":14.6877819721
   },
   {
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
     "Number_of_Injuries":4,
-    "Avg_Response_Time":15.0457174696
+    "Year":2018,
+    "Avg_Response_Time":14.7791731192
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2019,
+    "Avg_Response_Time":15.7043598523
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2020,
+    "Avg_Response_Time":15.1744424164
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2021,
+    "Avg_Response_Time":14.834281642
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2022,
+    "Avg_Response_Time":15.4557741608
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2023,
+    "Avg_Response_Time":14.838852522
+  },
+  {
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2024,
+    "Avg_Response_Time":14.3697937649
   },
   {
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
     "Number_of_Injuries":1,
-    "Avg_Response_Time":15.0582637393
+    "Year":2018,
+    "Avg_Response_Time":14.9237936303
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2019,
+    "Avg_Response_Time":15.0907350703
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2020,
+    "Avg_Response_Time":15.2296948731
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2021,
+    "Avg_Response_Time":14.882525896
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2022,
+    "Avg_Response_Time":15.1025966378
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2023,
+    "Avg_Response_Time":15.1407758693
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":1,
+    "Year":2024,
+    "Avg_Response_Time":15.0365080655
   },
   {
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
     "Number_of_Injuries":2,
-    "Avg_Response_Time":15.0033269194
+    "Year":2018,
+    "Avg_Response_Time":15.1079115247
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2019,
+    "Avg_Response_Time":14.7686632625
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2020,
+    "Avg_Response_Time":15.2245752513
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2021,
+    "Avg_Response_Time":14.792248944
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2022,
+    "Avg_Response_Time":14.9329131073
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2023,
+    "Avg_Response_Time":15.0462738214
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":2,
+    "Year":2024,
+    "Avg_Response_Time":15.136699103
   },
   {
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
     "Number_of_Injuries":3,
-    "Avg_Response_Time":14.9132804022
+    "Year":2018,
+    "Avg_Response_Time":14.1209282406
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2019,
+    "Avg_Response_Time":14.7641774298
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2020,
+    "Avg_Response_Time":15.3977940622
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2021,
+    "Avg_Response_Time":15.1786204385
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2022,
+    "Avg_Response_Time":14.8775603884
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2023,
+    "Avg_Response_Time":14.9921793007
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":3,
+    "Year":2024,
+    "Avg_Response_Time":15.0843659764
   },
   {
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
     "Number_of_Injuries":4,
-    "Avg_Response_Time":15.2655387476
+    "Year":2018,
+    "Avg_Response_Time":15.4889600804
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2019,
+    "Avg_Response_Time":15.8479442
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2020,
+    "Avg_Response_Time":15.0677911138
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2021,
+    "Avg_Response_Time":14.6073331898
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2022,
+    "Avg_Response_Time":14.9031867125
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2023,
+    "Avg_Response_Time":15.1487782468
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Number_of_Injuries":4,
+    "Year":2024,
+    "Avg_Response_Time":15.8965945739
   },
   {
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
     "Number_of_Injuries":1,
-    "Avg_Response_Time":15.0884465539
+    "Year":2018,
+    "Avg_Response_Time":15.1290936495
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2019,
+    "Avg_Response_Time":15.1502550311
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2020,
+    "Avg_Response_Time":15.1161139132
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2021,
+    "Avg_Response_Time":15.1066895538
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2022,
+    "Avg_Response_Time":15.0929478498
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2023,
+    "Avg_Response_Time":14.9644713502
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":1,
+    "Year":2024,
+    "Avg_Response_Time":15.0608956549
   },
   {
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
     "Number_of_Injuries":2,
-    "Avg_Response_Time":15.0972769265
+    "Year":2018,
+    "Avg_Response_Time":15.1754552919
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2019,
+    "Avg_Response_Time":15.1383003298
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2020,
+    "Avg_Response_Time":15.033870933
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2021,
+    "Avg_Response_Time":14.908425163
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2022,
+    "Avg_Response_Time":15.0795873227
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2023,
+    "Avg_Response_Time":15.2253584664
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":2,
+    "Year":2024,
+    "Avg_Response_Time":15.122895735
   },
   {
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
     "Number_of_Injuries":3,
-    "Avg_Response_Time":15.0604431368
+    "Year":2018,
+    "Avg_Response_Time":14.8777591427
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2019,
+    "Avg_Response_Time":15.4031474684
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2020,
+    "Avg_Response_Time":14.885836596
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2021,
+    "Avg_Response_Time":15.1906901719
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2022,
+    "Avg_Response_Time":15.0414170986
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2023,
+    "Avg_Response_Time":14.9414364078
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":3,
+    "Year":2024,
+    "Avg_Response_Time":15.0905115753
   },
   {
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
     "Number_of_Injuries":4,
-    "Avg_Response_Time":14.9897830586
+    "Year":2018,
+    "Avg_Response_Time":15.0372257875
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2019,
+    "Avg_Response_Time":15.3854943115
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2020,
+    "Avg_Response_Time":14.6441282518
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2021,
+    "Avg_Response_Time":15.6913041731
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2022,
+    "Avg_Response_Time":14.6613941277
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2023,
+    "Avg_Response_Time":14.6369673079
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Number_of_Injuries":4,
+    "Year":2024,
+    "Avg_Response_Time":15.0625633616
   },
   {
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
     "Number_of_Injuries":1,
-    "Avg_Response_Time":15.0373001003
+    "Year":2018,
+    "Avg_Response_Time":15.0148530069
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2019,
+    "Avg_Response_Time":15.0113032999
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2020,
+    "Avg_Response_Time":15.0395801046
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2021,
+    "Avg_Response_Time":15.0235416001
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2022,
+    "Avg_Response_Time":15.0655992214
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2023,
+    "Avg_Response_Time":15.0919508524
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":1,
+    "Year":2024,
+    "Avg_Response_Time":15.0152287477
   },
   {
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
     "Number_of_Injuries":2,
-    "Avg_Response_Time":15.0486397731
+    "Year":2018,
+    "Avg_Response_Time":15.03254029
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2019,
+    "Avg_Response_Time":14.987040038
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2020,
+    "Avg_Response_Time":15.0140442046
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2021,
+    "Avg_Response_Time":15.0894268754
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2022,
+    "Avg_Response_Time":14.9950236817
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2023,
+    "Avg_Response_Time":15.1336959932
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":2,
+    "Year":2024,
+    "Avg_Response_Time":15.0903690277
   },
   {
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
     "Number_of_Injuries":3,
-    "Avg_Response_Time":15.0718306444
+    "Year":2018,
+    "Avg_Response_Time":15.1216004172
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2019,
+    "Avg_Response_Time":15.1700069655
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2020,
+    "Avg_Response_Time":14.9849236153
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2021,
+    "Avg_Response_Time":15.1333803532
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2022,
+    "Avg_Response_Time":14.9425543915
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2023,
+    "Avg_Response_Time":15.1004660761
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":3,
+    "Year":2024,
+    "Avg_Response_Time":15.0507891295
   },
   {
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
     "Number_of_Injuries":4,
-    "Avg_Response_Time":15.0994707583
+    "Year":2018,
+    "Avg_Response_Time":15.0380526222
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2019,
+    "Avg_Response_Time":15.3030944109
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2020,
+    "Avg_Response_Time":15.0975411003
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2021,
+    "Avg_Response_Time":14.8809498613
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2022,
+    "Avg_Response_Time":15.0281583946
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2023,
+    "Avg_Response_Time":15.1694045993
+  },
+  {
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Number_of_Injuries":4,
+    "Year":2024,
+    "Avg_Response_Time":15.2103601751
   }
 ]

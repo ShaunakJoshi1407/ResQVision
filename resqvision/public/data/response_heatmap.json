@@ -4,1056 +4,7815 @@
     "Distance_Bin":"0-10",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.1497154848
+    "Year":2018,
+    "Avg_Response_Time":16.2162121212
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":16.45
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":17.0120895522
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":16.7075362319
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":16.0981632653
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":16.2194642857
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":16.2356140351
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"0-10",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.1616933857
+    "Year":2018,
+    "Avg_Response_Time":13.6155660377
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":14.0084684685
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":14.0061946903
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":13.9502654867
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":13.5052112676
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":13.4870895522
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":13.7994957983
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"0-10",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1273030802
+    "Year":2018,
+    "Avg_Response_Time":12.3193055556
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":12.372575
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":12.3798186528
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":12.3913012048
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":12.5474162679
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":12.6804938272
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":12.6470095694
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"0-10",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.8708541255
+    "Year":2018,
+    "Avg_Response_Time":14.5770491803
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":14.9206896552
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":15.2778070175
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":14.8889380531
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":15.6881060606
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":14.6462878788
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":15.0742990654
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"0-10",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.976654723
+    "Year":2018,
+    "Avg_Response_Time":12.4842173913
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":12.5706796117
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":12.5447863248
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":12.4499152542
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":12.6189767442
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":12.3233663366
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":12.5607722008
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"0-10",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.9775167479
+    "Year":2018,
+    "Avg_Response_Time":11.6756670468
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":11.5736093943
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":11.7520415225
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":11.5930778589
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":11.7210718636
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":11.5981472081
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":11.6388591385
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"0-10",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.9227522207
+    "Year":2018,
+    "Avg_Response_Time":14.2274759615
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":14.3178282828
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":14.3430913349
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":14.1148723898
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":14.2539953271
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":14.3175810474
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":14.2496930946
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"0-10",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0689044867
+    "Year":2018,
+    "Avg_Response_Time":12.1189778325
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":12.1383979975
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":12.007318236
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":12.1386404066
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":12.3021182266
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":12.086176822
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":12.1773846154
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"0-10",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0328190531
+    "Year":2018,
+    "Avg_Response_Time":11.2500482925
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":11.2076761304
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":11.2478537252
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":11.2327231202
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":11.2204165196
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":11.2282799145
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":11.2777185185
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"10-20",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.8376728469
+    "Year":2018,
+    "Avg_Response_Time":19.0132352941
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":19.8952542373
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":19.1998039216
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":19.7406666667
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":19.3922413793
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":19.4943548387
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":19.3942647059
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"10-20",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0253581537
+    "Year":2018,
+    "Avg_Response_Time":16.2265116279
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":15.6152293578
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":15.959379845
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":16.4494166667
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":15.5869565217
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":16.095
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":16.23192
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"10-20",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0492328965
+    "Year":2018,
+    "Avg_Response_Time":14.2052572707
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":14.3710234542
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":14.3959813084
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":14.3761674009
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":14.5284869976
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":14.4802690583
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":14.2853668763
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"10-20",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.1319258631
+    "Year":2018,
+    "Avg_Response_Time":17.3691240876
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":17.5405755396
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":17.2518461538
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":17.798677686
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":17.6652136752
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":17.9373737374
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":17.2888815789
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"10-20",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0937891442
+    "Year":2018,
+    "Avg_Response_Time":14.5355343511
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":14.694
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":14.6629562044
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":14.5250212766
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":14.8847767857
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":14.4246875
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":14.6602281369
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"10-20",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1568279051
+    "Year":2018,
+    "Avg_Response_Time":13.2379501699
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":13.1617549669
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":13.2369102296
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":13.1479147465
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":13.2577777778
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":13.2855519126
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":13.2324258475
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"10-20",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.1403499597
+    "Year":2018,
+    "Avg_Response_Time":16.541958042
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":16.5075458716
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":16.8964900662
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":16.5490752688
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":16.8254584222
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":16.6956896552
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":16.808436019
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"10-20",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.2596849664
+    "Year":2018,
+    "Avg_Response_Time":13.9530190797
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":13.9654129464
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":14.051761658
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":13.7030156951
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":14.0213421342
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":13.8649316629
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":14.0302340426
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"10-20",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0199702655
+    "Year":2018,
+    "Avg_Response_Time":12.6983559055
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":12.6494755025
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":12.6406600449
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":12.5874651015
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":12.6902409262
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":12.6681786506
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":12.6234338896
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"20-30",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.9390913298
+    "Year":2018,
+    "Avg_Response_Time":22.0426229508
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":22.2763076923
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":21.9350769231
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":22.1479661017
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":22.5397222222
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":22.2471641791
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":21.912173913
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"20-30",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.9673708962
+    "Year":2018,
+    "Avg_Response_Time":18.0774074074
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":18.0136241611
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":18.7356818182
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":18.5802255639
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":18.8290977444
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":18.5491304348
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":18.7509933775
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"20-30",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0897647036
+    "Year":2018,
+    "Avg_Response_Time":17.0378190255
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":16.4553440367
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":16.4033012048
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":16.6128791209
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":16.5110652174
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":16.8909071274
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":16.888758465
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"20-30",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.2529455283
+    "Year":2018,
+    "Avg_Response_Time":19.7486923077
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":19.8594444444
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":20.0335810811
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":19.9023972603
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":20.234453125
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":19.4714184397
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":20.1117293233
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"20-30",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0149044289
+    "Year":2018,
+    "Avg_Response_Time":17.0770070423
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":17.0784727273
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":16.735390625
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":16.6329136691
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":16.5637130802
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":16.78764
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":16.6510810811
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"20-30",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1099223115
+    "Year":2018,
+    "Avg_Response_Time":15.2167403315
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":15.1222406181
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":15.0697601918
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":15.2351205511
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":15.024840484
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":15.1271293375
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":15.1145409429
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"20-30",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.9375816021
+    "Year":2018,
+    "Avg_Response_Time":19.2347321429
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":19.4445681818
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":19.4134482759
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":19.1085611511
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":19.3033413462
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":19.3409072165
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":19.1346203905
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"20-30",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.1587339665
+    "Year":2018,
+    "Avg_Response_Time":15.9571588367
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":16.0282945736
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":15.8857505519
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":15.9900678733
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":16.0730778443
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":16.0661056106
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":16.0827685493
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"20-30",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1004606506
+    "Year":2018,
+    "Avg_Response_Time":14.4559993725
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":14.4257699805
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":14.4225631313
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":14.4936059835
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":14.3912570533
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":14.4257903385
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":14.493913588
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"30-40",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.3243081157
+    "Year":2018,
+    "Avg_Response_Time":24.6683050847
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":25.0475362319
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":25.0510769231
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":25.7486486486
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":25.4067391304
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":25.9349333333
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":25.4109803922
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"30-40",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.8314811662
+    "Year":2018,
+    "Avg_Response_Time":21.125
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":21.3611363636
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":21.3657480315
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":21.0747368421
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":21.3758715596
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":20.6492105263
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":20.7297902098
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"30-40",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1001315035
+    "Year":2018,
+    "Avg_Response_Time":18.6354926625
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":18.9386767896
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":18.8031868132
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":18.6603044496
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":18.8690217391
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":18.8614
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":18.876935123
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"30-40",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.8800428881
+    "Year":2018,
+    "Avg_Response_Time":22.6821666667
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":22.815952381
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":22.6827692308
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":22.9708035714
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":22.4418881119
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":22.2199159664
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":23.0554347826
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"30-40",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.20336842
+    "Year":2018,
+    "Avg_Response_Time":18.6141203704
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":19.0393181818
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":19.0212977099
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":19.0871186441
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":19.3525423729
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":19.1195582329
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":19.053452381
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"30-40",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0180823575
+    "Year":2018,
+    "Avg_Response_Time":17.0645571096
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":17.264049676
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":16.9636032864
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":17.2023986095
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":17.0553392659
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":17.1754204545
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":17.0235535308
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"30-40",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.1183106359
+    "Year":2018,
+    "Avg_Response_Time":21.8220135747
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":21.9406157113
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":21.8994356659
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":21.6522425629
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":21.8430958231
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":21.9645882353
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":21.7225306122
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"30-40",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.991610649
+    "Year":2018,
+    "Avg_Response_Time":18.0125720621
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":18.1215531661
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":17.9892154567
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":18.1772505543
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":18.2665899123
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":18.2548160535
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":18.0558971554
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"30-40",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0059503591
+    "Year":2018,
+    "Avg_Response_Time":16.3182044113
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":16.2607308657
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":16.295802156
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":16.3657276843
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":16.4149680919
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":16.3762147068
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":16.3944715708
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"40-50",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.8945272558
+    "Year":2018,
+    "Avg_Response_Time":26.8084482759
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":28.6440909091
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":28.8375
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":27.8141935484
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":28.1892307692
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":28.7094202899
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":28.0928378378
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"40-50",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.1332974852
+    "Year":2018,
+    "Avg_Response_Time":23.7304
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":23.31640625
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":23.2007194245
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":23.733125
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":23.5825806452
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":23.2930232558
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":23.4632727273
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"40-50",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1469433199
+    "Year":2018,
+    "Avg_Response_Time":20.8631602709
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":20.7712694878
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":20.7333700441
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":21.0159817352
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":21.1540778689
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":20.9320734341
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":21.0574004684
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"40-50",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.8793042393
+    "Year":2018,
+    "Avg_Response_Time":25.8813793103
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":25.8296129032
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":25.0101886792
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":25.26208
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":25.36
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":25.00264
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":26.2217518248
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"40-50",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.1660946819
+    "Year":2018,
+    "Avg_Response_Time":21.3870564516
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":21.4334387352
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":21.5024901186
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":21.3971317829
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":21.36
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":21.5184328358
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":21.319233871
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"40-50",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1917369762
+    "Year":2018,
+    "Avg_Response_Time":19.1340693642
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":19.2046242775
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":19.2644914286
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":19.2258378378
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":19.3351902748
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":19.2235949943
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":19.2366255144
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"40-50",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.0975875339
+    "Year":2018,
+    "Avg_Response_Time":24.2918872017
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":24.1372972973
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":24.5567674419
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":24.3718018018
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":24.5298233996
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":24.2342576419
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":24.687106383
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"40-50",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.9953891095
+    "Year":2018,
+    "Avg_Response_Time":20.3554981993
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":20.3125720621
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":20.2983016878
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":20.5630947368
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":20.256
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":20.2248256468
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":20.1868903803
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"40-50",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0768881034
+    "Year":2018,
+    "Avg_Response_Time":18.277522846
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":18.3497043095
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":18.3311534764
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":18.208293601
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":18.3170373921
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":18.2698707593
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":18.3015413534
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"50+",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":7.3123255994
+    "Year":2020,
+    "Avg_Response_Time":20.15
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"50+",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":19.6345224591
+    "Year":2023,
+    "Avg_Response_Time":30.28
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"50+",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":12.8169586442
+    "Year":2024,
+    "Avg_Response_Time":30.52
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"50+",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":13.80215956
+    "Year":2019,
+    "Avg_Response_Time":23.95
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":22.61
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":19.7
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":28.49
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"50+",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":12.8591650793
+    "Year":2020,
+    "Avg_Response_Time":27.585
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"50+",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":10.6895591136
+    "Year":2018,
+    "Avg_Response_Time":18.05
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":18.05
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":21.84
   },
   {
     "Road_Type":"Highway",
     "Distance_Bin":"50+",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.9005570392
+    "Year":2018,
+    "Avg_Response_Time":20.12
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":19.54
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":24.63
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":20.435
+  },
+  {
+    "Road_Type":"Highway",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":14.89
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.0937767509
+    "Year":2018,
+    "Avg_Response_Time":19.9253333333
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":20.13
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":20.1390909091
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":20.2365625
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":21.0312903226
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":20.3433333333
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":20.0586206897
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.9438363621
+    "Year":2018,
+    "Avg_Response_Time":16.6307407407
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":17.0463235294
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":16.7788636364
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":17.0708510638
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":16.0631481481
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":16.8926315789
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":16.9481081081
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.2041842731
+    "Year":2018,
+    "Avg_Response_Time":15.3484051724
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":15.1571287129
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":15.2027477477
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":15.2996698113
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":15.2134951456
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":15.1762189055
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":14.6709183673
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.2294980105
+    "Year":2018,
+    "Avg_Response_Time":18.0190322581
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":18.504137931
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":18.4485365854
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":18.2615254237
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":18.3830357143
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":18.5303773585
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":18.3360294118
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.7112963233
+    "Year":2018,
+    "Avg_Response_Time":15.2575833333
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":15.14008
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":15.2112
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":15.1479787234
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":15.1819148936
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":14.9099305556
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":15.31025
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.001757363
+    "Year":2018,
+    "Avg_Response_Time":13.9424747475
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":13.9322682927
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":13.7312801932
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":13.5165287356
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":13.6702463054
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":13.8081401617
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":13.5272517321
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.0011329524
+    "Year":2018,
+    "Avg_Response_Time":16.9987700535
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":17.4871634615
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":16.8128820961
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":17.2115023474
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":17.4348356808
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":17.1255707763
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":17.2156637168
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0457258004
+    "Year":2018,
+    "Avg_Response_Time":14.4509974425
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":14.1597080292
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":14.5508108108
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":14.2793778802
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":14.5014460784
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":14.4901005025
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":14.4220194647
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0966718335
+    "Year":2018,
+    "Avg_Response_Time":13.1749426934
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":13.0301040944
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":13.144127095
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":13.1981444043
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":13.0758255227
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":13.07552
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":13.0594391843
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.3648653705
+    "Year":2018,
+    "Avg_Response_Time":23.2417857143
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":23.78
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":22.6107407407
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":24.5993939394
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":23.62
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":25.0004545455
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":23.8647222222
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.1449471845
+    "Year":2018,
+    "Avg_Response_Time":19.5360869565
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":19.5079310345
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":19.9483076923
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":19.6112359551
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":19.5117582418
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":19.6252380952
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":19.8207692308
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0044696379
+    "Year":2018,
+    "Avg_Response_Time":17.6698373984
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":17.6517760618
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":17.3750917431
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":17.4358256881
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":17.6941891892
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":17.8613043478
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":17.2938679245
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.1511933904
+    "Year":2018,
+    "Avg_Response_Time":21.5980821918
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":22.4353703704
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":22.3569863014
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":21.5693506494
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":21.3475
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":21.0544444444
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":21.616
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.2133238746
+    "Year":2018,
+    "Avg_Response_Time":18.2386363636
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":18.0341129032
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":17.6847058824
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":17.9033088235
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":17.5848461538
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":17.7895488722
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":17.5406837607
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0194533104
+    "Year":2018,
+    "Avg_Response_Time":16.1878571429
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":16.11995338
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":16.1875398633
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":15.8477312775
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":15.7846976744
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":15.927167382
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":16.0645434783
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.9315616894
+    "Year":2018,
+    "Avg_Response_Time":20.4747755102
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":19.9155707763
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":20.32924
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":19.7734513274
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":20.0108333333
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":19.8697777778
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":21.0349794239
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.1129538117
+    "Year":2018,
+    "Avg_Response_Time":17.10875
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":17.0124879227
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":17.0456
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":16.5582522124
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":16.8379578947
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":17.1788056206
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":16.9101805869
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0751251496
+    "Year":2018,
+    "Avg_Response_Time":15.3125987261
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":15.0907802341
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":15.1946086957
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":15.2255009334
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":15.3688664495
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":15.3313051948
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":15.2045402299
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.3523874124
+    "Year":2018,
+    "Avg_Response_Time":27.0285
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":27.0530769231
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":26.8351724138
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":26.6258064516
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":27.75625
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":28.6461538462
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":26.5383333333
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.3243045769
+    "Year":2018,
+    "Avg_Response_Time":22.0586956522
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":21.852962963
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":23.1486
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":22.4947692308
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":22.6553246753
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":22.41703125
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":22.5844285714
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1619855126
+    "Year":2018,
+    "Avg_Response_Time":20.3730917874
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":20.2376811594
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":20.4062288136
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":20.3663555556
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":20.4562211982
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":19.9118518519
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":20.1659677419
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.7566741038
+    "Year":2018,
+    "Avg_Response_Time":24.6420454545
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":24.5839705882
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":23.9735483871
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":24.9457377049
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":24.5863513514
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":24.1450746269
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":24.4010606061
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.8757416272
+    "Year":2018,
+    "Avg_Response_Time":19.9506993007
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":20.0576033058
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":20.2841610738
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":20.8563333333
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":19.751056338
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":19.9308064516
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":20.0809836066
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.9690193045
+    "Year":2018,
+    "Avg_Response_Time":18.6303726708
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":18.7442081448
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":18.6981221719
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":18.7721414538
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":18.5204480652
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":18.4569277108
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":18.5525442478
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.1583562189
+    "Year":2018,
+    "Avg_Response_Time":23.4961386139
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":23.7648792271
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":23.4049268293
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":23.561588785
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":23.308647541
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":23.7325
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":23.5149268293
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0817124501
+    "Year":2018,
+    "Avg_Response_Time":19.5454525862
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":19.2824761905
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":19.6355530474
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":19.3022616408
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":19.2796078431
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":19.6010580913
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":19.2682194617
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0866024191
+    "Year":2018,
+    "Avg_Response_Time":17.598269348
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":17.7134910879
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":17.68114375
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":17.5810954712
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":17.5791423126
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":17.602243173
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":17.5483576411
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.8067560323
+    "Year":2018,
+    "Avg_Response_Time":32.2653571429
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":30.38625
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":29.604
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":30.4652631579
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":31.44
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":30.2528125
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":31.1285714286
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.6258979111
+    "Year":2018,
+    "Avg_Response_Time":24.8001724138
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":24.782037037
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":25.7921333333
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":25.5249230769
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":25.6040677966
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":25.36325
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":25.6175925926
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.164684169
+    "Year":2018,
+    "Avg_Response_Time":23.2180995475
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":22.9261320755
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":22.9400938967
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":23.2297510373
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":22.6490950226
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":22.9976623377
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":22.9917521368
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.4888106213
+    "Year":2018,
+    "Avg_Response_Time":27.963125
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":28.1903076923
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":28.2925423729
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":28.9963768116
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":28.4156756757
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":28.278
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":28.2894545455
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.7449409601
+    "Year":2018,
+    "Avg_Response_Time":22.8343220339
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":23.3568888889
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":23.4293846154
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":23.4516911765
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":23.135037037
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":22.467114094
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":23.44552
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0937207413
+    "Year":2018,
+    "Avg_Response_Time":20.9627334852
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":21.0955480984
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":20.8657359307
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":21.1006818182
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":21.1876886792
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":20.6303465347
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":20.9863495575
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.9790197803
+    "Year":2018,
+    "Avg_Response_Time":26.6615695067
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":26.6289867841
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":27.1067420814
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":26.8522641509
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":26.3870232558
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":26.5937777778
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":26.608202765
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0989332757
+    "Year":2018,
+    "Avg_Response_Time":22.1725119617
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":22.0355333333
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":22.1613318284
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":22.2404670913
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":22.2001298701
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":22.0097308489
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":22.1315812918
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.9729025565
+    "Year":2018,
+    "Avg_Response_Time":20.1168384224
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":20.0219675203
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":19.8134150828
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":19.8919725343
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":20.0830740038
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":19.9930031153
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":19.9645369212
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.0198178859
+    "Year":2018,
+    "Avg_Response_Time":32.8675
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":34.2278125
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":34.6122857143
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":33.41
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":33.7422222222
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":32.7009302326
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":33.5059375
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.4072757678
+    "Year":2018,
+    "Avg_Response_Time":28.5539344262
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":29.3751785714
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":28.31734375
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":28.066557377
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":28.0243103448
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":29.3675862069
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":28.5756140351
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1779133274
+    "Year":2018,
+    "Avg_Response_Time":25.7562686567
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":26.0521004566
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":25.5047804878
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":25.7977118644
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":25.4248636364
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":25.733853211
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":25.6779357798
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.3536871179
+    "Year":2018,
+    "Avg_Response_Time":32.1366666667
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":32.639375
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":30.6880769231
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":31.6068493151
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":30.9365454545
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":31.1047142857
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":31.7037662338
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.3438921502
+    "Year":2018,
+    "Avg_Response_Time":26.2597777778
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":26.42125
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":26.2719259259
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":26.0923571429
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":25.7177952756
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":26.643559322
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":25.8889622642
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0538035646
+    "Year":2018,
+    "Avg_Response_Time":23.4124822695
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":23.6061147903
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":23.4577951002
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":23.3489010989
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":23.6474330357
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":23.4177732794
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":23.3478795181
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.9838262605
+    "Year":2018,
+    "Avg_Response_Time":29.9063362069
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":30.1338818565
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":29.2967741935
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":29.3674257426
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":29.6673245614
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":29.8529953917
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":29.7345714286
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.1662356307
+    "Year":2018,
+    "Avg_Response_Time":24.51638
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":24.6225690021
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":24.9144124169
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":24.7122482436
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":24.834361949
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":24.8461894273
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":24.8357641921
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0221848022
+    "Year":2018,
+    "Avg_Response_Time":22.1129452926
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":22.4769406675
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":22.247638539
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":22.2519816874
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":22.1766560914
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":22.2709228824
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":22.4207535121
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"50+",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":9.0985190651
+    "Year":2020,
+    "Avg_Response_Time":30.8
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"50+",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":19.6646206494
+    "Year":2021,
+    "Avg_Response_Time":26.11
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":26.27
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":24.4
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"50+",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":13.6578734896
+    "Year":2018,
+    "Avg_Response_Time":24.97
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"50+",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":21.1806389552
+    "Year":2018,
+    "Avg_Response_Time":35.97
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":27.74
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"50+",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":19.9206173499
+    "Year":2022,
+    "Avg_Response_Time":46.73
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"50+",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":11.3691049704
+    "Year":2023,
+    "Avg_Response_Time":21.9
   },
   {
     "Road_Type":"Local Road",
     "Distance_Bin":"50+",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":16.7534343816
+    "Year":2018,
+    "Avg_Response_Time":28.77
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":17.26
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":22.39
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":30.61
+  },
+  {
+    "Road_Type":"Local Road",
+    "Distance_Bin":"50+",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":31.31
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":13.7999809831
+    "Year":2018,
+    "Avg_Response_Time":18.8844444444
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":17.686
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":20.8877777778
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":16.7358333333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":17.8258823529
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":16.7328571429
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":19.4457142857
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.1117919558
+    "Year":2018,
+    "Avg_Response_Time":14.4635
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":14.5626666667
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":15.061
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":13.9566666667
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":14.8286666667
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":16.3673333333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":15.545625
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1267400029
+    "Year":2018,
+    "Avg_Response_Time":13.8341935484
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":13.2406060606
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":13.56
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":13.7165853659
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":13.4228571429
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":13.9492537313
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":13.6437878788
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.57332034
+    "Year":2018,
+    "Avg_Response_Time":16.8190909091
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":17.173
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":16.1433333333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":16.8961538462
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":15.2395454545
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":15.2
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":17.564
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.6002352375
+    "Year":2018,
+    "Avg_Response_Time":13.6551351351
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":14.0827586207
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":14.5696774194
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":14.1079411765
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":13.5036111111
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":13.3539473684
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":14.2979166667
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.9929785886
+    "Year":2018,
+    "Avg_Response_Time":12.3748888889
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":12.59088
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":12.3422916667
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":12.5991803279
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":12.715472973
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":12.8269291339
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":12.6271917808
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.1400935371
+    "Year":2018,
+    "Avg_Response_Time":16.0627027027
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":15.7313924051
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":16.1407017544
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":15.4833783784
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":16.0444444444
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":16.1561290323
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":16.0453846154
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.9717755594
+    "Year":2018,
+    "Avg_Response_Time":13.4435384615
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":12.8797315436
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":12.9702290076
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":13.408030303
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":13.2131428571
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":13.1556428571
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":13.4757446809
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"0-10",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0037371199
+    "Year":2018,
+    "Avg_Response_Time":11.9753937947
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":12.1848065173
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":12.2746292135
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":12.0112790698
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":12.2320874751
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":12.2255676856
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"0-10",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":12.15401766
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.2574765396
+    "Year":2018,
+    "Avg_Response_Time":21.496
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":21.59
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":21.9308333333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":24.9371428571
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":20.3627272727
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":21.365
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":23.511
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.7973518585
+    "Year":2018,
+    "Avg_Response_Time":17.7866666667
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":18.651
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":17.3704
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":18.3161111111
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":17.16
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":18.1427777778
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":16.3966666667
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.7347278704
+    "Year":2018,
+    "Avg_Response_Time":15.9213235294
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":15.3003529412
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":16.424047619
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":16.1886585366
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":16.3046052632
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":15.722739726
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":15.8143529412
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.1644441416
+    "Year":2018,
+    "Avg_Response_Time":19.4283333333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":19.4380769231
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":18.9047619048
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":18.3033333333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":21.1194444444
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":19.5241176471
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":18.667037037
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.9238425551
+    "Year":2018,
+    "Avg_Response_Time":16.3647058824
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":15.9146341463
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":16.2319047619
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":15.59
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":15.6443589744
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":16.1742553191
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":15.5497297297
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.9103749414
+    "Year":2018,
+    "Avg_Response_Time":14.729245283
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":14.484248366
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":14.7045652174
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":14.92265625
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":14.6507692308
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":14.8205521472
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":14.6782
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.7281422578
+    "Year":2018,
+    "Avg_Response_Time":18.5125
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":18.8715294118
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":17.6674603175
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":18.5324489796
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":18.4810526316
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":18.3550561798
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":17.9601612903
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.9610918294
+    "Year":2018,
+    "Avg_Response_Time":15.147593985
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":15.3257857143
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":15.3517073171
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":15.0857055215
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":15.4125342466
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":15.8617985612
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":15.4011377246
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"10-20",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.9854902392
+    "Year":2018,
+    "Avg_Response_Time":13.8489753321
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":13.8528094303
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":13.9458574181
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":13.888784029
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":13.9107991803
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":13.9273992674
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"10-20",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":13.829373849
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.2850938816
+    "Year":2018,
+    "Avg_Response_Time":25.5507692308
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":24.2166666667
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":26.0708333333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":24.825
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":25.2476923077
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":25.5236363636
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":25.7114285714
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.7168584329
+    "Year":2018,
+    "Avg_Response_Time":18.372
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":20.8421052632
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":19.9632
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":20.8473684211
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":20.4252
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":22.3616666667
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":20.764375
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.9685297742
+    "Year":2018,
+    "Avg_Response_Time":18.6118571429
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":18.4931578947
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":18.0975675676
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":18.4906557377
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":18.297972973
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":17.9568253968
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":18.5514285714
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.8032256973
+    "Year":2018,
+    "Avg_Response_Time":21.3605882353
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":22.1924242424
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":21.1677777778
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":22.2935294118
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":22.5203448276
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":21.51875
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":21.2905263158
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.6678334847
+    "Year":2018,
+    "Avg_Response_Time":18.5995
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":18.974375
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":19.6339583333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":18.8461538462
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":18.8197368421
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":18.3744680851
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":18.7862790698
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.3187750414
+    "Year":2018,
+    "Avg_Response_Time":17.4731578947
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":16.6408724832
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":16.6385135135
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":16.800617284
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":17.0057333333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":16.4680952381
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":17.1108
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.424798748
+    "Year":2018,
+    "Avg_Response_Time":21.32
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":21.3970149254
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":21.5778313253
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":21.4103296703
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":21.0174626866
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":20.6230555556
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":21.1019480519
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0011327877
+    "Year":2018,
+    "Avg_Response_Time":18.1727950311
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":17.666809816
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":17.9974626866
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":17.7115492958
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":17.7398734177
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":17.786686747
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":17.8002339181
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"20-30",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.9446916721
+    "Year":2018,
+    "Avg_Response_Time":16.0495281307
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":16.0732906764
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":15.961026616
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":16.1809736308
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":16.1223818898
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":16.0745303867
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"20-30",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":16.0382634731
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.6101787909
+    "Year":2018,
+    "Avg_Response_Time":30.771
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":25.4981818182
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":28.7957894737
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":26.8821428571
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":31.56
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":28.7888888889
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":26.6922222222
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.8848580525
+    "Year":2018,
+    "Avg_Response_Time":22.1072
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":24.5093333333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":22.6804
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":22.9330434783
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":22.3557142857
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":23.6761111111
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":22.7272727273
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.4372490596
+    "Year":2018,
+    "Avg_Response_Time":21.2857317073
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":20.8026923077
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":21.3184931507
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":20.6553846154
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":20.9351315789
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":20.93
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":20.9627941176
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.8289739445
+    "Year":2018,
+    "Avg_Response_Time":26.8876923077
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":23.9470833333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":25.0147619048
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":24.3819047619
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":23.3063157895
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":25.7395454545
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":25.9236363636
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.8692639217
+    "Year":2018,
+    "Avg_Response_Time":21.7858536585
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":21.3361111111
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":20.5223404255
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":20.948372093
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":22.2286486486
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":21.6130769231
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":21.3832432432
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0691055168
+    "Year":2018,
+    "Avg_Response_Time":18.8460714286
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":19.162739726
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":18.9974585635
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":19.1836129032
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":18.6922222222
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":19.1765605096
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":18.9209375
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.8014194466
+    "Year":2018,
+    "Avg_Response_Time":24.4191954023
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":23.5052238806
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":24.4318181818
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":24.3670491803
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":23.9314864865
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":24.4023333333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":24.3531764706
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.9257351849
+    "Year":2018,
+    "Avg_Response_Time":20.191025641
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":20.2559848485
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":19.8185064935
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":20.0595833333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":19.9471328671
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":19.9437878788
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":19.8907857143
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"30-40",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.1173620371
+    "Year":2018,
+    "Avg_Response_Time":18.2097222222
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":18.2716792453
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":17.9623287671
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":18.2032505176
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":18.0114690265
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":18.038700565
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"30-40",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":18.1526744186
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Rural",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":14.9116464489
+    "Year":2018,
+    "Avg_Response_Time":30.8266666667
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":33.63125
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":28.9088888889
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":32.024
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":28.6871428571
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":30.3646153846
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":31.380625
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Rural",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.6762195122
+    "Year":2018,
+    "Avg_Response_Time":24.941875
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":25.0276923077
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":25.8738461538
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":26.2031578947
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":23.7168421053
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":25.5585185185
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":26.2823529412
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Rural",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.803462226
+    "Year":2018,
+    "Avg_Response_Time":22.5019642857
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":23.76453125
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":22.6891666667
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":24.1515789474
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":23.7049275362
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":23.3340243902
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Rural",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":22.6971428571
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Suburban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.0533877626
+    "Year":2018,
+    "Avg_Response_Time":27.905
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":28.3016
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":28.2513333333
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":28.1352380952
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":29.3022222222
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":27.735
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":27.6757142857
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":14.7887077988
+    "Year":2018,
+    "Avg_Response_Time":23.1263636364
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":24.8573076923
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":24.3691111111
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":24.0779069767
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":24.1375
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":23.4017391304
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":24.6925714286
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.9816701587
+    "Year":2018,
+    "Avg_Response_Time":21.7523376623
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":21.3092592593
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":21.7650387597
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":21.2065822785
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":21.3890909091
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":21.2559064327
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Suburban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":21.4504268293
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Urban",
     "Emergency_Level":"Critical",
-    "Avg_Response_Time":15.1089568335
+    "Year":2018,
+    "Avg_Response_Time":26.865
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2019,
+    "Avg_Response_Time":27.065
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2020,
+    "Avg_Response_Time":26.7081944444
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2021,
+    "Avg_Response_Time":26.2627777778
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2022,
+    "Avg_Response_Time":26.7527536232
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2023,
+    "Avg_Response_Time":26.8676388889
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Critical",
+    "Year":2024,
+    "Avg_Response_Time":27.0957377049
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Urban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0889000635
+    "Year":2018,
+    "Avg_Response_Time":22.5683216783
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2019,
+    "Avg_Response_Time":22.5604081633
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2020,
+    "Avg_Response_Time":22.6073015873
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2021,
+    "Avg_Response_Time":22.4131168831
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2022,
+    "Avg_Response_Time":22.463974359
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2023,
+    "Avg_Response_Time":22.818707483
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Major",
+    "Year":2024,
+    "Avg_Response_Time":22.7644680851
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"40-50",
     "Region_Type":"Urban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":15.0129121557
+    "Year":2018,
+    "Avg_Response_Time":20.5912959381
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2019,
+    "Avg_Response_Time":20.2639458414
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2020,
+    "Avg_Response_Time":20.1713825758
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2021,
+    "Avg_Response_Time":20.1943774319
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2022,
+    "Avg_Response_Time":20.3366911765
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2023,
+    "Avg_Response_Time":20.3262301587
+  },
+  {
+    "Road_Type":"Unpaved Road",
+    "Distance_Bin":"40-50",
+    "Region_Type":"Urban",
+    "Emergency_Level":"Minor",
+    "Year":2024,
+    "Avg_Response_Time":20.1763168317
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"50+",
     "Region_Type":"Suburban",
     "Emergency_Level":"Major",
-    "Avg_Response_Time":15.0027613829
+    "Year":2023,
+    "Avg_Response_Time":22.55
   },
   {
     "Road_Type":"Unpaved Road",
     "Distance_Bin":"50+",
     "Region_Type":"Suburban",
     "Emergency_Level":"Minor",
-    "Avg_Response_Time":14.7366383286
+    "Year":2019,
+    "Avg_Response_Time":30.41
   }
 ]
