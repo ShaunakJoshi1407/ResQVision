@@ -16,6 +16,32 @@ import AmbulanceAvailabilityChart from "./charts/AmbulanceAvailabilityChart";
 import InjuriesResponseLineChart from "./charts/InjuriesResponseLineChart";
 import ResponseHeatmap from "./charts/ResponseHeatmap";
 
+// Month-Year options
+const monthYearOptions = [
+  "Jan 2018", "Feb 2018", "Mar 2018", "Apr 2018", "May 2018", "Jun 2018",
+  "Jul 2018", "Aug 2018", "Sep 2018", "Oct 2018", "Nov 2018", "Dec 2018",
+  "Jan 2019", "Feb 2019", "Mar 2019", "Apr 2019", "May 2019", "Jun 2019",
+  "Jul 2019", "Aug 2019", "Sep 2019", "Oct 2019", "Nov 2019", "Dec 2019",
+  "Jan 2020", "Feb 2020", "Mar 2020", "Apr 2020", "May 2020", "Jun 2020",
+  "Jul 2020", "Aug 2020", "Sep 2020", "Oct 2020", "Nov 2020", "Dec 2020",
+  "Jan 2021", "Feb 2021", "Mar 2021", "Apr 2021", "May 2021", "Jun 2021",
+  "Jul 2021", "Aug 2021", "Sep 2021", "Oct 2021", "Nov 2021", "Dec 2021",
+  "Jan 2022", "Feb 2022", "Mar 2022", "Apr 2022", "May 2022", "Jun 2022",
+  "Jul 2022", "Aug 2022", "Sep 2022", "Oct 2022", "Nov 2022", "Dec 2022",
+  "Jan 2023", "Feb 2023", "Mar 2023", "Apr 2023", "May 2023", "Jun 2023",
+  "Jul 2023", "Aug 2023", "Sep 2023", "Oct 2023", "Nov 2023", "Dec 2023",
+  "Jan 2024", "Feb 2024", "Mar 2024", "Apr 2024", "May 2024", "Jun 2024",
+  "Jul 2024", "Aug 2024", "Sep 2024", "Oct 2024", "Nov 2024", "Dec 2024",
+];
+
+const convertToMonthYear = (label) => {
+  const months = {
+    Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06",
+    Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12",
+  };
+  const [month, year] = label.split(" ");
+  return `${year}-${months[month]}`;
+};
 
 const regionOptions = ["Rural", "Suburban", "Urban"];
 const emergencyLevels = ["Minor", "Major", "Critical"];
@@ -23,9 +49,16 @@ const emergencyLevels = ["Minor", "Major", "Critical"];
 const ResponseDashboard = () => {
   const [selectedRegions, setSelectedRegions] = useState([...regionOptions]);
   const [selectedLevels, setSelectedLevels] = useState([...emergencyLevels]);
-  const [timeRange, setTimeRange] = useState([2018, 2024]);
+  const [timeRange, setTimeRange] = useState([0, monthYearOptions.length - 1]);
 
-  const handleToggle = (setter, current, value, allOptions) => {
+  const startMonth = monthYearOptions[timeRange[0]];
+  const endMonth = monthYearOptions[timeRange[1]];
+  const monthRange = [
+    convertToMonthYear(startMonth),
+    convertToMonthYear(endMonth),
+  ];
+
+  const handleToggle = (setter, current, value) => {
     const isSelected = current.includes(value);
     if (isSelected && current.length === 1) return;
     setter(isSelected ? current.filter((v) => v !== value) : [...current, value]);
@@ -33,7 +66,7 @@ const ResponseDashboard = () => {
 
   return (
     <Box display="flex">
-      {/* Sidebar Filters */}
+      {/* Sidebar */}
       <Box
         width="260px"
         minHeight="100vh"
@@ -45,7 +78,7 @@ const ResponseDashboard = () => {
           Filters
         </Typography>
 
-        {/* Region Type */}
+        {/* Region Filter */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
             <Typography variant="subtitle2" gutterBottom>
@@ -60,7 +93,7 @@ const ResponseDashboard = () => {
                       <Checkbox
                         checked={selectedRegions.includes(region)}
                         onChange={() =>
-                          handleToggle(setSelectedRegions, selectedRegions, region, regionOptions)
+                          handleToggle(setSelectedRegions, selectedRegions, region)
                         }
                       />
                     }
@@ -72,7 +105,7 @@ const ResponseDashboard = () => {
           </CardContent>
         </Card>
 
-        {/* Emergency Level */}
+        {/* Emergency Level Filter */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
             <Typography variant="subtitle2" gutterBottom>
@@ -87,7 +120,7 @@ const ResponseDashboard = () => {
                       <Checkbox
                         checked={selectedLevels.includes(level)}
                         onChange={() =>
-                          handleToggle(setSelectedLevels, selectedLevels, level, emergencyLevels)
+                          handleToggle(setSelectedLevels, selectedLevels, level)
                         }
                       />
                     }
@@ -99,19 +132,32 @@ const ResponseDashboard = () => {
           </CardContent>
         </Card>
 
-        {/* Time Range (non-functional for now) */}
+        {/* Time Range Slider */}
         <Card variant="outlined">
           <CardContent>
             <Typography variant="subtitle2" gutterBottom>
-              Time Range (2018 - 2024)
+              Time Range (2018 – 2024)
             </Typography>
-            <Slider
-              value={timeRange}
-              onChange={(e, newValue) => setTimeRange(newValue)}
-              valueLabelDisplay="auto"
-              min={2018}
-              max={2024}
-            />
+
+            <Box mt={3} px={1}>
+              <Box display="flex" justifyContent="space-between" mb={1}>
+                <Typography variant="body2" fontWeight={500}>
+                  {monthYearOptions[timeRange[0]]}
+                </Typography>
+                <Typography variant="body2" fontWeight={500}>
+                  {monthYearOptions[timeRange[1]]}
+                </Typography>
+              </Box>
+
+              <Slider
+                value={timeRange}
+                onChange={(e, newVal) => setTimeRange(newVal)}
+                min={0}
+                max={monthYearOptions.length - 1}
+                step={1}
+                valueLabelDisplay="off"
+              />
+            </Box>
           </CardContent>
         </Card>
       </Box>
@@ -119,7 +165,7 @@ const ResponseDashboard = () => {
       {/* Main Chart Area */}
       <Box flex={1} p={3}>
         <Grid container spacing={3}>
-          {/* Row 1: Bar Chart */}
+          {/* Row 1 */}
           <Grid item xs={12} md={6}>
             <Card variant="outlined">
               <CardContent>
@@ -129,13 +175,12 @@ const ResponseDashboard = () => {
                 <AmbulanceAvailabilityChart
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}
-                  timeRange={timeRange}
+                  timeRange={monthRange}
                 />
               </CardContent>
             </Card>
           </Grid>
 
-          {/* Row 1: Line Chart */}
           <Grid item xs={12} md={6}>
             <Card variant="outlined">
               <CardContent>
@@ -145,27 +190,27 @@ const ResponseDashboard = () => {
                 <InjuriesResponseLineChart
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}
-                  timeRange={timeRange}
+                  timeRange={monthRange}
                 />
               </CardContent>
             </Card>
           </Grid>
 
+          {/* Row 2 */}
           <Grid item xs={12}>
             <Card variant="outlined">
-                <CardContent>
+              <CardContent>
                 <Typography variant="h6" gutterBottom>
-                    Response Time Heatmap (Distance vs Road Type)
+                  Response Time Heatmap (Distance × Road Type)
                 </Typography>
                 <ResponseHeatmap
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}
-                  timeRange={timeRange}
+                  timeRange={monthRange}
                 />
-                </CardContent>
+              </CardContent>
             </Card>
-            </Grid>
-
+          </Grid>
         </Grid>
       </Box>
     </Box>

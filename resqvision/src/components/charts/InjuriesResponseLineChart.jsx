@@ -4,7 +4,7 @@ import * as d3 from "d3";
 const InjuriesResponseLineChart = ({
   selectedRegions = ["Urban", "Suburban", "Rural"],
   selectedLevels = ["Minor", "Major", "Critical"],
-  timeRange = [2018, 2024]
+  timeRange = ["2018-01", "2024-12"],
 }) => {
   const svgRef = useRef();
 
@@ -12,13 +12,15 @@ const InjuriesResponseLineChart = ({
     d3.json("/data/injuries_response.json").then((data) => {
       if (!data) return;
 
+      const [startMonth, endMonth] = timeRange;
+
       // Filter
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
           selectedLevels.includes(d.Emergency_Level) &&
-          d.Year >= timeRange[0] &&
-          d.Year <= timeRange[1]
+          d.MonthYear >= startMonth &&
+          d.MonthYear <= endMonth
       );
 
       // Aggregate: get avg across same (level, injury count)
