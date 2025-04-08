@@ -11,17 +11,30 @@ const InjuriesResponseLineChart = ({
     d3.json("/data/injuries_response.json").then((data) => {
       if (!data) return;
 
-      // Filter by selected Region and Emergency Level
+      // Filter
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
           selectedLevels.includes(d.Emergency_Level)
       );
 
-      // Group by Emergency Level for one line per group
-      const grouped = d3.groups(filtered, (d) => d.Emergency_Level);
+      // Aggregate: get avg across same (level, injury count)
+      const aggregated = d3.rollups(
+        filtered,
+        (v) => d3.mean(v, (d) => d.Avg_Response_Time),
+        (d) => d.Emergency_Level,
+        (d) => d.Number_of_Injuries
+      ).flatMap(([level, injuryArr]) =>
+        injuryArr.map(([injuries, avg]) => ({
+          Emergency_Level: level,
+          Number_of_Injuries: injuries,
+          Avg_Response_Time: avg,
+        }))
+      );
 
-      // Clear previous chart
+      // Group by Emergency Level for D3 line()
+      const grouped = d3.groups(aggregated, (d) => d.Emergency_Level);
+
       const svg = d3.select(svgRef.current);
       svg.selectAll("*").remove();
 
@@ -38,13 +51,13 @@ const InjuriesResponseLineChart = ({
       // Scales
       const x = d3
         .scaleLinear()
-        .domain(d3.extent(filtered, (d) => d.Number_of_Injuries))
+        .domain(d3.extent(aggregated, (d) => d.Number_of_Injuries))
         .nice()
         .range([0, width]);
 
       const y = d3
         .scaleLinear()
-        .domain([0, d3.max(filtered, (d) => d.Avg_Response_Time)])
+        .domain([0, d3.max(aggregated, (d) => d.Avg_Response_Time)])
         .nice()
         .range([height, 0]);
 
@@ -55,10 +68,13 @@ const InjuriesResponseLineChart = ({
       // Axes
       container.append("g")
         .attr("transform", `translate(0, ${height})`)
-        .call(d3.axisBottom(x));
+        .call(
+          d3.axisBottom(x)
+            .ticks(aggregated.length)
+            .tickFormat((d) => Number.isInteger(d) ? d : "")
+        );
 
-      container.append("g")
-        .call(d3.axisLeft(y));
+      container.append("g").call(d3.axisLeft(y));
 
       // Axis Labels
       container.append("text")
@@ -74,7 +90,7 @@ const InjuriesResponseLineChart = ({
         .attr("text-anchor", "middle")
         .text("Avg. Response Time (min)");
 
-      // Draw lines and dots
+      // Lines + dots + labels
       grouped.forEach(([level, values]) => {
         const sorted = values.sort((a, b) => a.Number_of_Injuries - b.Number_of_Injuries);
 
@@ -98,7 +114,6 @@ const InjuriesResponseLineChart = ({
           .attr("r", 3)
           .attr("fill", color(level));
 
-        // Labels above each dot
         container.selectAll(`text-${level}`)
           .data(sorted)
           .enter()
