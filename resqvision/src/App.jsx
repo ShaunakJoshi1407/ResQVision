@@ -39,7 +39,7 @@ function AboutPage() {
 }
 
 function App() {
-  const [activeTab, setActiveTab] = useState('response');
+  const [activeTab, setActiveTab] = useState('home');
 
   const renderContent = () => {
     switch (activeTab) {
