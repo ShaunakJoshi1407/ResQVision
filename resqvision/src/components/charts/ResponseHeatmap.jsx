@@ -7,6 +7,7 @@ const ResponseHeatmap = ({
   timeRange = ["2018-01", "2024-12"],
 }) => {
   const svgRef = useRef();
+  const tooltipRef = useRef();
 
   useEffect(() => {
     d3.json("/data/response_heatmap.json").then((data) => {
@@ -14,7 +15,6 @@ const ResponseHeatmap = ({
 
       const [startMonth, endMonth] = timeRange;
 
-      // Filter based on props
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
@@ -23,7 +23,6 @@ const ResponseHeatmap = ({
           d.MonthYear <= endMonth
       );
 
-      // Aggregate again to average out over selected filters
       const grouped = d3.rollups(
         filtered,
         (v) => d3.mean(v, (d) => d.Avg_Response_Time),
@@ -41,8 +40,8 @@ const ResponseHeatmap = ({
       svg.selectAll("*").remove();
 
       const margin = { top: 60, right: 20, bottom: 50, left: 100 };
-      const width = 500 - margin.left - margin.right;
-      const height = 300 - margin.top - margin.bottom;
+      const width = 900 - margin.left - margin.right;
+      const height = 400 - margin.top - margin.bottom;
 
       const container = svg
         .attr("width", width + margin.left + margin.right)
@@ -84,19 +83,39 @@ const ResponseHeatmap = ({
         .attr("font-size", "12px")
         .text("Road Type");
 
-      // Heatmap Cells
-      container.selectAll()
+      const tooltip = d3.select(tooltipRef.current);
+
+      // Heatmap Cells + Tooltip Events
+      container.selectAll("rect.cell")
         .data(grouped)
         .enter()
         .append("rect")
+        .attr("class", "cell")
         .attr("x", (d) => x(d.Distance_Bin))
         .attr("y", (d) => y(d.Road_Type))
         .attr("width", x.bandwidth())
         .attr("height", y.bandwidth())
-        .style("fill", (d) => color(d.Avg_Response_Time));
+        .style("fill", (d) => color(d.Avg_Response_Time))
+        .on("mouseover", (event, d) => {
+          tooltip
+            .style("opacity", 1)
+            .html(
+              `<strong>${d.Road_Type}</strong> | ${d.Distance_Bin}<br/><strong>${d.Avg_Response_Time.toFixed(
+                2
+              )} min</strong>`
+            );
+        })
+        .on("mousemove", (event) => {
+          tooltip
+            .style("left", `${event.pageX + 10}px`)
+            .style("top", `${event.pageY - 30}px`);
+        })
+        .on("mouseout", () => {
+          tooltip.style("opacity", 0);
+        });
 
-      // Text inside cells
-      container.selectAll()
+      // Text inside each cell
+      container.selectAll("text.cell-label")
         .data(grouped)
         .enter()
         .append("text")
@@ -110,7 +129,8 @@ const ResponseHeatmap = ({
 
       // Color legend
       const defs = svg.append("defs");
-      const legendWidth = 200, legendHeight = 10;
+      const legendWidth = 200,
+        legendHeight = 10;
 
       const linearGradient = defs.append("linearGradient")
         .attr("id", "heatmap-gradient");
@@ -120,7 +140,9 @@ const ResponseHeatmap = ({
         .enter()
         .append("stop")
         .attr("offset", (d) => d)
-        .attr("stop-color", (d) => color(color.domain()[0] + d * (color.domain()[1] - color.domain()[0])));
+        .attr("stop-color", (d) =>
+          color(color.domain()[0] + d * (color.domain()[1] - color.domain()[0]))
+        );
 
       svg.append("rect")
         .attr("x", width / 2 - legendWidth / 2 + margin.left)
@@ -142,8 +164,23 @@ const ResponseHeatmap = ({
   }, [selectedRegions, selectedLevels, timeRange]);
 
   return (
-    <div className="flex justify-center">
+    <div className="relative flex justify-center">
       <svg ref={svgRef}></svg>
+      <div
+        ref={tooltipRef}
+        style={{
+          position: "absolute",
+          pointerEvents: "none",
+          background: "#333",
+          color: "white",
+          padding: "6px 8px",
+          borderRadius: "4px",
+          fontSize: "12px",
+          opacity: 0,
+          transition: "opacity 0.2s ease-in-out",
+          zIndex: 10,
+        }}
+      ></div>
     </div>
   );
 };

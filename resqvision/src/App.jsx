@@ -79,12 +79,7 @@ function App() {
               <Tab
                 label="Home"
                 value="home"
-                sx={{ color: 'white', textTransform: 'none' }}
-              />
-              <Tab
-                label="Response Analysis Dashboard"
-                value="response"
-                sx={{ color: 'white', textTransform: 'none' }}
+                sx={{ color: 'white', fontWeight: 'bold', textTransform: 'none' }}
               />
               <Tab
                 label="Incident Dashboard"
@@ -94,6 +89,11 @@ function App() {
                   fontWeight: 'bold',
                   textTransform: 'none',
                 }}
+              />
+              <Tab
+                label="Response Analysis Dashboard"
+                value="response"
+                sx={{ color: 'white', fontWeight: 'bold', textTransform: 'none' }}
               />
             </Tabs>
           </Box>
@@ -108,7 +108,7 @@ function App() {
             <Tab
               label="About Us"
               value="about"
-              sx={{ color: 'white', textTransform: 'none' }}
+              sx={{ color: 'white', fontWeight: 'bold', textTransform: 'none' }}
             />
           </Tabs>
         </Toolbar>
