@@ -43,8 +43,8 @@ const InjuriesResponseLineChart = ({
       const svg = d3.select(svgRef.current);
       svg.selectAll("*").remove();
 
-      const margin = { top: 40, right: 30, bottom: 50, left: 80 };
-      const width = 500 - margin.left - margin.right;
+      const margin = { top: 60, right: 30, bottom: 50, left: 80 };
+      const width = 400 - margin.left - margin.right;
       const height = 300 - margin.top - margin.bottom;
 
       const container = svg
@@ -136,19 +136,19 @@ const InjuriesResponseLineChart = ({
         .data(color.domain().filter((lvl) => selectedLevels.includes(lvl)))
         .enter()
         .append("g")
-        .attr("transform", (d, i) => `translate(${width - 100}, ${i * 20})`);
+        .attr("transform", (d, i) => `translate(${width - 50}, ${-margin.top  + i * 15})`)
 
       legend.append("rect")
         .attr("x", 0)
-        .attr("width", 12)
-        .attr("height", 12)
+        .attr("width", 10)
+        .attr("height", 10)
         .attr("fill", (d) => color(d));
 
       legend.append("text")
         .attr("x", 18)
         .attr("y", 10)
         .text((d) => d)
-        .attr("font-size", "0.8rem")
+        .attr("font-size", "0.7rem")
         .attr("fill", "#333");
     });
   }, [selectedRegions, selectedLevels, timeRange]);

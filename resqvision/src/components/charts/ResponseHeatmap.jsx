@@ -79,7 +79,7 @@ const ResponseHeatmap = ({
       container.append("text")
         .attr("transform", "rotate(-90)")
         .attr("x", -height / 2)
-        .attr("y", -60)
+        .attr("y", -80)
         .attr("text-anchor", "middle")
         .attr("font-size", "12px")
         .text("Road Type");

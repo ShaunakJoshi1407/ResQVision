@@ -169,7 +169,7 @@ const ResponseDashboard = () => {
           <Grid item xs={12} md={6}>
             <Card variant="outlined">
               <CardContent>
-                <Typography variant="h6" gutterBottom>
+                <Typography variant="h6" gutterBottom fontSize="1rem">
                   Avg. Response Time vs Ambulance Availability
                 </Typography>
                 <AmbulanceAvailabilityChart
@@ -184,7 +184,7 @@ const ResponseDashboard = () => {
           <Grid item xs={12} md={6}>
             <Card variant="outlined">
               <CardContent>
-                <Typography variant="h6" gutterBottom>
+                <Typography variant="h6" gutterBottom fontSize="1rem">
                   Avg. Response Time vs Number of Injuries
                 </Typography>
                 <InjuriesResponseLineChart
@@ -200,8 +200,8 @@ const ResponseDashboard = () => {
           <Grid item xs={12}>
             <Card variant="outlined">
               <CardContent>
-                <Typography variant="h6" gutterBottom>
-                  Response Time Heatmap (Distance × Road Type)
+                <Typography variant="h6" gutterBottom fontSize="1rem">
+                  Response Time Heatmap (Distance vs Road Type)
                 </Typography>
                 <ResponseHeatmap
                   selectedRegions={selectedRegions}
