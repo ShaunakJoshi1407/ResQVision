@@ -7,7 +7,9 @@ import {
   Tabs,
   Tab,
 } from '@mui/material';
+
 import IncidentSeverityDashboard from './components/IncidentSeverityDashboard';
+import ResponseTimesDashboard from './components/ResponseDashboard';
 
 function HomePage() {
   return (
@@ -37,14 +39,14 @@ function AboutPage() {
 }
 
 function App() {
-  const [activeTab, setActiveTab] = useState('incident');
+  const [activeTab, setActiveTab] = useState('home');
 
   const renderContent = () => {
     switch (activeTab) {
       case 'home':
         return <HomePage />;
       case 'response':
-        return <ResponseDashboard />;
+        return <ResponseTimesDashboard />;
       case 'about':
         return <AboutPage />;
       case 'incident':

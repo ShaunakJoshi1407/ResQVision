@@ -31,8 +31,8 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
 
       if (filtered.length === 0) {
         svg
-          .attr('width', 400)
-          .attr('height', 300)
+          .attr('width', 320)
+          .attr('height', 240)
           .append('text')
           .attr('x', 200)
           .attr('y', 150)
