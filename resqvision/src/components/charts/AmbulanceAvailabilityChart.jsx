@@ -7,6 +7,7 @@ const AmbulanceAvailabilityChart = ({
   timeRange = ["2018-01", "2024-12"],
 }) => {
   const svgRef = useRef();
+  const tooltipRef = useRef();
 
   useEffect(() => {
     d3.json("/data/ambulance_response_filtered.json").then((data) => {
@@ -14,7 +15,6 @@ const AmbulanceAvailabilityChart = ({
 
       const [startMonth, endMonth] = timeRange;
 
-      // Filter by Region, Level, and MonthYear
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
@@ -23,7 +23,6 @@ const AmbulanceAvailabilityChart = ({
           d.MonthYear <= endMonth
       );
 
-      // Aggregate by Ambulance_Availability
       const aggregated = d3.rollups(
         filtered,
         (v) => d3.mean(v, (d) => d.Avg_Response_Time),
@@ -65,7 +64,7 @@ const AmbulanceAvailabilityChart = ({
 
       container.append("g").call(d3.axisLeft(y));
 
-      // Axis labels
+      // Labels
       container.append("text")
         .attr("x", width / 2)
         .attr("y", height + 40)
@@ -79,8 +78,10 @@ const AmbulanceAvailabilityChart = ({
         .attr("text-anchor", "middle")
         .text("Avg. Response Time (min)");
 
-      // Bars
-      container.selectAll("rect")
+      const tooltip = d3.select(tooltipRef.current);
+
+      // Bars with custom tooltip
+      const bars = container.selectAll("rect")
         .data(aggregated)
         .enter()
         .append("rect")
@@ -89,12 +90,28 @@ const AmbulanceAvailabilityChart = ({
         .attr("width", x.bandwidth())
         .attr("height", 0)
         .attr("fill", "#1e40af")
-        .transition()
+        .on("mouseover", (event, d) => {
+          tooltip
+            .style("opacity", 1)
+            .html(
+              `<strong>${d.Ambulance_Availability}</strong>: ${d.Avg_Response_Time.toFixed(2)} min`
+            );
+        })
+        .on("mousemove", (event) => {
+          tooltip
+            .style("left", `${event.pageX + 10}px`)
+            .style("top", `${event.pageY - 28}px`);
+        })
+        .on("mouseout", () => {
+          tooltip.style("opacity", 0);
+        });
+
+      bars.transition()
         .duration(800)
         .attr("y", (d) => y(d.Avg_Response_Time))
         .attr("height", (d) => height - y(d.Avg_Response_Time));
 
-      // Value labels
+      // Labels on top of bars
       container.selectAll("text.value")
         .data(aggregated)
         .enter()
@@ -110,8 +127,23 @@ const AmbulanceAvailabilityChart = ({
   }, [selectedRegions, selectedLevels, timeRange]);
 
   return (
-    <div className="flex justify-center">
+    <div className="relative flex justify-center">
       <svg ref={svgRef}></svg>
+      <div
+        ref={tooltipRef}
+        style={{
+          position: "absolute",
+          pointerEvents: "none",
+          background: "#333",
+          color: "white",
+          padding: "6px 8px",
+          borderRadius: "4px",
+          fontSize: "12px",
+          opacity: 0,
+          transition: "opacity 0.2s ease-in-out",
+          zIndex: 10,
+        }}
+      ></div>
     </div>
   );
 };
