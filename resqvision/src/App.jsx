@@ -3,50 +3,119 @@ import {
   AppBar,
   Toolbar,
   Typography,
-  Button,
   Box,
+  Tabs,
+  Tab,
 } from '@mui/material';
-// import IncidentSeverityDashboard from './components/IncidentSeverityDashboard';
+
+import IncidentSeverityDashboard from './components/IncidentSeverityDashboard';
 import ResponseTimesDashboard from './components/ResponseDashboard';
 
-function App() {
-  const [activeView] = useState('response');
+function HomePage() {
+  return (
+    <div className="p-4 text-gray-600">
+      <Typography variant="h4">Welcome to ResQVision</Typography>
+      <p>This is the home page.</p>
+    </div>
+  );
+}
 
-  const renderActiveContent = () => {
-    switch (activeView) {
-      case 'incident':
-        return <div className="p-4 text-gray-600">[Incident Chart Coming Soon]</div>;
+function ResponseDashboard() {
+  return (
+    <div className="p-4 text-gray-600">
+      <Typography variant="h4">Response Analysis Dashboard</Typography>
+      <p>[Coming Soon]</p>
+    </div>
+  );
+}
+
+function AboutPage() {
+  return (
+    <div className="p-4 text-gray-600">
+      <Typography variant="h4">About Us</Typography>
+      <p>Details about the team, vision, and project.</p>
+    </div>
+  );
+}
+
+function App() {
+  const [activeTab, setActiveTab] = useState('home');
+
+  const renderContent = () => {
+    switch (activeTab) {
+      case 'home':
+        return <HomePage />;
       case 'response':
         return <ResponseTimesDashboard />;
+      case 'about':
+        return <AboutPage />;
+      case 'incident':
       default:
-        return null;
+        return <IncidentSeverityDashboard />;
     }
   };
 
   return (
     <div className="bg-gradient-to-br from-blue-50 to-slate-100 min-h-screen">
-      {/* Beautified Top Navbar without hamburger */}
-      <AppBar position="static" sx={{ background: 'linear-gradient(to right, #1e3a8a, #3b82f6)' }}>
-        <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
-          <Box display="flex" alignItems="center">
+      <AppBar
+        position="static"
+        sx={{
+          background: 'linear-gradient(to right, #1e3a8a, #3b82f6)',
+          paddingY: 0.5,
+        }}
+      >
+        <Toolbar>
+          {/* Left logo and tabs */}
+          <Box display="flex" alignItems="center" gap={4} sx={{ flexGrow: 1 }}>
             <Typography variant="h6" sx={{ fontWeight: 600, color: 'white' }}>
               ResQVision
             </Typography>
-          </Box>
-          <Box>
-            <Button
-              color="inherit"
-              sx={{ color: 'white', ml: 2 }}
-              href="/about"
+            <Tabs
+              value={activeTab}
+              onChange={(e, newValue) => setActiveTab(newValue)}
+              textColor="inherit"
+              TabIndicatorProps={{ style: { backgroundColor: 'white' } }}
             >
-              ABOUT US
-            </Button>
+              <Tab
+                label="Home"
+                value="home"
+                sx={{ color: 'white', textTransform: 'none' }}
+              />
+              <Tab
+                label="Response Analysis Dashboard"
+                value="response"
+                sx={{ color: 'white', textTransform: 'none' }}
+              />
+              <Tab
+                label="Incident Dashboard"
+                value="incident"
+                sx={{
+                  color: 'white',
+                  fontWeight: 'bold',
+                  textTransform: 'none',
+                }}
+              />
+            </Tabs>
           </Box>
+
+          {/* About Us on the far right */}
+          <Tabs
+            value={activeTab === 'about' ? 'about' : false}
+            onChange={(e, newValue) => setActiveTab(newValue)}
+            textColor="inherit"
+            TabIndicatorProps={{ style: { backgroundColor: 'white' } }}
+          >
+            <Tab
+              label="About Us"
+              value="about"
+              sx={{ color: 'white', textTransform: 'none' }}
+            />
+          </Tabs>
         </Toolbar>
       </AppBar>
 
-      {/* Main Content Area */}
-      <main className="flex-1 p-4 md:p-6">{renderActiveContent()}</main>
+      {/* Main Page Content */}
+      <main className="flex-1 p-4 md:p-6">{renderContent()}</main>
     </div>
   );
 }

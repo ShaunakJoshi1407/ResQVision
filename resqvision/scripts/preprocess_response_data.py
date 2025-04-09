@@ -3,18 +3,22 @@ import numpy as np
 import os
 
 # File paths
-input_csv = "data/emergency_service_routing_with_timestamps.csv"
+input_csv = "data/emergency_data_with_complex_response.csv"
 output_dir = "public/data"
 os.makedirs(output_dir, exist_ok=True)
 
 # Load dataset
 df = pd.read_csv(input_csv)
 
+# Convert Timestamp to datetime and extract Year
+df["Timestamp"] = pd.to_datetime(df["Timestamp"])
+df["MonthYear"] = df["Timestamp"].dt.to_period("M").astype(str)
+
 # ----------------------------------------
 # 1. Ambulance Response (Filtered)
 # ----------------------------------------
 ambulance_grouped = (
-    df.groupby(["Ambulance_Availability", "Region_Type", "Emergency_Level"])["Response_Time"]
+    df.groupby(["Ambulance_Availability", "Region_Type", "Emergency_Level", "MonthYear"])["Complex_Response_Time"]
     .mean()
     .reset_index()
 )
@@ -22,6 +26,7 @@ ambulance_grouped.columns = [
     "Ambulance_Availability",
     "Region_Type",
     "Emergency_Level",
+    "MonthYear",
     "Avg_Response_Time"
 ]
 ambulance_output = os.path.join(output_dir, "ambulance_response_filtered.json")
@@ -31,7 +36,7 @@ ambulance_grouped.to_json(ambulance_output, orient="records", indent=2)
 # 2. Injuries vs Response (with Region)
 # ----------------------------------------
 injury_grouped = (
-    df.groupby(["Region_Type", "Emergency_Level", "Number_of_Injuries"])["Response_Time"]
+    df.groupby(["Region_Type", "Emergency_Level", "Number_of_Injuries", "MonthYear"])["Response_Time"]
     .mean()
     .reset_index()
 )
@@ -39,6 +44,7 @@ injury_grouped.columns = [
     "Region_Type",
     "Emergency_Level",
     "Number_of_Injuries",
+    "MonthYear",
     "Avg_Response_Time"
 ]
 injury_output = os.path.join(output_dir, "injuries_response.json")
@@ -54,14 +60,19 @@ df["Distance_Bin"] = pd.cut(df["Distance_to_Incident"], bins=bins, labels=labels
 
 # Group by all filters + visual dimensions
 heatmap_grouped = (
-    df.groupby(["Road_Type", "Distance_Bin", "Region_Type", "Emergency_Level"])["Response_Time"]
+    df.groupby(["Road_Type", "Distance_Bin", "Region_Type", "Emergency_Level", "MonthYear"])["Complex_Response_Time"]
     .mean()
     .reset_index()
     .dropna()
 )
 
 heatmap_grouped.columns = [
-    "Road_Type", "Distance_Bin", "Region_Type", "Emergency_Level", "Avg_Response_Time"
+    "Road_Type", 
+    "Distance_Bin", 
+    "Region_Type", 
+    "Emergency_Level",
+    "MonthYear",
+    "Avg_Response_Time"
 ]
 
 heatmap_output = os.path.join(output_dir, "response_heatmap.json")

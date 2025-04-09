@@ -4,6 +4,7 @@ import * as d3 from "d3";
 const InjuriesResponseLineChart = ({
   selectedRegions = ["Urban", "Suburban", "Rural"],
   selectedLevels = ["Minor", "Major", "Critical"],
+  timeRange = ["2018-01", "2024-12"],
 }) => {
   const svgRef = useRef();
 
@@ -11,22 +12,39 @@ const InjuriesResponseLineChart = ({
     d3.json("/data/injuries_response.json").then((data) => {
       if (!data) return;
 
-      // Filter by selected Region and Emergency Level
+      const [startMonth, endMonth] = timeRange;
+
+      // Filter
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
-          selectedLevels.includes(d.Emergency_Level)
+          selectedLevels.includes(d.Emergency_Level) &&
+          d.MonthYear >= startMonth &&
+          d.MonthYear <= endMonth
       );
 
-      // Group by Emergency Level for one line per group
-      const grouped = d3.groups(filtered, (d) => d.Emergency_Level);
+      // Aggregate: get avg across same (level, injury count)
+      const aggregated = d3.rollups(
+        filtered,
+        (v) => d3.mean(v, (d) => d.Avg_Response_Time),
+        (d) => d.Emergency_Level,
+        (d) => d.Number_of_Injuries
+      ).flatMap(([level, injuryArr]) =>
+        injuryArr.map(([injuries, avg]) => ({
+          Emergency_Level: level,
+          Number_of_Injuries: injuries,
+          Avg_Response_Time: avg,
+        }))
+      );
 
-      // Clear previous chart
+      // Group by Emergency Level for D3 line()
+      const grouped = d3.groups(aggregated, (d) => d.Emergency_Level);
+
       const svg = d3.select(svgRef.current);
       svg.selectAll("*").remove();
 
-      const margin = { top: 40, right: 30, bottom: 50, left: 80 };
-      const width = 500 - margin.left - margin.right;
+      const margin = { top: 60, right: 30, bottom: 50, left: 80 };
+      const width = 400 - margin.left - margin.right;
       const height = 300 - margin.top - margin.bottom;
 
       const container = svg
@@ -38,13 +56,13 @@ const InjuriesResponseLineChart = ({
       // Scales
       const x = d3
         .scaleLinear()
-        .domain(d3.extent(filtered, (d) => d.Number_of_Injuries))
+        .domain(d3.extent(aggregated, (d) => d.Number_of_Injuries))
         .nice()
         .range([0, width]);
 
       const y = d3
         .scaleLinear()
-        .domain([0, d3.max(filtered, (d) => d.Avg_Response_Time)])
+        .domain([0, d3.max(aggregated, (d) => d.Avg_Response_Time)])
         .nice()
         .range([height, 0]);
 
@@ -55,10 +73,13 @@ const InjuriesResponseLineChart = ({
       // Axes
       container.append("g")
         .attr("transform", `translate(0, ${height})`)
-        .call(d3.axisBottom(x));
+        .call(
+          d3.axisBottom(x)
+            .ticks(aggregated.length)
+            .tickFormat((d) => Number.isInteger(d) ? d : "")
+        );
 
-      container.append("g")
-        .call(d3.axisLeft(y));
+      container.append("g").call(d3.axisLeft(y));
 
       // Axis Labels
       container.append("text")
@@ -74,7 +95,7 @@ const InjuriesResponseLineChart = ({
         .attr("text-anchor", "middle")
         .text("Avg. Response Time (min)");
 
-      // Draw lines and dots
+      // Lines + dots + labels
       grouped.forEach(([level, values]) => {
         const sorted = values.sort((a, b) => a.Number_of_Injuries - b.Number_of_Injuries);
 
@@ -98,7 +119,6 @@ const InjuriesResponseLineChart = ({
           .attr("r", 3)
           .attr("fill", color(level));
 
-        // Labels above each dot
         container.selectAll(`text-${level}`)
           .data(sorted)
           .enter()
@@ -116,22 +136,22 @@ const InjuriesResponseLineChart = ({
         .data(color.domain().filter((lvl) => selectedLevels.includes(lvl)))
         .enter()
         .append("g")
-        .attr("transform", (d, i) => `translate(${width - 100}, ${i * 20})`);
+        .attr("transform", (d, i) => `translate(${width - 50}, ${-margin.top  + i * 15})`)
 
       legend.append("rect")
         .attr("x", 0)
-        .attr("width", 12)
-        .attr("height", 12)
+        .attr("width", 10)
+        .attr("height", 10)
         .attr("fill", (d) => color(d));
 
       legend.append("text")
         .attr("x", 18)
         .attr("y", 10)
         .text((d) => d)
-        .attr("font-size", "0.8rem")
+        .attr("font-size", "0.7rem")
         .attr("fill", "#333");
     });
-  }, [selectedRegions, selectedLevels]);
+  }, [selectedRegions, selectedLevels, timeRange]);
 
   return (
     <div className="flex justify-center">
