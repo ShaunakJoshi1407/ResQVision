@@ -1,0 +1,7 @@
+{
+  "unique_emergencies": 36,
+  "avg_response_time_min": 17.0,
+  "most_common_incident": "Accident",
+  "percent_high_severity": 10.0,
+  "ambulance_availability_rate": 90.0
+}

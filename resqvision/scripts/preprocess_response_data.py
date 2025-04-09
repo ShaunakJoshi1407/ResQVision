@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 # File paths
-input_csv = "data/emergency_data_with_complex_response.csv"
+input_csv = "data/emergency_data_updated.csv"
 output_dir = "public/data"
 os.makedirs(output_dir, exist_ok=True)
 
