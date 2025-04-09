@@ -10,24 +10,8 @@ import {
 
 import IncidentSeverityDashboard from './components/IncidentSeverityDashboard';
 import ResponseTimesDashboard from './components/ResponseDashboard';
-
-function HomePage() {
-  return (
-    <div className="p-4 text-gray-600">
-      <Typography variant="h4">Welcome to ResQVision</Typography>
-      <p>This is the home page.</p>
-    </div>
-  );
-}
-
-function ResponseDashboard() {
-  return (
-    <div className="p-4 text-gray-600">
-      <Typography variant="h4">Response Analysis Dashboard</Typography>
-      <p>[Coming Soon]</p>
-    </div>
-  );
-}
+import WeatherDashboard from './components/WeatherDashboard';
+import HomePage from './components/HomePage';
 
 function AboutPage() {
   return (
@@ -44,14 +28,17 @@ function App() {
   const renderContent = () => {
     switch (activeTab) {
       case 'home':
-        return <HomePage />;
+        return <HomePage setActiveTab={setActiveTab} />;
+      case 'incident':
+        return <IncidentSeverityDashboard />;
       case 'response':
         return <ResponseTimesDashboard />;
+      case 'weather':
+        return <WeatherDashboard />;
       case 'about':
         return <AboutPage />;
-      case 'incident':
       default:
-        return <IncidentSeverityDashboard />;
+        return <HomePage setActiveTab={setActiveTab} />;
     }
   };
 
@@ -79,21 +66,22 @@ function App() {
               <Tab
                 label="Home"
                 value="home"
-                sx={{ color: 'white', fontWeight: 'bold', textTransform: 'none' }}
+                sx={{ color: 'white', textTransform: 'none' }}
               />
               <Tab
-                label="Incident Dashboard"
+                label="Incident Trends Dashboard"
                 value="incident"
-                sx={{
-                  color: 'white',
-                  fontWeight: 'bold',
-                  textTransform: 'none',
-                }}
+                sx={{ color: 'white', textTransform: 'none' }}
               />
               <Tab
                 label="Response Analysis Dashboard"
                 value="response"
-                sx={{ color: 'white', fontWeight: 'bold', textTransform: 'none' }}
+                sx={{ color: 'white', textTransform: 'none' }}
+              />
+              <Tab
+                label="Weather Impact"
+                value="weather"
+                sx={{ color: 'white', textTransform: 'none' }}
               />
             </Tabs>
           </Box>
@@ -108,7 +96,7 @@ function App() {
             <Tab
               label="About Us"
               value="about"
-              sx={{ color: 'white', fontWeight: 'bold', textTransform: 'none' }}
+              sx={{ color: 'white', textTransform: 'none' }}
             />
           </Tabs>
         </Toolbar>
