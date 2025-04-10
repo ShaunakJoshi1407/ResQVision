@@ -8,6 +8,7 @@ import {
   Tab,
 } from '@mui/material';
 
+// Importing the different components for each tab that can be displayed as a part of the quick links
 import IncidentSeverityDashboard from './components/IncidentSeverityDashboard';
 import ResponseTimesDashboard from './components/ResponseDashboard';
 import WeatherDashboard from './components/WeatherDashboard';
@@ -17,11 +18,12 @@ function AboutPage() {
   return (
     <div className="p-4 text-gray-600">
       <Typography variant="h4">About Us</Typography>
-      <p>Details about the team, vision, and project.</p>
+      <p>ResQVision</p>
     </div>
   );
 }
 
+// Content for the active tab and all the tabs in the navbar
 function App() {
   const [activeTab, setActiveTab] = useState('home');
 
@@ -52,7 +54,7 @@ function App() {
         }}
       >
         <Toolbar>
-          {/* Left logo and tabs */}
+          {/* Name of dashboard and the navbar tabs */}
           <Box display="flex" alignItems="center" gap={4} sx={{ flexGrow: 1 }}>
             <Typography variant="h6" sx={{ fontWeight: 600, color: 'white' }}>
               ResQVision
@@ -86,7 +88,8 @@ function App() {
             </Tabs>
           </Box>
 
-          {/* About Us on the far right */}
+          {/* About Us Page. More info coming soon */}
+          {/* TODO */}
           <Tabs
             value={activeTab === 'about' ? 'about' : false}
             onChange={(e, newValue) => setActiveTab(newValue)}

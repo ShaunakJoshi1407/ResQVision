@@ -36,6 +36,7 @@ const regionOptions = ["Rural", "Suburban", "Urban"];
 const incidentOptions = ["Accident", "Fire", "Cardiac Arrest", "Other"];
 
 const IncidentSeverityDashboard = () => {
+  // State management for selected filters. Making use of the inbuilt state management in React.
   const [selectedRegions, setSelectedRegions] = useState([...regionOptions]);
   const [selectedIncidents, setSelectedIncidents] = useState([...incidentOptions]);
   const [timeRange, setTimeRange] = useState([0, monthYearOptions.length - 1]);
@@ -55,7 +56,7 @@ const IncidentSeverityDashboard = () => {
 
   return (
     <Box display="flex" height="100%">
-      {/* Sidebar Filters */}
+      {/* Sidebar Filter container */}
       <Box
         width="260px"
         minHeight="100vh"
@@ -71,7 +72,7 @@ const IncidentSeverityDashboard = () => {
           Filters
         </Typography>
 
-        {/* Region Type */}
+        {/* Region Type: Urban, Suburban and Rural */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
             <Typography variant="subtitle2" gutterBottom>
@@ -98,7 +99,7 @@ const IncidentSeverityDashboard = () => {
           </CardContent>
         </Card>
 
-        {/* Incident Type */}
+        {/* Incident Type: Accident, Cardiac Arrest, Fire, Other. */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
             <Typography variant="subtitle2" gutterBottom>
@@ -125,7 +126,7 @@ const IncidentSeverityDashboard = () => {
           </CardContent>
         </Card>
 
-        {/* Time Range Slider */}
+        {/* Time Range Slider, which we found is more intuitive as compared to two separate fields for `To` and `From` months. */}
         <Card variant="outlined">
           <CardContent>
             <Typography variant="subtitle2" gutterBottom>
@@ -148,7 +149,7 @@ const IncidentSeverityDashboard = () => {
                 min={0}
                 max={monthYearOptions.length - 1}
                 step={1}
-                valueLabelDisplay="off" // hides labels under thumbs
+                valueLabelDisplay="off"
               />
             </Box>
 
@@ -156,10 +157,9 @@ const IncidentSeverityDashboard = () => {
         </Card>
       </Box>
 
-      {/* Main Chart Area */}
       <Box flex={1} p={3}>
         <Grid container spacing={3}>
-          {/* Top Row: Chart 1 & Chart 2 */}
+          {/* Top Row includes the Incident Bar Chart and the Severity Count Chart */}
           <Grid item xs={12} md={6}>
             <Card variant="outlined">
               <CardContent>
@@ -192,7 +192,7 @@ const IncidentSeverityDashboard = () => {
             </Card>
           </Grid>
 
-          {/* Bottom Row: Chart 3 */}
+          {/* Bottom Row: Incident Trends chart which is varied over time using the time range filter.*/}
           <Grid item xs={12}>
             <Card variant="outlined">
               <CardContent>

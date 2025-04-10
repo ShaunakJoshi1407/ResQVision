@@ -114,7 +114,7 @@ const ResponseHeatmap = ({
           tooltip.style("opacity", 0);
         });
 
-      // Text inside each cell
+      // Display text inside each cell of the heatmap so more information can be gained from the heatmap.
       container.selectAll("text.cell-label")
         .data(grouped)
         .enter()
@@ -127,7 +127,7 @@ const ResponseHeatmap = ({
         .attr("fill", "#000")
         .text((d) => d.Avg_Response_Time.toFixed(1));
 
-      // Color legend
+      // Color legend for the heatmap.
       const defs = svg.append("defs");
       const legendWidth = 200,
         legendHeight = 10;
