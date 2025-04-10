@@ -1,6 +1,8 @@
 import React from 'react';
 import { Typography } from '@mui/material';
 
+{/* TODO */}
+// Placeholder for Weather Impact Dashboard
 const WeatherDashboard = () => {
   return (
     <div className="p-4 text-gray-600">

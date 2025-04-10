@@ -105,7 +105,7 @@ const SeverityBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
         .attr('text-anchor', 'middle')
         .text('Severity');
 
-      // Get tooltip div
+      // Tooltip div for better accessibility
       const tooltip = d3.select(tooltipRef.current);
 
       const bars = container
@@ -118,7 +118,7 @@ const SeverityBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
         .attr('height', y.bandwidth())
         .attr('width', 0)
         .attr('fill', (d) => ({
-          Low: '#FFDA1F',//'#4CAF50',
+          Low: '#FFDA1F',
           Medium: '#FF9800',
           High: '#F44336',
         }[d.Severity]))

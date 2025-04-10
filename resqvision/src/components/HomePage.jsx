@@ -6,6 +6,9 @@ import {
   Grid,
   Button,
 } from '@mui/material';
+
+// Icons used in the quick links
+// Making it similar to the common EMS dashboards that we have reviewed
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import TimerIcon from '@mui/icons-material/Timer';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
@@ -17,7 +20,7 @@ const metricStyle = {
 };
 
 const valueStyle = {
-  color: '#1d4ed8', // prominent blue
+  color: '#1d4ed8',
   fontSize: '1.8rem',
   fontWeight: 'bold',
 };
@@ -34,7 +37,7 @@ const HomePage = ({ setActiveTab }) => {
 
   return (
     <Box p={4}>
-      {/* Top Metrics */}
+      {/* Top Metrics fetched from the dataset that we have used.*/}
       <Grid container spacing={3} justifyContent="center" mb={10}>
         {metrics ? (
           <>
@@ -115,7 +118,8 @@ const HomePage = ({ setActiveTab }) => {
         </Grid>
       </Box>
 
-      {/* How to Use */}
+      {/* How to Use: Still in progress */}
+      {/* TODO */}
       <Box mt={12}>
         <Typography variant="h5" align="center" gutterBottom sx={{ fontWeight: 600 }}>
           How to Use

@@ -40,7 +40,7 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
           .append('text')
           .attr('x', 20)
           .attr('y', 40)
-          .text('No data available for selected filters.')
+          .text('No data available for selected filters.') // As we are using a time filter, some incidents might not have enough values. Displayed in that case.
           .attr('fill', 'gray');
         return;
       }
@@ -55,7 +55,7 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
         .append('g')
         .attr('transform', `translate(${margin.left},${margin.top})`);
 
-      // Step 1: Aggregate across regions per month and incident type
+      // Aggregate across regions per month and incident type
       const aggregated = d3.rollups(
         filtered,
         v => d3.sum(v, d => d.Count),
@@ -63,7 +63,7 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
         d => d.Incident_Type
       );
 
-      // Step 2: Convert to flat array
+      // Flatten the data for easier processing
       const flatData = [];
       aggregated.forEach(([month, byType]) => {
         byType.forEach(([incident, count]) => {
@@ -71,7 +71,7 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
         });
       });
 
-      // Step 3: Group for line drawing
+      // Group for line drawing
       const trendsByType = d3.group(flatData, d => d.Incident_Type);
       const allMonths = Array.from(new Set(filtered.map((d) => d.MonthYear))).sort();
       const x = d3.scalePoint().domain(allMonths).range([0, width]);

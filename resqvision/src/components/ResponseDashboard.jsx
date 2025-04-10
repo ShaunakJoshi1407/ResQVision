@@ -47,6 +47,7 @@ const regionOptions = ["Rural", "Suburban", "Urban"];
 const emergencyLevels = ["Minor", "Major", "Critical"];
 
 const ResponseDashboard = () => {
+  // State management for selected filters. Making use of the inbuilt state management in React.
   const [selectedRegions, setSelectedRegions] = useState([...regionOptions]);
   const [selectedLevels, setSelectedLevels] = useState([...emergencyLevels]);
   const [timeRange, setTimeRange] = useState([0, monthYearOptions.length - 1]);
@@ -66,7 +67,7 @@ const ResponseDashboard = () => {
 
   return (
     <Box display="flex">
-      {/* Sidebar */}
+      {/* Sidebar*/}
       <Box
         width="260px"
         minHeight="100vh"
@@ -78,7 +79,7 @@ const ResponseDashboard = () => {
           Filters
         </Typography>
 
-        {/* Region Filter */}
+        {/* Region Type container: Urban, Suburban and Rural */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
             <Typography variant="subtitle2" gutterBottom>
@@ -105,7 +106,7 @@ const ResponseDashboard = () => {
           </CardContent>
         </Card>
 
-        {/* Emergency Level Filter */}
+        {/* Emergency Level Filter: Low, Medium, High */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
             <Typography variant="subtitle2" gutterBottom>
@@ -162,10 +163,9 @@ const ResponseDashboard = () => {
         </Card>
       </Box>
 
-      {/* Main Chart Area */}
       <Box flex={1} p={3}>
         <Grid container spacing={3}>
-          {/* Row 1 */}
+          {/* Structure similar to IncidentSeverityDashboard */}
           <Grid item xs={12} md={6}>
             <Card variant="outlined">
               <CardContent>
@@ -196,12 +196,12 @@ const ResponseDashboard = () => {
             </Card>
           </Grid>
 
-          {/* Row 2 */}
+          {/* Row 2 contains the Heatmap for response time on the basis of road type and the distance to the incident. */}
           <Grid item xs={12}>
             <Card variant="outlined">
               <CardContent>
                 <Typography variant="h6" gutterBottom fontSize="1rem">
-                  Response Time Heatmap (Distance vs Road Type)
+                  Response Time by Road Type and Distance
                 </Typography>
                 <ResponseHeatmap
                   selectedRegions={selectedRegions}

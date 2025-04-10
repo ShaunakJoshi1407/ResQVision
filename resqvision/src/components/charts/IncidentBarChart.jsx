@@ -91,7 +91,7 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
         .attr('text-anchor', 'middle')
         .text('Number of Incidents');
 
-      // Custom Tooltip div
+      // Custom Tooltip div for better accessibility
       const tooltip = d3.select(tooltipRef.current);
 
       const bars = container.selectAll('rect')
