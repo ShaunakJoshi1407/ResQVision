@@ -143,7 +143,7 @@ const WeatherDashboard = () => {
               Average Response Time by Weather Condition and Road Type
             </Typography>
             <Typography variant="subtitle2" gutterBottom>
-              Region Type: {selectedRegion}, Traffic: {selectedTraffic}
+              Region Type: {selectedRegion} &nbsp; &nbsp; &nbsp; Traffic: {selectedTraffic}
             </Typography>
             <WeatherHeatmap
               selectedRegions={[selectedRegion]}
