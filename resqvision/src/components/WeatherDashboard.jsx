@@ -10,7 +10,10 @@ import {
   FormControlLabel,
   Grid,
   Slider,
+  IconButton,
+  Tooltip,
 } from "@mui/material";
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import WeatherHeatmap from "./charts/WeatherHeatmap";
 
 const monthYearOptions = [
@@ -53,8 +56,8 @@ const WeatherDashboard = () => {
       >
         <Typography
           variant="h5"
-          className="mb-4"
-          style={{ fontWeight: 600, color: "#1E40AF", letterSpacing: "0.5px" }}
+          gutterBottom
+          sx={{ fontWeight: 600, color: "#1E40AF" }}
         >
           Filters
         </Typography>
@@ -115,12 +118,8 @@ const WeatherDashboard = () => {
             </Typography>
             <Box mt={3} px={1}>
               <Box display="flex" justifyContent="space-between" mb={1}>
-                <Typography variant="body2" style={{ fontWeight: 500 }}>
-                  {monthYearOptions[timeRange[0]]}
-                </Typography>
-                <Typography variant="body2" style={{ fontWeight: 500 }}>
-                  {monthYearOptions[timeRange[1]]}
-                </Typography>
+                <Typography variant="body2">{startMonth}</Typography>
+                <Typography variant="body2">{endMonth}</Typography>
               </Box>
               <Slider
                 value={timeRange}
@@ -128,7 +127,6 @@ const WeatherDashboard = () => {
                 min={0}
                 max={monthYearOptions.length - 1}
                 step={1}
-                valueLabelDisplay="off"
               />
             </Box>
           </CardContent>
@@ -139,11 +137,18 @@ const WeatherDashboard = () => {
       <Box flex={1} p={3}>
         <Card variant="outlined">
           <CardContent>
-            <Typography variant="h6" gutterBottom>
-              Average Response Time by Weather Condition and Road Type
-            </Typography>
+            <Box display="flex" justifyContent="space-between">
+              <Typography variant="h6" gutterBottom>
+                Average Response Time by Weather Condition and Road Type
+              </Typography>
+              <Tooltip title="Displays the average response time for combinations of weather conditions and road types.">
+                <IconButton size="small">
+                  <InfoOutlinedIcon fontSize="small" />
+                </IconButton>
+              </Tooltip>
+            </Box>
             <Typography variant="subtitle2" gutterBottom>
-              Region Type: {selectedRegion} &nbsp; &nbsp; &nbsp; Traffic: {selectedTraffic}
+              Region Type: {selectedRegion} &nbsp;&nbsp;&nbsp; Traffic: {selectedTraffic}
             </Typography>
             <WeatherHeatmap
               selectedRegions={[selectedRegion]}

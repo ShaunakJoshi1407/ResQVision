@@ -7,8 +7,6 @@ import {
   Button,
 } from '@mui/material';
 
-// Icons used in the quick links
-// Making it similar to the common EMS dashboards that we have reviewed
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import TimerIcon from '@mui/icons-material/Timer';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
@@ -37,7 +35,7 @@ const HomePage = ({ setActiveTab }) => {
 
   return (
     <Box p={4}>
-      {/* Top Metrics fetched from the dataset that we have used.*/}
+      {/* Top Metrics */}
       <Grid container spacing={3} justifyContent="center" mb={10}>
         {metrics ? (
           <>
@@ -78,12 +76,11 @@ const HomePage = ({ setActiveTab }) => {
       </Grid>
 
       {/* Quick Links */}
-      <Box mt={12} mb={12}>
+      <Box mt={10} mb={8}>
         <Typography variant="h5" align="center" gutterBottom sx={{ fontWeight: 600 }}>
           Quick Links
         </Typography>
-        <br/>
-
+        <br />
         <Grid container spacing={3} justifyContent="center" mt={1}>
           <Grid item>
             <Button
@@ -118,14 +115,74 @@ const HomePage = ({ setActiveTab }) => {
         </Grid>
       </Box>
 
-      {/* How to Use: Still in progress */}
-      {/* TODO */}
-      <Box mt={12}>
+      {/* How to Use Section */}
+      <Box mt={10}>
         <Typography variant="h5" align="center" gutterBottom sx={{ fontWeight: 600 }}>
           How to Use
         </Typography>
-        <Paper elevation={1} sx={{ padding: 4, textAlign: 'center', color: '#6b7280' }}>
-          &lt;Instructions&gt;
+
+        <Paper elevation={2} sx={{ p: 4, mt: 3, color: '#4b5563' }}>
+          {/* Overview */}
+          <Typography variant="body1" gutterBottom>
+            This dashboard platform includes three main sections:
+          </Typography>
+          <ul style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
+            <li><strong>Incidents & Severity</strong></li>
+            <li><strong>Response Time</strong></li>
+            <li><strong>Weather Impact</strong></li>
+          </ul>
+          <Typography variant="body1" gutterBottom>
+            Each section includes interactive and filterable charts for analyzing emergency service performance across regions, time, and environmental factors.
+          </Typography>
+
+          {/* Incident & Response Dashboards */}
+          <Box mt={3}>
+            <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
+              Incident & Response Dashboards
+            </Typography>
+            <Typography variant="body2" gutterBottom>
+              Use the following filters:
+            </Typography>
+            <ul style={{ paddingLeft: '1.5rem' }}>
+              <li><strong>Region Type:</strong> Urban, Suburban, Rural (multi-select)</li>
+              <li><strong>Incident Type:</strong> e.g., Fire, Medical, Crash (multi-select)</li>
+              <li><strong>Time Range:</strong> Jan 2018 – Dec 2024 via a month-year slider</li>
+            </ul>
+            <Typography variant="body2" gutterBottom>
+              These filters dynamically update all charts in the view. Legends can also be used to toggle specific series within charts.
+            </Typography>
+          </Box>
+
+          {/* Weather Dashboard */}
+          <Box mt={3}>
+            <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
+              Weather Dashboard
+            </Typography>
+            <Typography variant="body2" gutterBottom>
+              Filters in this section include:
+            </Typography>
+            <ul style={{ paddingLeft: '1.5rem' }}>
+              <li><strong>Region Type:</strong> (single-select)</li>
+              <li><strong>Traffic Congestion:</strong> (single-select)</li>
+              <li><strong>Time Range:</strong> Jan 2018 – Dec 2024</li>
+            </ul>
+            <Typography variant="body2" gutterBottom>
+              Focuses on how weather and road conditions affect emergency response using heatmaps.
+            </Typography>
+          </Box>
+
+          {/* Interaction Tips */}
+          <Box mt={3}>
+            <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
+              Interaction Tips
+            </Typography>
+            <ul style={{ paddingLeft: '1.5rem' }}>
+              <li>Use the info icon besides each chart to learn more about it.</li>
+              <li>Hover over chart elements to see exact values.</li>
+              <li>Legends can toggle specific chart lines or categories.</li>
+              <li>Tooltips and color cues highlight key trends and anomalies.</li>
+            </ul>
+          </Box>
         </Paper>
       </Box>
     </Box>

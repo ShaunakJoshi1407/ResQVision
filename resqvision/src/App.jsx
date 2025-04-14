@@ -6,9 +6,11 @@ import {
   Box,
   Tabs,
   Tab,
+  Paper,
+  Link,
 } from '@mui/material';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
-// Importing the different components for each tab that can be displayed as a part of the quick links
 import IncidentSeverityDashboard from './components/IncidentSeverityDashboard';
 import ResponseTimesDashboard from './components/ResponseDashboard';
 import WeatherDashboard from './components/WeatherDashboard';
@@ -16,14 +18,94 @@ import HomePage from './components/HomePage';
 
 function AboutPage() {
   return (
-    <div className="p-4 text-gray-600">
-      <Typography variant="h4">About Us</Typography>
-      <p>ResQVision</p>
-    </div>
+    <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      minHeight="calc(100vh - 64px)"
+      padding={2}
+    >
+      <Paper elevation={3} sx={{ padding: 4, maxWidth: 600 }}>
+        <Typography variant="h4" gutterBottom>
+          About Us
+        </Typography>
+        <Typography variant="body1" paragraph>
+          ResQVision is a data visualization dashboard built to help emergency services analyze patterns in incidents, response times, and environmental factors like traffic and weather.
+        </Typography>
+        <Typography variant="h6" gutterBottom>
+          Team Members
+        </Typography>
+        <ul style={{ paddingLeft: '1.5rem' }}>
+          <li><Link 
+                href="https://www.linkedin.com/in/shaunakhemantjoshi/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                display="flex"
+              >
+                Shaunak Hemant Joshi
+              </Link>
+          </li>
+
+          <li><Link 
+                href="https://www.linkedin.com/in/tanay-mehendale/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                display="flex"
+              >
+                Tanay Mahesh Mehendale
+              </Link>
+          </li>
+
+          <li><Link 
+                href="https://www.linkedin.com/in/yapatil/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                display="flex"
+              >
+                Yash Patil
+              </Link>
+          </li>
+
+          <li><Link 
+                href="https://www.linkedin.com/in/sai-nithya-makineni/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                display="flex"
+              >
+                Sai Nithya Makineni
+              </Link>
+          </li>
+          
+        </ul>
+        <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
+          Contact & Contributions
+        </Typography>
+        <Typography variant="body1" paragraph>
+          You can reach us via our GitHub repository. If you have suggestions, feedback, or spot any issues, feel free to raise an issue or create a pull request:
+        </Typography>
+        <Link
+          href="https://github.com/ShaunakJoshi1407/ResQVision"
+          target="_blank"
+          rel="noopener noreferrer"
+          underline="hover"
+          display="flex"
+          alignItems="center"
+          gap={1}
+          color="primary"
+          sx={{ fontWeight: 500 }}
+        >
+          <GitHubIcon fontSize="small" />
+          github.com/ShaunakJoshi1407/ResQVision
+        </Link>
+      </Paper>
+    </Box>
   );
 }
 
-// Content for the active tab and all the tabs in the navbar
 function App() {
   const [activeTab, setActiveTab] = useState('home');
 
@@ -54,7 +136,6 @@ function App() {
         }}
       >
         <Toolbar>
-          {/* Name of dashboard and the navbar tabs */}
           <Box display="flex" alignItems="center" gap={4} sx={{ flexGrow: 1 }}>
             <Typography variant="h6" sx={{ fontWeight: 600, color: 'white' }}>
               ResQVision
@@ -65,48 +146,27 @@ function App() {
               textColor="inherit"
               TabIndicatorProps={{ style: { backgroundColor: 'white' } }}
             >
-              <Tab
-                label="Home"
-                value="home"
-                sx={{ color: 'white', textTransform: 'none' }}
-              />
-              <Tab
-                label="Incident Trends Dashboard"
-                value="incident"
-                sx={{ color: 'white', textTransform: 'none' }}
-              />
-              <Tab
-                label="Response Analysis Dashboard"
-                value="response"
-                sx={{ color: 'white', textTransform: 'none' }}
-              />
-              <Tab
-                label="Weather Impact"
-                value="weather"
-                sx={{ color: 'white', textTransform: 'none' }}
-              />
+              <Tab label="Home" value="home" sx={{ color: 'white', textTransform: 'none' }} />
+              <Tab label="Incident Trends Dashboard" value="incident" sx={{ color: 'white', textTransform: 'none' }} />
+              <Tab label="Response Analysis Dashboard" value="response" sx={{ color: 'white', textTransform: 'none' }} />
+              <Tab label="Weather Impact Dashboard" value="weather" sx={{ color: 'white', textTransform: 'none' }} />
             </Tabs>
           </Box>
 
-          {/* About Us Page. More info coming soon */}
-          {/* TODO */}
           <Tabs
             value={activeTab === 'about' ? 'about' : false}
             onChange={(e, newValue) => setActiveTab(newValue)}
             textColor="inherit"
             TabIndicatorProps={{ style: { backgroundColor: 'white' } }}
           >
-            <Tab
-              label="About Us"
-              value="about"
-              sx={{ color: 'white', textTransform: 'none' }}
-            />
+            <Tab label="About Us" value="about" sx={{ color: 'white', textTransform: 'none' }} />
           </Tabs>
         </Toolbar>
       </AppBar>
 
-      {/* Main Page Content */}
-      <main className="flex-1 p-4 md:p-6">{renderContent()}</main>
+      <main className="flex-1 p-4 md:p-6" style={{ marginTop: '1rem' }}>
+        {renderContent()}
+      </main>
     </div>
   );
 }

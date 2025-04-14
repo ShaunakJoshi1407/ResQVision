@@ -74,7 +74,7 @@ const InjuriesResponseLineChart = ({
         .call(
           d3.axisBottom(x)
             .tickValues([1, 2, 3, 4])
-            .tickFormat(d3.format("d"))
+            .tickFormat((d) => (d === 4 ? "4+" : d.toString()))
         );
 
       container.append("g").call(d3.axisLeft(y));
@@ -83,7 +83,7 @@ const InjuriesResponseLineChart = ({
         .attr("x", width / 2)
         .attr("y", height + 40)
         .attr("text-anchor", "middle")
-        .text("Number of Injuries");
+        .text("Number of Injuries (1 - 4+)");
 
       container.append("text")
         .attr("transform", "rotate(-90)")
