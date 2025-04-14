@@ -81,7 +81,7 @@ function App() {
                 sx={{ color: 'white', textTransform: 'none' }}
               />
               <Tab
-                label="Weather Impact"
+                label="Weather Impact Dashboard"
                 value="weather"
                 sx={{ color: 'white', textTransform: 'none' }}
               />

@@ -5,10 +5,12 @@ import {
   Paper,
   Grid,
   Button,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
 } from '@mui/material';
 
-// Icons used in the quick links
-// Making it similar to the common EMS dashboards that we have reviewed
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import TimerIcon from '@mui/icons-material/Timer';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
@@ -37,7 +39,7 @@ const HomePage = ({ setActiveTab }) => {
 
   return (
     <Box p={4}>
-      {/* Top Metrics fetched from the dataset that we have used.*/}
+      {/* Top Metrics */}
       <Grid container spacing={3} justifyContent="center" mb={10}>
         {metrics ? (
           <>
@@ -78,12 +80,10 @@ const HomePage = ({ setActiveTab }) => {
       </Grid>
 
       {/* Quick Links */}
-      <Box mt={12} mb={12}>
+      <Box mt={10} mb={8}>
         <Typography variant="h5" align="center" gutterBottom sx={{ fontWeight: 600 }}>
           Quick Links
         </Typography>
-        <br/>
-
         <Grid container spacing={3} justifyContent="center" mt={1}>
           <Grid item>
             <Button
@@ -118,15 +118,92 @@ const HomePage = ({ setActiveTab }) => {
         </Grid>
       </Box>
 
-      {/* How to Use: Still in progress */}
-      {/* TODO */}
-      <Box mt={12}>
+      {/* How to Use */}
+      <Box mt={10}>
         <Typography variant="h5" align="center" gutterBottom sx={{ fontWeight: 600 }}>
           How to Use
         </Typography>
-        <Paper elevation={1} sx={{ padding: 4, textAlign: 'center', color: '#6b7280' }}>
-          &lt;Instructions&gt;
-        </Paper>
+
+        <Box mt={4}>
+          {/* Incident Dashboard */}
+          <Accordion>
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+              <Typography sx={{ fontWeight: 600, display: 'flex', alignItems: 'center' }}>
+                <NotificationsIcon sx={{ mr: 1 }} /> Incident Dashboard
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography variant="body1" gutterBottom>
+                Visualize historical incident patterns and their severity breakdowns over time and across regions.
+              </Typography>
+              <ul style={{ paddingLeft: '1.5rem', lineHeight: 1.8 }}>
+                <li><strong>Incident Type vs Count:</strong> Distribution of emergency types.</li>
+                <li><strong>Severity vs Count:</strong> Severity-level analysis.</li>
+                <li><strong>Incident Trends:</strong> Monthly trends over time.</li>
+                <li>Filters:
+                  <ul>
+                    <li><strong>Region Type</strong></li>
+                    <li><strong>Incident Type</strong></li>
+                    <li><strong>Time Range</strong></li>
+                  </ul>
+                </li>
+                <li>Hover over charts to view exact counts and insights.</li>
+              </ul>
+            </AccordionDetails>
+          </Accordion>
+
+          {/* Response Dashboard */}
+          <Accordion>
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+              <Typography sx={{ fontWeight: 600, display: 'flex', alignItems: 'center' }}>
+                <TimerIcon sx={{ mr: 1 }} /> Response Dashboard
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography variant="body1" gutterBottom>
+                Analyze how response time varies based on availability and infrastructure.
+              </Typography>
+              <ul style={{ paddingLeft: '1.5rem', lineHeight: 1.8 }}>
+                <li><strong>Ambulance Availability:</strong> Response delays comparison.</li>
+                <li><strong>Injuries Chart:</strong> Injuries vs time relationship.</li>
+                <li><strong>Heatmap:</strong> Road Type vs Distance impact.</li>
+                <li>Filters:
+                  <ul>
+                    <li><strong>Region Type</strong></li>
+                    <li><strong>Emergency Level</strong></li>
+                    <li><strong>Time Range</strong></li>
+                  </ul>
+                </li>
+              </ul>
+            </AccordionDetails>
+          </Accordion>
+
+          {/* Weather Dashboard */}
+          <Accordion>
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+              <Typography sx={{ fontWeight: 600, display: 'flex', alignItems: 'center' }}>
+                <WbSunnyIcon sx={{ mr: 1 }} /> Weather Dashboard
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography variant="body1" gutterBottom>
+                Examine how weather conditions and road types influence response times.
+              </Typography>
+              <ul style={{ paddingLeft: '1.5rem', lineHeight: 1.8 }}>
+                <li><strong>Weather × Road Type Heatmap:</strong> Compare average response time.</li>
+                <li><strong>Color scale:</strong> Represents average delay intensity.</li>
+                <li>Filters:
+                  <ul>
+                    <li><strong>Region Type</strong> (Single Select)</li>
+                    <li><strong>Traffic Congestion</strong> (Single Select)</li>
+                    <li><strong>Time Range</strong> (Month-Year slider)</li>
+                  </ul>
+                </li>
+                <li>Use hover to get exact minute-wise delay between combinations.</li>
+              </ul>
+            </AccordionDetails>
+          </Accordion>
+        </Box>
       </Box>
     </Box>
   );
