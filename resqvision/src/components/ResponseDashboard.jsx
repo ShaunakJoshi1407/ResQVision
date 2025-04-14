@@ -10,13 +10,15 @@ import {
   Checkbox,
   Grid,
   Slider,
+  IconButton,
+  Tooltip,
 } from "@mui/material";
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 
 import AmbulanceAvailabilityChart from "./charts/AmbulanceAvailabilityChart";
 import InjuriesResponseLineChart from "./charts/InjuriesResponseLineChart";
 import ResponseHeatmap from "./charts/ResponseHeatmap";
 
-// Month-Year options
 const monthYearOptions = [
   "Jan 2018", "Feb 2018", "Mar 2018", "Apr 2018", "May 2018", "Jun 2018",
   "Jul 2018", "Aug 2018", "Sep 2018", "Oct 2018", "Nov 2018", "Dec 2018",
@@ -47,7 +49,6 @@ const regionOptions = ["Rural", "Suburban", "Urban"];
 const emergencyLevels = ["Minor", "Major", "Critical"];
 
 const ResponseDashboard = () => {
-  // State management for selected filters. Making use of the inbuilt state management in React.
   const [selectedRegions, setSelectedRegions] = useState([...regionOptions]);
   const [selectedLevels, setSelectedLevels] = useState([...emergencyLevels]);
   const [timeRange, setTimeRange] = useState([0, monthYearOptions.length - 1]);
@@ -67,7 +68,7 @@ const ResponseDashboard = () => {
 
   return (
     <Box display="flex">
-      {/* Sidebar*/}
+      {/* Sidebar */}
       <Box
         width="260px"
         minHeight="100vh"
@@ -79,12 +80,10 @@ const ResponseDashboard = () => {
           Filters
         </Typography>
 
-        {/* Region Type container: Urban, Suburban and Rural */}
+        {/* Region Filter */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
-            <Typography variant="subtitle2" gutterBottom>
-              Region Type
-            </Typography>
+            <Typography variant="subtitle2" gutterBottom>Region Type</Typography>
             <FormControl component="fieldset">
               <FormGroup>
                 {regionOptions.map((region) => (
@@ -106,12 +105,10 @@ const ResponseDashboard = () => {
           </CardContent>
         </Card>
 
-        {/* Emergency Level Filter: Low, Medium, High */}
+        {/* Emergency Level Filter */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
-            <Typography variant="subtitle2" gutterBottom>
-              Emergency Level
-            </Typography>
+            <Typography variant="subtitle2" gutterBottom>Emergency Level</Typography>
             <FormControl component="fieldset">
               <FormGroup>
                 {emergencyLevels.map((level) => (
@@ -136,10 +133,7 @@ const ResponseDashboard = () => {
         {/* Time Range Slider */}
         <Card variant="outlined">
           <CardContent>
-            <Typography variant="subtitle2" gutterBottom>
-              Time Range (2018 – 2024)
-            </Typography>
-
+            <Typography variant="subtitle2" gutterBottom>Time Range (2018 – 2024)</Typography>
             <Box mt={3} px={1}>
               <Box display="flex" justifyContent="space-between" mb={1}>
                 <Typography variant="body2" fontWeight={500}>
@@ -149,29 +143,32 @@ const ResponseDashboard = () => {
                   {monthYearOptions[timeRange[1]]}
                 </Typography>
               </Box>
-
               <Slider
                 value={timeRange}
                 onChange={(e, newVal) => setTimeRange(newVal)}
                 min={0}
                 max={monthYearOptions.length - 1}
                 step={1}
-                valueLabelDisplay="off"
               />
             </Box>
           </CardContent>
         </Card>
       </Box>
 
+      {/* Main Content */}
       <Box flex={1} p={3}>
         <Grid container spacing={3}>
-          {/* Structure similar to IncidentSeverityDashboard */}
           <Grid item xs={12} md={6}>
             <Card variant="outlined">
               <CardContent>
-                <Typography variant="h6" gutterBottom fontSize="1rem">
-                  Avg. Response Time vs Ambulance Availability
-                </Typography>
+                <Box display="flex" justifyContent="space-between">
+                  <Typography variant="h6" fontSize="1rem">
+                    Avg. Response Time vs Ambulance Availability
+                  </Typography>
+                  <Tooltip title="Compares average response time for available and unavailable ambulances across filters. When ambulance is not available, usually police or fire fighters respond.">
+                    <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
+                  </Tooltip>
+                </Box>
                 <AmbulanceAvailabilityChart
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}
@@ -184,9 +181,14 @@ const ResponseDashboard = () => {
           <Grid item xs={12} md={6}>
             <Card variant="outlined">
               <CardContent>
-                <Typography variant="h6" gutterBottom fontSize="1rem">
-                  Avg. Response Time vs Number of Injuries
-                </Typography>
+                <Box display="flex" justifyContent="space-between">
+                  <Typography variant="h6" fontSize="1rem">
+                    Avg. Response Time vs Number of Injuries
+                  </Typography>
+                  <Tooltip title="Shows how average response time changes with number of injuries (1 - 4+), across all emergency levels and regions.">
+                    <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
+                  </Tooltip>
+                </Box>
                 <InjuriesResponseLineChart
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}
@@ -196,13 +198,17 @@ const ResponseDashboard = () => {
             </Card>
           </Grid>
 
-          {/* Row 2 contains the Heatmap for response time on the basis of road type and the distance to the incident. */}
           <Grid item xs={12}>
             <Card variant="outlined">
               <CardContent>
-                <Typography variant="h6" gutterBottom fontSize="1rem">
-                  Response Time by Road Type and Distance
-                </Typography>
+                <Box display="flex" justifyContent="space-between">
+                  <Typography variant="h6" fontSize="1rem">
+                    Response Time by Road Type and Distance
+                  </Typography>
+                  <Tooltip title="Heatmap showing how road type and distance affect average response time.">
+                    <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
+                  </Tooltip>
+                </Box>
                 <ResponseHeatmap
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}

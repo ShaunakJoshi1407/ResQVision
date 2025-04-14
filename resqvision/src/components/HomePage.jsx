@@ -5,12 +5,8 @@ import {
   Paper,
   Grid,
   Button,
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
 } from '@mui/material';
 
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import TimerIcon from '@mui/icons-material/Timer';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
@@ -84,6 +80,7 @@ const HomePage = ({ setActiveTab }) => {
         <Typography variant="h5" align="center" gutterBottom sx={{ fontWeight: 600 }}>
           Quick Links
         </Typography>
+        <br/>
         <Grid container spacing={3} justifyContent="center" mt={1}>
           <Grid item>
             <Button
@@ -118,92 +115,44 @@ const HomePage = ({ setActiveTab }) => {
         </Grid>
       </Box>
 
-      {/* How to Use */}
+      {/* How to Use Section */}
       <Box mt={10}>
         <Typography variant="h5" align="center" gutterBottom sx={{ fontWeight: 600 }}>
           How to Use
         </Typography>
 
-        <Box mt={4}>
-          {/* Incident Dashboard */}
-          <Accordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography sx={{ fontWeight: 600, display: 'flex', alignItems: 'center' }}>
-                <NotificationsIcon sx={{ mr: 1 }} /> Incident Dashboard
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography variant="body1" gutterBottom>
-                Visualize historical incident patterns and their severity breakdowns over time and across regions.
-              </Typography>
-              <ul style={{ paddingLeft: '1.5rem', lineHeight: 1.8 }}>
-                <li><strong>Incident Type vs Count:</strong> Distribution of emergency types.</li>
-                <li><strong>Severity vs Count:</strong> Severity-level analysis.</li>
-                <li><strong>Incident Trends:</strong> Monthly trends over time.</li>
-                <li>Filters:
-                  <ul>
-                    <li><strong>Region Type</strong></li>
-                    <li><strong>Incident Type</strong></li>
-                    <li><strong>Time Range</strong></li>
-                  </ul>
-                </li>
-                <li>Hover over charts to view exact counts and insights.</li>
-              </ul>
-            </AccordionDetails>
-          </Accordion>
+        <Paper elevation={2} sx={{ p: 4, mt: 3, color: '#4b5563' }}>
+          <Typography variant="body1" gutterBottom>
+            This dashboard platform consists of three main sections: <strong>Incidents & Severity</strong>,
+            <strong> Response Time</strong>, and <strong>Weather Impact</strong>.
+            Each section is powered by filterable and interactive charts designed to offer actionable insights
+            into emergency service performance across regions, time periods, and operational conditions.
+          </Typography>
 
-          {/* Response Dashboard */}
-          <Accordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography sx={{ fontWeight: 600, display: 'flex', alignItems: 'center' }}>
-                <TimerIcon sx={{ mr: 1 }} /> Response Dashboard
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography variant="body1" gutterBottom>
-                Analyze how response time varies based on availability and infrastructure.
-              </Typography>
-              <ul style={{ paddingLeft: '1.5rem', lineHeight: 1.8 }}>
-                <li><strong>Ambulance Availability:</strong> Response delays comparison.</li>
-                <li><strong>Injuries Chart:</strong> Injuries vs time relationship.</li>
-                <li><strong>Heatmap:</strong> Road Type vs Distance impact.</li>
-                <li>Filters:
-                  <ul>
-                    <li><strong>Region Type</strong></li>
-                    <li><strong>Emergency Level</strong></li>
-                    <li><strong>Time Range</strong></li>
-                  </ul>
-                </li>
-              </ul>
-            </AccordionDetails>
-          </Accordion>
+          <Typography variant="body1" gutterBottom>
+            In both the <strong>Incident Dashboard</strong> and the <strong>Response Dashboard</strong>,
+            users can apply filters for:
+            <ul>
+              <li><strong>Region Type:</strong> Urban, Suburban, or Rural (multi-select)</li>
+              <li><strong>Incident Type</strong> (multi-select)</li>
+              <li><strong>Time Range:</strong> Select a window from Jan 2018 to Dec 2024 using a month slider</li>
+            </ul>
+            These filters support multiple selections and dynamically update all charts within the view.
+          </Typography>
 
-          {/* Weather Dashboard */}
-          <Accordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography sx={{ fontWeight: 600, display: 'flex', alignItems: 'center' }}>
-                <WbSunnyIcon sx={{ mr: 1 }} /> Weather Dashboard
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography variant="body1" gutterBottom>
-                Examine how weather conditions and road types influence response times.
-              </Typography>
-              <ul style={{ paddingLeft: '1.5rem', lineHeight: 1.8 }}>
-                <li><strong>Weather × Road Type Heatmap:</strong> Compare average response time.</li>
-                <li><strong>Color scale:</strong> Represents average delay intensity.</li>
-                <li>Filters:
-                  <ul>
-                    <li><strong>Region Type</strong> (Single Select)</li>
-                    <li><strong>Traffic Congestion</strong> (Single Select)</li>
-                    <li><strong>Time Range</strong> (Month-Year slider)</li>
-                  </ul>
-                </li>
-                <li>Use hover to get exact minute-wise delay between combinations.</li>
-              </ul>
-            </AccordionDetails>
-          </Accordion>
-        </Box>
+          <Typography variant="body1" gutterBottom>
+            The <strong>Weather Dashboard</strong> differs slightly—it uses <strong>single-select filters</strong>
+            for <strong>Region Type</strong> and <strong>Traffic Congestion</strong>, and supports a
+            similar time range filter. This section focuses on how weather conditions and road infrastructure
+            impact emergency response times using a heatmap.
+          </Typography>
+
+          <Typography variant="body1" gutterBottom>
+            All charts are interactive. You can hover to view exact values (incident counts or average response times),
+            compare patterns across incident types and severities, and track trends over time.
+            Color encodings and tooltips help you quickly identify anomalies and bottlenecks.
+          </Typography>
+        </Paper>
       </Box>
     </Box>
   );
