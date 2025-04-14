@@ -83,7 +83,7 @@ const InjuriesResponseLineChart = ({
         .attr("x", width / 2)
         .attr("y", height + 40)
         .attr("text-anchor", "middle")
-        .text("Number of Injuries");
+        .text("Number of Injuries (1 - 4+)");
 
       container.append("text")
         .attr("transform", "rotate(-90)")

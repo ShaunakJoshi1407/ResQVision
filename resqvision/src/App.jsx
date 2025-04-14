@@ -36,10 +36,50 @@ function AboutPage() {
           Team Members
         </Typography>
         <ul style={{ paddingLeft: '1.5rem' }}>
-          <li>Shaunak Hemant Joshi</li>
-          <li>Tanay Mahesh Mehendale</li>
-          <li>Yash Patil</li>
-          <li>Sai Nithya Makineni</li>
+          <li><Link 
+                href="https://www.linkedin.com/in/shaunakhemantjoshi/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                display="flex"
+              >
+                Shaunak Hemant Joshi
+              </Link>
+          </li>
+
+          <li><Link 
+                href="https://www.linkedin.com/in/tanay-mehendale/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                display="flex"
+              >
+                Tanay Mahesh Mehendale
+              </Link>
+          </li>
+
+          <li><Link 
+                href="https://www.linkedin.com/in/yapatil/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                display="flex"
+              >
+                Yash Patil
+              </Link>
+          </li>
+
+          <li><Link 
+                href="https://www.linkedin.com/in/sai-nithya-makineni/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                underline="hover"
+                display="flex"
+              >
+                Sai Nithya Makineni
+              </Link>
+          </li>
+          
         </ul>
         <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
           Contact & Contributions

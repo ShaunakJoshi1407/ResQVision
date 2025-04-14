@@ -163,7 +163,7 @@ const ResponseDashboard = () => {
               <CardContent>
                 <Box display="flex" justifyContent="space-between">
                   <Typography variant="h6" fontSize="1rem">
-                    Avg. Response Time vs Ambulance Availability
+                    Avg. Response Time by Ambulance Availability
                   </Typography>
                   <Tooltip title="Compares average response time for available and unavailable ambulances across filters. When ambulance is not available, usually police or fire fighters respond.">
                     <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
@@ -183,7 +183,7 @@ const ResponseDashboard = () => {
               <CardContent>
                 <Box display="flex" justifyContent="space-between">
                   <Typography variant="h6" fontSize="1rem">
-                    Avg. Response Time vs Number of Injuries
+                    Avg. Response Time by Number of Injuries
                   </Typography>
                   <Tooltip title="Shows how average response time changes with number of injuries (1 - 4+), across all emergency levels and regions.">
                     <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>

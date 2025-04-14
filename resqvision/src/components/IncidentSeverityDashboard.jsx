@@ -137,8 +137,8 @@ const IncidentSeverityDashboard = () => {
             <Card variant="outlined">
               <CardContent>
                 <Box display="flex" justifyContent="space-between">
-                  <Typography variant="h6">Incident Type vs Count</Typography>
-                  <Tooltip title="Shows total number of incidents for each incident type. After applying time and region based filters, this can be further narrowed down. Grouped bar chart can become a single bar chart, when one incident type is selected.">
+                  <Typography variant="h6">Number of incidents by type</Typography>
+                  <Tooltip title="Shows total number of incidents for each incident type. Apply filters to further narrow down.">
                     <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
                   </Tooltip>
                 </Box>
@@ -156,8 +156,8 @@ const IncidentSeverityDashboard = () => {
             <Card variant="outlined">
               <CardContent>
                 <Box display="flex" justifyContent="space-between">
-                  <Typography variant="h6">Severity vs Count</Typography>
-                  <Tooltip title="Distribution of severity levels (Low, Medium, High) according to the number of incidents. After applying time and region based filters, this can be further narrowed down ">
+                  <Typography variant="h6">Number of incidents by severity</Typography>
+                  <Tooltip title="Distribution of severity levels according to the number of incidents. Apply filters to further narrow down.">
                     <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
                   </Tooltip>
                 </Box>
@@ -175,8 +175,8 @@ const IncidentSeverityDashboard = () => {
             <Card variant="outlined">
               <CardContent>
                 <Box display="flex" justifyContent="space-between">
-                  <Typography variant="h6">Incident Trends Over Time</Typography>
-                  <Tooltip title="Line chart showing incident type trends over time for selected filters of region and incident type.">
+                  <Typography variant="h6">Incident Trends over Time</Typography>
+                  <Tooltip title="Shows incident type trends over time for selected filters. Click on the legend items to display specific trend lines, click again to see/unsee them">
                     <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
                   </Tooltip>
                 </Box>
