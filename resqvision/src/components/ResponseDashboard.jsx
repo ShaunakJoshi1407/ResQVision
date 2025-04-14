@@ -76,7 +76,7 @@ const ResponseDashboard = () => {
         borderRight="1px solid #e0e0e0"
         bgcolor="white"
       >
-        <Typography variant="h5" gutterBottom>
+        <Typography variant="h5" gutterBottom sx={{ fontWeight: 600, color: "#1E40AF" }}>
           Filters
         </Typography>
 

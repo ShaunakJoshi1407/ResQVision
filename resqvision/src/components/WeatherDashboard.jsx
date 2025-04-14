@@ -14,7 +14,6 @@ import {
   Tooltip,
 } from "@mui/material";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
-
 import WeatherHeatmap from "./charts/WeatherHeatmap";
 
 const monthYearOptions = [
@@ -57,8 +56,8 @@ const WeatherDashboard = () => {
       >
         <Typography
           variant="h5"
-          className="mb-4"
-          style={{ fontWeight: 600, color: "#1E40AF", letterSpacing: "0.5px" }}
+          gutterBottom
+          sx={{ fontWeight: 600, color: "#1E40AF" }}
         >
           Filters
         </Typography>
@@ -119,12 +118,8 @@ const WeatherDashboard = () => {
             </Typography>
             <Box mt={3} px={1}>
               <Box display="flex" justifyContent="space-between" mb={1}>
-                <Typography variant="body2" style={{ fontWeight: 500 }}>
-                  {monthYearOptions[timeRange[0]]}
-                </Typography>
-                <Typography variant="body2" style={{ fontWeight: 500 }}>
-                  {monthYearOptions[timeRange[1]]}
-                </Typography>
+                <Typography variant="body2">{startMonth}</Typography>
+                <Typography variant="body2">{endMonth}</Typography>
               </Box>
               <Slider
                 value={timeRange}
