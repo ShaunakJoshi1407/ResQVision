@@ -3,6 +3,7 @@ import * as d3 from "d3";
 
 const WeatherHeatmap = ({ selectedRegions, selectedTraffic, startMonth, endMonth }) => {
   const svgRef = useRef();
+  const tooltipRef = useRef();
 
   const convertToMonthYear = (label) => {
     const months = {
@@ -18,116 +19,177 @@ const WeatherHeatmap = ({ selectedRegions, selectedTraffic, startMonth, endMonth
       const svg = d3.select(svgRef.current);
       svg.selectAll("*").remove();
 
-      const margin = { top: 50, right: 20, bottom: 50, left: 100 };
-      const width = 700 - margin.left - margin.right;
-      const height = 400 - margin.top - margin.bottom;
+      const margin = { top: 60, right: 20, bottom: 50, left: 100 };
+      const width = 900 - margin.left - margin.right;
+      const height = 450 - margin.top - margin.bottom;
 
-      const g = svg
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-        .append("g")
-        .attr("transform", `translate(${margin.left},${margin.top})`);
+      const [start, end] = [convertToMonthYear(startMonth), convertToMonthYear(endMonth)];
+      const region = selectedRegions[0];
 
-      const start = convertToMonthYear(startMonth);
-      const end = convertToMonthYear(endMonth);
-
-      const filteredData = data.filter(
+      const filtered = data.filter(
         (d) =>
-          selectedRegions.includes(d.Region_Type) &&
+          d.Region_Type === region &&
           d.Traffic_Congestion === selectedTraffic &&
           d.MonthYear >= start &&
           d.MonthYear <= end
       );
 
-      const grouped = d3.rollup(
-        filteredData,
-        v => d3.mean(v, d => d.Avg_Response_Time),
-        d => d.Weather_Condition,
-        d => d.Road_Type
+      const grouped = d3.rollups(
+        filtered,
+        (v) => d3.mean(v, (d) => d.Avg_Response_Time),
+        (d) => d.Weather_Condition,
+        (d) => d.Road_Type
+      ).flatMap(([weather, roadMap]) =>
+        roadMap.map(([road, avg]) => ({
+          Weather_Condition: weather,
+          Road_Type: road,
+          Avg_Response_Time: avg,
+        }))
       );
 
-      const weatherConditions = Array.from(grouped.keys());
-      const roadTypes = Array.from(new Set(filteredData.map(d => d.Road_Type)));
+      const svgContainer = svg
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
 
-      const colorScale = d3.scaleSequential()
+      const weatherConditions = Array.from(new Set(grouped.map((d) => d.Weather_Condition)));
+      const roadTypes = Array.from(new Set(grouped.map((d) => d.Road_Type)));
+
+      const x = d3.scaleBand().domain(roadTypes).range([0, width]).padding(0.05);
+      const y = d3.scaleBand().domain(weatherConditions).range([0, height]).padding(0.05);
+
+      const color = d3
+        .scaleSequential()
         .interpolator(d3.interpolateYlOrRd)
-        .domain([
-          d3.min(filteredData, d => d.Avg_Response_Time),
-          d3.max(filteredData, d => d.Avg_Response_Time)
-        ]);
+        .domain(d3.extent(grouped, (d) => d.Avg_Response_Time));
 
-      const xScale = d3.scaleBand().domain(roadTypes).range([0, width]).padding(0.05);
-      const yScale = d3.scaleBand().domain(weatherConditions).range([0, height]).padding(0.05);
-
-      // Draw cells
-      weatherConditions.forEach((w) => {
-        roadTypes.forEach((r) => {
-          const val = grouped.get(w)?.get(r);
-          if (val !== undefined) {
-            g.append("rect")
-              .attr("x", xScale(r))
-              .attr("y", yScale(w))
-              .attr("width", xScale.bandwidth())
-              .attr("height", yScale.bandwidth())
-              .attr("fill", colorScale(val));
-
-            g.append("text")
-              .attr("x", xScale(r) + xScale.bandwidth() / 2)
-              .attr("y", yScale(w) + yScale.bandwidth() / 2 + 5)
-              .attr("text-anchor", "middle")
-              .attr("font-size", "12px")
-              .attr("fill", "#000")
-              .text(val.toFixed(1));
-          }
-        });
-      });
-
-      // Axes
-      g.append("g")
-        .attr("transform", `translate(0,0)`)
-        .call(d3.axisLeft(yScale));
-
-      g.append("g")
+      svgContainer.append("g")
         .attr("transform", `translate(0,${height})`)
-        .call(d3.axisBottom(xScale));
+        .call(d3.axisBottom(x));
 
-      // Color legend
-      const legendHeight = 150;
-      const legendWidth = 15;
-      const legendSvg = svg.append("g").attr("transform", `translate(${width + margin.left + 20}, ${margin.top})`);
+      svgContainer.append("g").call(d3.axisLeft(y));
 
-      const legendScale = d3.scaleLinear()
-        .domain(colorScale.domain())
-        .range([legendHeight, 0]);
+      svgContainer.append("text")
+        .attr("x", width / 2)
+        .attr("y", height + 40)
+        .attr("text-anchor", "middle")
+        .attr("font-size", "12px")
+        .text("Road Type");
 
-      const legendAxis = d3.axisRight(legendScale).ticks(5);
+      svgContainer.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("x", -height / 2)
+        .attr("y", -80)
+        .attr("text-anchor", "middle")
+        .attr("font-size", "12px")
+        .text("Weather Condition");
 
-      const gradientId = "heatmap-gradient";
+      const tooltip = d3.select(tooltipRef.current);
+
+      svgContainer.selectAll("rect.cell")
+        .data(grouped)
+        .enter()
+        .append("rect")
+        .attr("class", "cell")
+        .attr("x", (d) => x(d.Road_Type))
+        .attr("y", (d) => y(d.Weather_Condition))
+        .attr("width", x.bandwidth())
+        .attr("height", y.bandwidth())
+        .style("fill", (d) => color(d.Avg_Response_Time))
+        .on("mouseover", (event, d) => {
+          tooltip
+            .style("opacity", 1)
+            .html(
+              `<strong>${d.Weather_Condition}</strong> | ${d.Road_Type}<br/><strong>${d.Avg_Response_Time.toFixed(
+                2
+              )} min</strong>`
+            );
+        })
+        .on("mousemove", (event) => {
+          tooltip
+            .style("left", `${event.pageX + 10}px`)
+            .style("top", `${event.pageY - 30}px`);
+        })
+        .on("mouseout", () => {
+          tooltip.style("opacity", 0);
+        });
+
+      svgContainer.selectAll("text.cell-label")
+        .data(grouped)
+        .enter()
+        .append("text")
+        .attr("x", (d) => x(d.Road_Type) + x.bandwidth() / 2)
+        .attr("y", (d) => y(d.Weather_Condition) + y.bandwidth() / 2)
+        .attr("text-anchor", "middle")
+        .attr("dominant-baseline", "central")
+        .attr("font-size", "10px")
+        .attr("fill", "#000")
+        .text((d) => d.Avg_Response_Time.toFixed(1));
+
       const defs = svg.append("defs");
-      const linearGradient = defs.append("linearGradient")
-        .attr("id", gradientId)
-        .attr("x1", "0%").attr("y1", "100%").attr("x2", "0%").attr("y2", "0%");
+      const legendWidth = 200,
+        legendHeight = 10;
 
-      const numStops = 10;
-      const colorRange = d3.range(numStops).map(d => d / (numStops - 1));
-      colorRange.forEach(t => {
-        linearGradient.append("stop")
-          .attr("offset", `${t * 100}%`)
-          .attr("stop-color", colorScale(colorScale.domain()[0] + t * (colorScale.domain()[1] - colorScale.domain()[0])));
-      });
+      const linearGradient = defs
+        .append("linearGradient")
+        .attr("id", "heatmap-gradient");
 
-      legendSvg.append("rect")
+      linearGradient
+        .selectAll("stop")
+        .data(d3.range(0, 1.01, 0.1))
+        .enter()
+        .append("stop")
+        .attr("offset", (d) => d)
+        .attr("stop-color", (d) =>
+          color(color.domain()[0] + d * (color.domain()[1] - color.domain()[0]))
+        );
+
+      svg
+        .append("rect")
+        .attr("x", width / 2 - legendWidth / 2 + margin.left)
+        .attr("y", 10)
         .attr("width", legendWidth)
         .attr("height", legendHeight)
-        .style("fill", `url(#${gradientId})`);
+        .style("fill", "url(#heatmap-gradient)");
 
-      legendSvg.append("g")
-        .attr("transform", `translate(${legendWidth}, 0)`)
-        .call(legendAxis);
+      const legendScale = d3
+        .scaleLinear()
+        .domain(color.domain())
+        .range([0, legendWidth]);
+
+      svg
+        .append("g")
+        .attr(
+          "transform",
+          `translate(${width / 2 - legendWidth / 2 + margin.left}, ${10 + legendHeight})`
+        )
+        .call(d3.axisBottom(legendScale).ticks(5))
+        .select(".domain")
+        .remove();
     });
   }, [selectedRegions, selectedTraffic, startMonth, endMonth]);
 
-  return <svg ref={svgRef}></svg>;
+  return (
+    <div className="relative flex justify-center">
+      <svg ref={svgRef}></svg>
+      <div
+        ref={tooltipRef}
+        style={{
+          position: "absolute",
+          pointerEvents: "none",
+          background: "#333",
+          color: "white",
+          padding: "6px 8px",
+          borderRadius: "4px",
+          fontSize: "12px",
+          opacity: 0,
+          transition: "opacity 0.2s ease-in-out",
+          zIndex: 10,
+        }}
+      ></div>
+    </div>
+  );
 };
 
 export default WeatherHeatmap;

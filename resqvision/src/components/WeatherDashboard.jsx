@@ -5,11 +5,9 @@ import {
   Card,
   CardContent,
   FormControl,
-  FormGroup,
-  FormControlLabel,
-  Checkbox,
   Radio,
   RadioGroup,
+  FormControlLabel,
   Grid,
   Slider,
 } from "@mui/material";
@@ -36,22 +34,12 @@ const regionOptions = ["Rural", "Suburban", "Urban"];
 const trafficOptions = ["Low", "Moderate", "High"];
 
 const WeatherDashboard = () => {
-  const [selectedRegions, setSelectedRegions] = useState([...regionOptions]);
+  const [selectedRegion, setSelectedRegion] = useState("Rural");
   const [selectedTraffic, setSelectedTraffic] = useState("Low");
   const [timeRange, setTimeRange] = useState([0, monthYearOptions.length - 1]);
 
   const startMonth = monthYearOptions[timeRange[0]];
   const endMonth = monthYearOptions[timeRange[1]];
-
-  const handleToggle = (setter, currentValues, value) => {
-    const isSelected = currentValues.includes(value);
-    if (isSelected && currentValues.length === 1) return;
-    if (isSelected) {
-      setter(currentValues.filter((v) => v !== value));
-    } else {
-      setter([...currentValues, value]);
-    }
-  };
 
   return (
     <Box display="flex" height="100%">
@@ -71,34 +59,31 @@ const WeatherDashboard = () => {
           Filters
         </Typography>
 
-        {/* Region Type Filter */}
+        {/* Region Type - Single Select */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
             <Typography variant="subtitle2" gutterBottom>
               Region Type
             </Typography>
             <FormControl component="fieldset">
-              <FormGroup>
+              <RadioGroup
+                value={selectedRegion}
+                onChange={(e) => setSelectedRegion(e.target.value)}
+              >
                 {regionOptions.map((region) => (
                   <FormControlLabel
                     key={region}
-                    control={
-                      <Checkbox
-                        checked={selectedRegions.includes(region)}
-                        onChange={() =>
-                          handleToggle(setSelectedRegions, selectedRegions, region)
-                        }
-                      />
-                    }
+                    value={region}
+                    control={<Radio />}
                     label={region}
                   />
                 ))}
-              </FormGroup>
+              </RadioGroup>
             </FormControl>
           </CardContent>
         </Card>
 
-        {/* Traffic Congestion Filter */}
+        {/* Traffic Congestion - Single Select */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
             <Typography variant="subtitle2" gutterBottom>
@@ -158,10 +143,10 @@ const WeatherDashboard = () => {
               Average Response Time by Weather Condition and Road Type
             </Typography>
             <Typography variant="subtitle2" gutterBottom>
-              Region Type: {selectedRegions.join(", ")} | Traffic: {selectedTraffic}
+              Region Type: {selectedRegion}, Traffic: {selectedTraffic}
             </Typography>
             <WeatherHeatmap
-              selectedRegions={selectedRegions}
+              selectedRegions={[selectedRegion]}
               selectedTraffic={selectedTraffic}
               startMonth={startMonth}
               endMonth={endMonth}
