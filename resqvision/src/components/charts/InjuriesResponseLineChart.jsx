@@ -74,7 +74,7 @@ const InjuriesResponseLineChart = ({
         .call(
           d3.axisBottom(x)
             .tickValues([1, 2, 3, 4])
-            .tickFormat(d3.format("d"))
+            .tickFormat((d) => (d === 4 ? "4+" : d.toString()))
         );
 
       container.append("g").call(d3.axisLeft(y));

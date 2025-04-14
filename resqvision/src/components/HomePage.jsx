@@ -80,7 +80,7 @@ const HomePage = ({ setActiveTab }) => {
         <Typography variant="h5" align="center" gutterBottom sx={{ fontWeight: 600 }}>
           Quick Links
         </Typography>
-        <br/>
+        <br />
         <Grid container spacing={3} justifyContent="center" mt={1}>
           <Grid item>
             <Button
@@ -122,36 +122,67 @@ const HomePage = ({ setActiveTab }) => {
         </Typography>
 
         <Paper elevation={2} sx={{ p: 4, mt: 3, color: '#4b5563' }}>
+          {/* Overview */}
           <Typography variant="body1" gutterBottom>
-            This dashboard platform consists of three main sections: <strong>Incidents & Severity</strong>,
-            <strong> Response Time</strong>, and <strong>Weather Impact</strong>.
-            Each section is powered by filterable and interactive charts designed to offer actionable insights
-            into emergency service performance across regions, time periods, and operational conditions.
+            This dashboard platform includes three main sections:
+          </Typography>
+          <ul style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
+            <li><strong>Incidents & Severity</strong></li>
+            <li><strong>Response Time</strong></li>
+            <li><strong>Weather Impact</strong></li>
+          </ul>
+          <Typography variant="body1" gutterBottom>
+            Each section includes interactive and filterable charts for analyzing emergency service performance across regions, time, and environmental factors.
           </Typography>
 
-          <Typography variant="body1" gutterBottom>
-            In both the <strong>Incident Dashboard</strong> and the <strong>Response Dashboard</strong>,
-            users can apply filters for:
-            <ul>
-              <li><strong>Region Type:</strong> Urban, Suburban, or Rural (multi-select)</li>
-              <li><strong>Incident Type</strong> (multi-select)</li>
-              <li><strong>Time Range:</strong> Select a window from Jan 2018 to Dec 2024 using a month slider</li>
+          {/* Incident & Response Dashboards */}
+          <Box mt={3}>
+            <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
+              Incident & Response Dashboards
+            </Typography>
+            <Typography variant="body2" gutterBottom>
+              Use the following filters:
+            </Typography>
+            <ul style={{ paddingLeft: '1.5rem' }}>
+              <li><strong>Region Type:</strong> Urban, Suburban, Rural (multi-select)</li>
+              <li><strong>Incident Type:</strong> e.g., Fire, Medical, Crash (multi-select)</li>
+              <li><strong>Time Range:</strong> Jan 2018 – Dec 2024 via a month-year slider</li>
             </ul>
-            These filters support multiple selections and dynamically update all charts within the view.
-          </Typography>
+            <Typography variant="body2" gutterBottom>
+              These filters dynamically update all charts in the view. Legends can also be used to toggle specific series within charts.
+            </Typography>
+          </Box>
 
-          <Typography variant="body1" gutterBottom>
-            The <strong>Weather Dashboard</strong> differs slightly—it uses <strong>single-select filters</strong>
-            for <strong>Region Type</strong> and <strong>Traffic Congestion</strong>, and supports a
-            similar time range filter. This section focuses on how weather conditions and road infrastructure
-            impact emergency response times using a heatmap.
-          </Typography>
+          {/* Weather Dashboard */}
+          <Box mt={3}>
+            <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
+              Weather Dashboard
+            </Typography>
+            <Typography variant="body2" gutterBottom>
+              Filters in this section include:
+            </Typography>
+            <ul style={{ paddingLeft: '1.5rem' }}>
+              <li><strong>Region Type:</strong> (single-select)</li>
+              <li><strong>Traffic Congestion:</strong> (single-select)</li>
+              <li><strong>Time Range:</strong> Jan 2018 – Dec 2024</li>
+            </ul>
+            <Typography variant="body2" gutterBottom>
+              Focuses on how weather and road conditions affect emergency response using heatmaps.
+            </Typography>
+          </Box>
 
-          <Typography variant="body1" gutterBottom>
-            All charts are interactive. You can hover to view exact values (incident counts or average response times),
-            compare patterns across incident types and severities, and track trends over time.
-            Color encodings and tooltips help you quickly identify anomalies and bottlenecks.
-          </Typography>
+          {/* Interaction Tips */}
+          <Box mt={3}>
+            <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
+              Interaction Tips
+            </Typography>
+            <ul style={{ paddingLeft: '1.5rem' }}>
+              <li>Use the info icon besides each chart to learn more about it.</li>
+              <li>Hover over chart elements to see exact values.</li>
+              <li>Legends can toggle specific chart lines or categories.</li>
+              <li>Tooltips and color cues highlight key trends and anomalies.</li>
+            </ul>
+          </Box>
         </Paper>
       </Box>
     </Box>
