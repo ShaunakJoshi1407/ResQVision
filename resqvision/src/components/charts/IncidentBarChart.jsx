@@ -1,4 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import { saveAs } from "file-saver";
+import { Box } from "@mui/material";
 import * as d3 from 'd3';
 
 const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endMonth }) => {
@@ -14,6 +16,8 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
     return `${year}-${months[monthStr]}`;
   };
 
+  const [filteredData, setFilteredData] = useState([]);
+
   useEffect(() => {
     d3.json('/data/incident_type_counts_monthly.json').then((data) => {
       if (!data) return;
@@ -25,6 +29,8 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
           d.MonthYear >= convertToMonthYear(startMonth) &&
           d.MonthYear <= convertToMonthYear(endMonth)
       );
+
+      setFilteredData(filtered);
 
       const svg = d3.select(svgRef.current);
       svg.selectAll('*').remove();
@@ -124,8 +130,62 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
     });
   }, [selectedRegions, selectedIncidents, startMonth, endMonth]);
 
+  const downloadJSON = () => {
+    const blob = new Blob([JSON.stringify(filteredData, null, 2)], {
+      type: "application/json",
+    });
+    saveAs(blob, "incident_bar_chart_data.json");
+  };
+  
+  const downloadCSV = () => {
+    if (!filteredData.length) return;
+  
+    const keys = Object.keys(filteredData[0]);
+    const csv = [
+      keys.join(","),
+      ...filteredData.map((row) => keys.map((k) => row[k]).join(",")),
+    ].join("\n");
+  
+    const blob = new Blob([csv], { type: "text/csv" });
+    saveAs(blob, "incident_bar_chart_data.csv");
+  };
+
   return (
     <div className="relative flex justify-center">
+      <div className="flex justify-end gap-2 mb-2">
+        {/* Styled Download Buttons */}
+        <Box display="flex" justifyContent="flex-end" gap={2} mb={2}>
+          <button
+            onClick={downloadJSON}
+            style={{
+              backgroundColor: "#1E40AF",
+              color: "white",
+              padding: "6px 12px",
+              border: "none",
+              borderRadius: "6px",
+              fontSize: "0.85rem",
+              cursor: "pointer",
+            }}
+          >
+            Download JSON
+          </button>
+          <button
+            onClick={downloadCSV}
+            style={{
+              backgroundColor: "#059669",
+              color: "white",
+              padding: "6px 12px",
+              border: "none",
+              borderRadius: "6px",
+              fontSize: "0.85rem",
+              cursor: "pointer",
+            }}
+          >
+            Download CSV
+          </button>
+        </Box>
+      </div>
+      
       <svg ref={svgRef}></svg>
       <div
         ref={tooltipRef}
