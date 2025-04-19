@@ -14,6 +14,8 @@ import {
   Tooltip,
   Menu,
   MenuItem,
+  Snackbar,
+  Alert,
 } from "@mui/material";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
@@ -43,6 +45,7 @@ const WeatherDashboard = () => {
   const [selectedTraffic, setSelectedTraffic] = useState("Low");
   const [timeRange, setTimeRange] = useState([0, monthYearOptions.length - 1]);
   const [anchorEl, setAnchorEl] = useState(null);
+  const [toastOpen, setToastOpen] = useState(false);
 
   const startMonth = monthYearOptions[timeRange[0]];
   const endMonth = monthYearOptions[timeRange[1]];
@@ -53,6 +56,11 @@ const WeatherDashboard = () => {
 
   const handleClose = () => {
     setAnchorEl(null);
+  };
+
+  const showToast = () => {
+    setToastOpen(true);
+    setTimeout(() => setToastOpen(false), 1500);
   };
 
   const handleDownload = async (format) => {
@@ -85,6 +93,7 @@ const WeatherDashboard = () => {
       saveAs(blob, "weather_heatmap_data.csv");
     }
 
+    showToast();
     handleClose();
   };
 
@@ -195,11 +204,41 @@ const WeatherDashboard = () => {
         </Card>
       </Box>
 
-      {/* Export dropdown */}
+      {/* Export Dropdown */}
       <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
         <MenuItem onClick={() => handleDownload("json")}>Download JSON</MenuItem>
         <MenuItem onClick={() => handleDownload("csv")}>Download CSV</MenuItem>
       </Menu>
+
+      {/* Toast Alert */}
+      <Snackbar
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+        open={toastOpen}
+        autoHideDuration={1500}
+        onClose={() => setToastOpen(false)}
+      >
+        <Alert
+          severity="success"
+          sx={{
+            width: "300px",
+            fontSize: "1rem",
+            fontWeight: 500,
+            p: 2,
+            border: "1px solid #4ade80",
+            boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.1)",
+            backgroundColor: "#ecfdf5",
+            color: "#166534",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          iconMapping={{
+            success: <span style={{ fontSize: "1.4rem", marginRight: "0.5rem" }}>✅</span>,
+          }}
+        >
+          Exported successfully!
+        </Alert>
+      </Snackbar>
     </Box>
   );
 };

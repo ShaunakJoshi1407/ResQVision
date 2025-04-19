@@ -42,9 +42,9 @@ const ResponseHeatmap = ({
       const svg = d3.select(svgRef.current);
       svg.selectAll("*").remove();
 
-      const margin = { top: 60, right: 20, bottom: 50, left: 100 };
+      const margin = { top: 110, right: 20, bottom: 50, left: 100 };
       const width = 900 - margin.left - margin.right;
-      const height = 400 - margin.top - margin.bottom;
+      const height = 420 - margin.top - margin.bottom;
 
       const container = svg
         .attr("width", width + margin.left + margin.right)
@@ -65,15 +65,21 @@ const ResponseHeatmap = ({
 
       container.append("g")
         .attr("transform", `translate(0,${height})`)
-        .call(d3.axisBottom(x));
+        .call(d3.axisBottom(x))
+        .selectAll("text")
+        .style("font-size", "11px");
 
-      container.append("g").call(d3.axisLeft(y));
+      container.append("g")
+        .call(d3.axisLeft(y))
+        .selectAll("text")
+        .style("font-size", "11px");
 
       container.append("text")
         .attr("x", width / 2)
         .attr("y", height + 40)
         .attr("text-anchor", "middle")
-        .attr("font-size", "12px")
+        .attr("font-size", "14px")
+        .attr("font-weight", 500)
         .text("Distance to Incident (km)");
 
       container.append("text")
@@ -81,7 +87,8 @@ const ResponseHeatmap = ({
         .attr("x", -height / 2)
         .attr("y", -80)
         .attr("text-anchor", "middle")
-        .attr("font-size", "12px")
+        .attr("font-size", "14px")
+        .attr("font-weight", 500)
         .text("Road Type");
 
       const tooltip = d3.select(tooltipRef.current);
@@ -120,13 +127,18 @@ const ResponseHeatmap = ({
         .attr("y", (d) => y(d.Road_Type) + y.bandwidth() / 2)
         .attr("text-anchor", "middle")
         .attr("dominant-baseline", "central")
-        .attr("font-size", "10px")
-        .attr("fill", "#000")
+        .attr("font-size", "13px")
+        .attr("font-weight", "500")
+        .attr("fill", (d) => {
+          const rgb = d3.rgb(color(d.Avg_Response_Time));
+          const luminance = 0.299 * rgb.r + 0.587 * rgb.g + 0.114 * rgb.b;
+          return luminance < 140 ? "white" : "black";
+        })
         .text((d) => d.Avg_Response_Time.toFixed(1));
 
       const defs = svg.append("defs");
-      const legendWidth = 200,
-        legendHeight = 10;
+      const legendWidth = 200;
+      const legendHeight = 10;
 
       const linearGradient = defs.append("linearGradient")
         .attr("id", "heatmap-gradient");
@@ -140,9 +152,17 @@ const ResponseHeatmap = ({
           color(color.domain()[0] + d * (color.domain()[1] - color.domain()[0]))
         );
 
+      svg.append("text")
+        .attr("x", width / 2 + margin.left)
+        .attr("y", 25)
+        .attr("text-anchor", "middle")
+        .attr("font-size", "14px")
+        .attr("font-weight", 500)
+        .text("Response time (min.)");
+
       svg.append("rect")
         .attr("x", width / 2 - legendWidth / 2 + margin.left)
-        .attr("y", 10)
+        .attr("y", 40)
         .attr("width", legendWidth)
         .attr("height", legendHeight)
         .style("fill", "url(#heatmap-gradient)");
@@ -152,7 +172,7 @@ const ResponseHeatmap = ({
         .range([0, legendWidth]);
 
       svg.append("g")
-        .attr("transform", `translate(${width / 2 - legendWidth / 2 + margin.left}, ${10 + legendHeight})`)
+        .attr("transform", `translate(${width / 2 - legendWidth / 2 + margin.left}, ${40 + legendHeight})`)
         .call(d3.axisBottom(legendScale).ticks(5))
         .select(".domain")
         .remove();

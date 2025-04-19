@@ -14,6 +14,8 @@ import {
   Tooltip,
   Menu,
   MenuItem,
+  Snackbar,
+  Alert,
 } from "@mui/material";
 
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
@@ -38,6 +40,7 @@ const IncidentSeverityDashboard = () => {
   const [timeRange, setTimeRange] = useState([0, monthYearOptions.length - 1]);
   const [anchorEl, setAnchorEl] = useState(null);
   const [menuTarget, setMenuTarget] = useState(null);
+  const [toastOpen, setToastOpen] = useState(false);
 
   const startMonth = monthYearOptions[timeRange[0]];
   const endMonth = monthYearOptions[timeRange[1]];
@@ -58,6 +61,11 @@ const IncidentSeverityDashboard = () => {
     setMenuTarget(null);
   };
 
+  const showToast = () => {
+    setToastOpen(true);
+    setTimeout(() => setToastOpen(false), 1500);
+  };
+
   const handleDownload = (format) => {
     if (menuTarget === "chart1") {
       format === "json" ? downloadChart1JSON() : downloadChart1CSV();
@@ -66,10 +74,10 @@ const IncidentSeverityDashboard = () => {
     } else if (menuTarget === "chart3") {
       format === "json" ? downloadChart3JSON() : downloadChart3CSV();
     }
+    showToast();
     handleClose();
   };
 
-  // ----------------- Export Functions -----------------
   const convertToMonthYear = (label) => {
     const months = {
       Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06",
@@ -172,15 +180,14 @@ const IncidentSeverityDashboard = () => {
       "csv"
     );
 
-  // ----------------- JSX -----------------
   return (
     <Box display="flex" height="100%">
-      {/* Sidebar */}
       <Box width="260px" minHeight="100vh" p={2} borderRight="1px solid #e0e0e0" bgcolor="white">
         <Typography variant="h5" gutterBottom sx={{ fontWeight: 600, color: "#1E40AF" }}>
           Filters
         </Typography>
 
+        {/* Filters */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
             <Typography variant="subtitle2" gutterBottom>Region Type</Typography>
@@ -249,97 +256,84 @@ const IncidentSeverityDashboard = () => {
         </Card>
       </Box>
 
-      {/* Main Charts */}
+      {/* Charts */}
       <Box flex={1} p={3}>
         <Grid container spacing={3}>
-          {/* Chart 1 */}
-          <Grid item xs={12} md={6}>
-            <Card variant="outlined">
-              <CardContent>
-                <Box display="flex" justifyContent="space-between" alignItems="center">
-                  <Typography variant="h6">Number of incidents by type</Typography>
-                  <Box display="flex" alignItems="center" gap={1}>
-                    <Tooltip title="Export Data">
-                      <IconButton size="small" onClick={(e) => handleExportClick(e, "chart1")}>
-                        <FileDownloadOutlinedIcon fontSize="small" />
-                      </IconButton>
-                    </Tooltip>
-                    <Tooltip title="Shows total number of incidents for each incident type. Apply filters to further narrow down.">
-                      <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
-                    </Tooltip>
+          {[1, 2, 3].map((chartId) => (
+            <Grid key={chartId} item xs={12} md={chartId === 3 ? 12 : 6}>
+              <Card variant="outlined">
+                <CardContent>
+                  <Box display="flex" justifyContent="space-between" alignItems="center">
+                    <Typography variant="h6" fontSize="1.1rem">
+                      {{
+                        1: "Number of incidents by type",
+                        2: "Number of incidents by severity",
+                        3: "Incident Trends over Time",
+                      }[chartId]}
+                    </Typography>
+                    <Box display="flex" alignItems="center" gap={1}>
+                      <Tooltip title="Export Data">
+                        <IconButton size="small" onClick={(e) => handleExportClick(e, `chart${chartId}`)}>
+                          <FileDownloadOutlinedIcon fontSize="small" />
+                        </IconButton>
+                      </Tooltip>
+                      <Tooltip title={{
+                        1: "Shows total number of incidents for each incident type.",
+                        2: "Distribution of severity levels by number of incidents.",
+                        3: "Incident type trends over time. Click legend to filter.",
+                      }[chartId]}>
+                        <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
+                      </Tooltip>
+                    </Box>
                   </Box>
-                </Box>
-                <IncidentBarChart
-                  selectedRegions={selectedRegions}
-                  selectedIncidents={selectedIncidents}
-                  startMonth={startMonth}
-                  endMonth={endMonth}
-                />
-              </CardContent>
-            </Card>
-          </Grid>
-
-          {/* Chart 2 */}
-          <Grid item xs={12} md={6}>
-            <Card variant="outlined">
-              <CardContent>
-                <Box display="flex" justifyContent="space-between" alignItems="center">
-                  <Typography variant="h6">Number of incidents by severity</Typography>
-                  <Box display="flex" alignItems="center" gap={1}>
-                    <Tooltip title="Export Data">
-                      <IconButton size="small" onClick={(e) => handleExportClick(e, "chart2")}>
-                        <FileDownloadOutlinedIcon fontSize="small" />
-                      </IconButton>
-                    </Tooltip>
-                    <Tooltip title="Distribution of severity levels according to the number of incidents. Apply filters to further narrow down.">
-                      <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
-                    </Tooltip>
-                  </Box>
-                </Box>
-                <SeverityBarChart
-                  selectedRegions={selectedRegions}
-                  selectedIncidents={selectedIncidents}
-                  startMonth={startMonth}
-                  endMonth={endMonth}
-                />
-              </CardContent>
-            </Card>
-          </Grid>
-
-          {/* Chart 3 */}
-          <Grid item xs={12}>
-            <Card variant="outlined">
-              <CardContent>
-                <Box display="flex" justifyContent="space-between" alignItems="center">
-                  <Typography variant="h6">Incident Trends over Time</Typography>
-                  <Box display="flex" alignItems="center" gap={1}>
-                    <Tooltip title="Export Data">
-                      <IconButton size="small" onClick={(e) => handleExportClick(e, "chart3")}>
-                        <FileDownloadOutlinedIcon fontSize="small" />
-                      </IconButton>
-                    </Tooltip>
-                    <Tooltip title="Shows incident type trends over time for selected filters. Click on the legend items to display specific trend lines, click again to see/unsee them">
-                      <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
-                    </Tooltip>
-                  </Box>
-                </Box>
-                <IncidentTrendsChart
-                  selectedRegions={selectedRegions}
-                  selectedIncidents={selectedIncidents}
-                  startMonth={startMonth}
-                  endMonth={endMonth}
-                />
-              </CardContent>
-            </Card>
-          </Grid>
+                  {{
+                    1: <IncidentBarChart selectedRegions={selectedRegions} selectedIncidents={selectedIncidents} startMonth={startMonth} endMonth={endMonth} />,
+                    2: <SeverityBarChart selectedRegions={selectedRegions} selectedIncidents={selectedIncidents} startMonth={startMonth} endMonth={endMonth} />,
+                    3: <IncidentTrendsChart selectedRegions={selectedRegions} selectedIncidents={selectedIncidents} startMonth={startMonth} endMonth={endMonth} />,
+                  }[chartId]}
+                </CardContent>
+              </Card>
+            </Grid>
+          ))}
         </Grid>
       </Box>
 
-      {/* Shared Download Menu */}
+      {/* Export Menu */}
       <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
         <MenuItem onClick={() => handleDownload("json")}>Download JSON</MenuItem>
         <MenuItem onClick={() => handleDownload("csv")}>Download CSV</MenuItem>
       </Menu>
+
+      {/* Toast */}
+      <Snackbar
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+        open={toastOpen}
+        autoHideDuration={1500}
+        onClose={() => setToastOpen(false)}
+      >
+        <Alert
+          severity="success"
+          sx={{
+            width: "300px",
+            fontSize: "1rem",
+            fontWeight: 500,
+            p: 2,
+            border: "1px solid #4ade80",
+            boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.1)",
+            backgroundColor: "#ecfdf5",
+            color: "#166534",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          iconMapping={{
+            success: <span style={{ fontSize: "1.4rem", marginRight: "0.5rem" }}>✅</span>,
+          }}
+        >
+          Exported successfully!
+        </Alert>
+      </Snackbar>
+
     </Box>
   );
 };
