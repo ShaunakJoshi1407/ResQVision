@@ -15,12 +15,18 @@ const metricStyle = {
   padding: '20px',
   border: '1px solid #ccc',
   textAlign: 'center',
+  minWidth: '150px',
+  height: '70px',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
 };
 
 const valueStyle = {
   color: '#1d4ed8',
   fontSize: '1.8rem',
   fontWeight: 'bold',
+  marginTop: '10px',
 };
 
 const HomePage = ({ setActiveTab }) => {
@@ -41,32 +47,32 @@ const HomePage = ({ setActiveTab }) => {
           <>
             <Grid item xs={12} md={2.3}>
               <Paper style={metricStyle}>
-                <Typography variant="h6">Unique Emergencies</Typography>
-                <div style={valueStyle}>{metrics.unique_emergencies}</div>
-              </Paper>
-            </Grid>
-            <Grid item xs={12} md={2.3}>
-              <Paper style={metricStyle}>
-                <Typography variant="h6">Avg Response Time</Typography>
+                <Typography variant="h7">Avg Response Time</Typography>
                 <div style={valueStyle}>{metrics.avg_response_time_min} min</div>
               </Paper>
             </Grid>
             <Grid item xs={12} md={2.3}>
               <Paper style={metricStyle}>
-                <Typography variant="h6">Most Common Incident</Typography>
+                <Typography variant="h7">% Delayed Responses</Typography>
+                <div style={valueStyle}>{metrics.percent_response_over_15}%</div>
+              </Paper>
+            </Grid>
+            <Grid item xs={12} md={2.3}>
+              <Paper style={metricStyle}>
+                <Typography variant="h7">Top Incident Type (past 90 days)</Typography>
                 <div style={valueStyle}>{metrics.most_common_incident}</div>
               </Paper>
             </Grid>
             <Grid item xs={12} md={2.3}>
               <Paper style={metricStyle}>
-                <Typography variant="h6">% High Severity</Typography>
-                <div style={valueStyle}>{metrics.percent_high_severity}%</div>
+                <Typography variant="h7">Slowest Region</Typography>
+                <div style={valueStyle}>{metrics.slowest_region}</div>
               </Paper>
             </Grid>
             <Grid item xs={12} md={2.3}>
               <Paper style={metricStyle}>
-                <Typography variant="h6">Ambulance Avail.</Typography>
-                <div style={valueStyle}>{metrics.ambulance_availability_rate}%</div>
+                <Typography variant="h7">Avg Hospital Capacity</Typography>
+                <div style={valueStyle}>{metrics.avg_hospital_capacity}%</div>
               </Paper>
             </Grid>
           </>
@@ -82,36 +88,30 @@ const HomePage = ({ setActiveTab }) => {
         </Typography>
         <br />
         <Grid container spacing={3} justifyContent="center" mt={1}>
-          <Grid item>
-            <Button
-              variant="contained"
-              sx={{ backgroundColor: '#3b82f6', padding: '20px 30px', minWidth: 200 }}
-              startIcon={<NotificationsIcon />}
-              onClick={() => setActiveTab('incident')}
-            >
-              Incidents & Severity
-            </Button>
-          </Grid>
-          <Grid item>
-            <Button
-              variant="contained"
-              sx={{ backgroundColor: '#3b82f6', padding: '20px 30px', minWidth: 200 }}
-              startIcon={<TimerIcon />}
-              onClick={() => setActiveTab('response')}
-            >
-              Response Time
-            </Button>
-          </Grid>
-          <Grid item>
-            <Button
-              variant="contained"
-              sx={{ backgroundColor: '#3b82f6', padding: '20px 30px', minWidth: 200 }}
-              startIcon={<WbSunnyIcon />}
-              onClick={() => setActiveTab('weather')}
-            >
-              Weather Impact
-            </Button>
-          </Grid>
+          {[
+            { label: 'Incidents Severity', icon: <NotificationsIcon />, tab: 'incident' },
+            { label: 'Response Time', icon: <TimerIcon />, tab: 'response' },
+            { label: 'Weather Impact', icon: <WbSunnyIcon />, tab: 'weather' },
+          ].map((item, idx) => (
+            <Grid item key={idx}>
+              <Button
+                variant="contained"
+                onClick={() => setActiveTab(item.tab)}
+                startIcon={item.icon}
+                sx={{
+                  backgroundColor: '#3b82f6',
+                  padding: '20px 30px',
+                  width: '240px',
+                  height: '70px',
+                  textAlign: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 600,
+                }}
+              >
+                {item.label}
+              </Button>
+            </Grid>
+          ))}
         </Grid>
       </Box>
 
@@ -122,7 +122,6 @@ const HomePage = ({ setActiveTab }) => {
         </Typography>
 
         <Paper elevation={2} sx={{ p: 4, mt: 3, color: '#4b5563' }}>
-          {/* Overview */}
           <Typography variant="body1" gutterBottom>
             This dashboard platform includes three main sections:
           </Typography>
@@ -135,7 +134,6 @@ const HomePage = ({ setActiveTab }) => {
             Each section includes interactive and filterable charts for analyzing emergency service performance across regions, time, and environmental factors.
           </Typography>
 
-          {/* Incident & Response Dashboards */}
           <Box mt={3}>
             <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
               Incident & Response Dashboards
@@ -153,7 +151,6 @@ const HomePage = ({ setActiveTab }) => {
             </Typography>
           </Box>
 
-          {/* Weather Dashboard */}
           <Box mt={3}>
             <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
               Weather Dashboard
@@ -171,7 +168,6 @@ const HomePage = ({ setActiveTab }) => {
             </Typography>
           </Box>
 
-          {/* Interaction Tips */}
           <Box mt={3}>
             <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
               Interaction Tips
