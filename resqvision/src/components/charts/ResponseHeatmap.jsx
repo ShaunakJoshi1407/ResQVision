@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import { saveAs } from "file-saver";
 import { Box } from "@mui/material";
 import * as d3 from "d3";
 
@@ -64,14 +63,12 @@ const ResponseHeatmap = ({
         .interpolator(d3.interpolateYlOrRd)
         .domain(d3.extent(grouped, (d) => d.Avg_Response_Time));
 
-      // Axes
       container.append("g")
         .attr("transform", `translate(0,${height})`)
         .call(d3.axisBottom(x));
 
       container.append("g").call(d3.axisLeft(y));
 
-      // Labels
       container.append("text")
         .attr("x", width / 2)
         .attr("y", height + 40)
@@ -89,7 +86,6 @@ const ResponseHeatmap = ({
 
       const tooltip = d3.select(tooltipRef.current);
 
-      // Heatmap Cells + Tooltip Events
       container.selectAll("rect.cell")
         .data(grouped)
         .enter()
@@ -104,9 +100,7 @@ const ResponseHeatmap = ({
           tooltip
             .style("opacity", 1)
             .html(
-              `<strong>${d.Road_Type}</strong> | ${d.Distance_Bin}<br/><strong>${d.Avg_Response_Time.toFixed(
-                2
-              )} min</strong>`
+              `<strong>${d.Road_Type}</strong> | ${d.Distance_Bin}<br/><strong>${d.Avg_Response_Time.toFixed(2)} min</strong>`
             );
         })
         .on("mousemove", (event) => {
@@ -118,7 +112,6 @@ const ResponseHeatmap = ({
           tooltip.style("opacity", 0);
         });
 
-      // Display text inside each cell of the heatmap so more information can be gained from the heatmap.
       container.selectAll("text.cell-label")
         .data(grouped)
         .enter()
@@ -131,7 +124,6 @@ const ResponseHeatmap = ({
         .attr("fill", "#000")
         .text((d) => d.Avg_Response_Time.toFixed(1));
 
-      // Color legend for the heatmap.
       const defs = svg.append("defs");
       const legendWidth = 200,
         legendHeight = 10;
@@ -167,63 +159,8 @@ const ResponseHeatmap = ({
     });
   }, [selectedRegions, selectedLevels, timeRange]);
 
-  const downloadJSON = () => {
-    const blob = new Blob([JSON.stringify(filteredData, null, 2)], {
-      type: "application/json",
-    });
-    saveAs(blob, "response_heatmap_data.json");
-  };
-  
-  const downloadCSV = () => {
-    if (!filteredData.length) return;
-  
-    const keys = Object.keys(filteredData[0]);
-    const csv = [
-      keys.join(","),
-      ...filteredData.map((row) => keys.map((k) => row[k]).join(",")),
-    ].join("\n");
-  
-    const blob = new Blob([csv], { type: "text/csv" });
-    saveAs(blob, "response_heatmap_data.csv");
-  };
-
   return (
     <div className="relative flex justify-center">
-
-      <div className="flex justify-end gap-2 mb-2">
-        {/* Styled Download Buttons */}
-        <Box display="flex" justifyContent="flex-end" gap={2} mb={2}>
-          <button
-            onClick={downloadJSON}
-            style={{
-              backgroundColor: "#1E40AF",
-              color: "white",
-              padding: "6px 12px",
-              border: "none",
-              borderRadius: "6px",
-              fontSize: "0.85rem",
-              cursor: "pointer",
-            }}
-          >
-            Download JSON
-          </button>
-          <button
-            onClick={downloadCSV}
-            style={{
-              backgroundColor: "#059669",
-              color: "white",
-              padding: "6px 12px",
-              border: "none",
-              borderRadius: "6px",
-              fontSize: "0.85rem",
-              cursor: "pointer",
-            }}
-          >
-            Download CSV
-          </button>
-        </Box>
-      </div>
-
       <svg ref={svgRef}></svg>
       <div
         ref={tooltipRef}
