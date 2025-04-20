@@ -15,6 +15,7 @@ import IncidentSeverityDashboard from './components/IncidentSeverityDashboard';
 import ResponseTimesDashboard from './components/ResponseDashboard';
 import WeatherDashboard from './components/WeatherDashboard';
 import HomePage from './components/HomePage';
+import InstructionsPage from './components/InstructionsPage';
 
 function AboutPage() {
   return (
@@ -36,51 +37,38 @@ function AboutPage() {
           Team Members
         </Typography>
         <ul style={{ paddingLeft: '1.5rem' }}>
-          <li><Link 
-                href="https://www.linkedin.com/in/shaunakhemantjoshi/" 
+          {[
+            {
+              name: 'Shaunak Hemant Joshi',
+              url: 'https://www.linkedin.com/in/shaunakhemantjoshi/',
+            },
+            {
+              name: 'Tanay Mahesh Mehendale',
+              url: 'https://www.linkedin.com/in/tanay-mehendale/',
+            },
+            {
+              name: 'Yash Patil',
+              url: 'https://www.linkedin.com/in/yapatil/',
+            },
+            {
+              name: 'Sai Nithya Makineni',
+              url: 'https://www.linkedin.com/in/sai-nithya-makineni/',
+            },
+          ].map((member, idx) => (
+            <li key={idx}>
+              <Link
+                href={member.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 underline="hover"
                 display="flex"
               >
-                Shaunak Hemant Joshi
+                {member.name}
               </Link>
-          </li>
-
-          <li><Link 
-                href="https://www.linkedin.com/in/tanay-mehendale/" 
-                target="_blank"
-                rel="noopener noreferrer"
-                underline="hover"
-                display="flex"
-              >
-                Tanay Mahesh Mehendale
-              </Link>
-          </li>
-
-          <li><Link 
-                href="https://www.linkedin.com/in/yapatil/" 
-                target="_blank"
-                rel="noopener noreferrer"
-                underline="hover"
-                display="flex"
-              >
-                Yash Patil
-              </Link>
-          </li>
-
-          <li><Link 
-                href="https://www.linkedin.com/in/sai-nithya-makineni/" 
-                target="_blank"
-                rel="noopener noreferrer"
-                underline="hover"
-                display="flex"
-              >
-                Sai Nithya Makineni
-              </Link>
-          </li>
-          
+            </li>
+          ))}
         </ul>
+
         <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
           Contact & Contributions
         </Typography>
@@ -119,6 +107,8 @@ function App() {
         return <ResponseTimesDashboard />;
       case 'weather':
         return <WeatherDashboard />;
+      case 'instructions':
+        return <InstructionsPage />;
       case 'about':
         return <AboutPage />;
       default:
@@ -136,12 +126,15 @@ function App() {
         }}
       >
         <Toolbar>
-          <Box display="flex" alignItems="center" gap={4} sx={{ flexGrow: 1 }}>
-            <Typography variant="h6" sx={{ fontWeight: 600, color: 'white' }}>
-              ResQVision
-            </Typography>
+          {/* Logo and Title */}
+          <Typography variant="h6" sx={{ fontWeight: 600, color: 'white', mr: 4 }}>
+            ResQVision
+          </Typography>
+
+          {/* Left-aligned dashboard tabs */}
+          <Box sx={{ flexGrow: 1 }}>
             <Tabs
-              value={activeTab}
+              value={['home', 'incident', 'response', 'weather'].includes(activeTab) ? activeTab : false}
               onChange={(e, newValue) => setActiveTab(newValue)}
               textColor="inherit"
               TabIndicatorProps={{ style: { backgroundColor: 'white' } }}
@@ -153,12 +146,14 @@ function App() {
             </Tabs>
           </Box>
 
+          {/* Right-aligned info tabs */}
           <Tabs
-            value={activeTab === 'about' ? 'about' : false}
+            value={['instructions', 'about'].includes(activeTab) ? activeTab : false}
             onChange={(e, newValue) => setActiveTab(newValue)}
             textColor="inherit"
             TabIndicatorProps={{ style: { backgroundColor: 'white' } }}
           >
+            <Tab label="Instructions" value="instructions" sx={{ color: 'white', textTransform: 'none' }} />
             <Tab label="About Us" value="about" sx={{ color: 'white', textTransform: 'none' }} />
           </Tabs>
         </Toolbar>

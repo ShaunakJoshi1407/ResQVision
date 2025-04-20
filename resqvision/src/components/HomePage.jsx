@@ -10,6 +10,8 @@ import {
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import TimerIcon from '@mui/icons-material/Timer';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline'; // Optional, if you want to re-add later
 
 const metricStyle = {
   padding: '20px',
@@ -106,6 +108,9 @@ const HomePage = ({ setActiveTab }) => {
                   textAlign: 'center',
                   justifyContent: 'center',
                   fontWeight: 600,
+                  '&:hover': {
+                    backgroundColor: '#2563eb',
+                  },
                 }}
               >
                 {item.label}
@@ -115,71 +120,40 @@ const HomePage = ({ setActiveTab }) => {
         </Grid>
       </Box>
 
-      {/* How to Use Section */}
-      <Box mt={10}>
-        <Typography variant="h5" align="center" gutterBottom sx={{ fontWeight: 600 }}>
-          How to Use
-        </Typography>
-
-        <Paper elevation={2} sx={{ p: 4, mt: 3, color: '#4b5563' }}>
-          <Typography variant="body1" gutterBottom>
-            This dashboard platform includes three main sections:
+      {/* Instructions Section */}
+      <Box mt={10} mb={4}>
+        <Box display="flex" justifyContent="center" alignItems="center" gap={1}>
+          <Typography variant="h5" align="center" sx={{ fontWeight: 600 }}>
+            How to Use ResQVision
           </Typography>
-          <ul style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
-            <li><strong>Incidents & Severity</strong></li>
-            <li><strong>Response Time</strong></li>
-            <li><strong>Weather Impact</strong></li>
-          </ul>
-          <Typography variant="body1" gutterBottom>
-            Each section includes interactive and filterable charts for analyzing emergency service performance across regions, time, and environmental factors.
-          </Typography>
-
-          <Box mt={3}>
-            <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
-              Incident & Response Dashboards
-            </Typography>
-            <Typography variant="body2" gutterBottom>
-              Use the following filters:
-            </Typography>
-            <ul style={{ paddingLeft: '1.5rem' }}>
-              <li><strong>Region Type:</strong> Urban, Suburban, Rural (multi-select)</li>
-              <li><strong>Incident Type:</strong> e.g., Fire, Medical, Crash (multi-select)</li>
-              <li><strong>Time Range:</strong> Jan 2018 – Dec 2024 via a month-year slider</li>
-            </ul>
-            <Typography variant="body2" gutterBottom>
-              These filters dynamically update all charts in the view. Legends can also be used to toggle specific series within charts.
-            </Typography>
-          </Box>
-
-          <Box mt={3}>
-            <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
-              Weather Dashboard
-            </Typography>
-            <Typography variant="body2" gutterBottom>
-              Filters in this section include:
-            </Typography>
-            <ul style={{ paddingLeft: '1.5rem' }}>
-              <li><strong>Region Type:</strong> (single-select)</li>
-              <li><strong>Traffic Congestion:</strong> (single-select)</li>
-              <li><strong>Time Range:</strong> Jan 2018 – Dec 2024</li>
-            </ul>
-            <Typography variant="body2" gutterBottom>
-              Focuses on how weather and road conditions affect emergency response using heatmaps.
-            </Typography>
-          </Box>
-
-          <Box mt={3}>
-            <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
-              Interaction Tips
-            </Typography>
-            <ul style={{ paddingLeft: '1.5rem' }}>
-              <li>Use the info icon besides each chart to learn more about it.</li>
-              <li>Hover over chart elements to see exact values.</li>
-              <li>Legends can toggle specific chart lines or categories.</li>
-              <li>Tooltips and color cues highlight key trends and anomalies.</li>
-            </ul>
-          </Box>
-        </Paper>
+        </Box>
+        <br />
+        <Grid container spacing={3} justifyContent="center" mt={1}>
+          <Grid item>
+            <Button
+              variant="outlined"
+              onClick={() => setActiveTab('instructions')}
+              endIcon={<OpenInNewIcon sx={{ fontSize: 12 }} />}
+              sx={{
+                backgroundColor: 'white',
+                border: '2px solid #3b82f6',
+                padding: '20px 30px',
+                width: '240px',
+                height: '70px',
+                textAlign: 'center',
+                justifyContent: 'center',
+                fontWeight: 600,
+                color: '#1e3a8a',
+                '&:hover': {
+                  backgroundColor: '#e0f2fe',
+                  borderColor: '#2563eb',
+                },
+              }}
+            >
+              Instructions
+            </Button>
+          </Grid>
+        </Grid>
       </Box>
     </Box>
   );
