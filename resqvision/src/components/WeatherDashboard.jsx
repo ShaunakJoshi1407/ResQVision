@@ -12,62 +12,103 @@ import {
   Slider,
   IconButton,
   Tooltip,
+  Menu,
+  MenuItem,
+  Snackbar,
+  Alert,
 } from "@mui/material";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
+import { saveAs } from "file-saver";
+
 import WeatherHeatmap from "./charts/WeatherHeatmap";
 
-const monthYearOptions = [
-  "Jan 2018", "Feb 2018", "Mar 2018", "Apr 2018", "May 2018", "Jun 2018",
-  "Jul 2018", "Aug 2018", "Sep 2018", "Oct 2018", "Nov 2018", "Dec 2018",
-  "Jan 2019", "Feb 2019", "Mar 2019", "Apr 2019", "May 2019", "Jun 2019",
-  "Jul 2019", "Aug 2019", "Sep 2019", "Oct 2019", "Nov 2019", "Dec 2019",
-  "Jan 2020", "Feb 2020", "Mar 2020", "Apr 2020", "May 2020", "Jun 2020",
-  "Jul 2020", "Aug 2020", "Sep 2020", "Oct 2020", "Nov 2020", "Dec 2020",
-  "Jan 2021", "Feb 2021", "Mar 2021", "Apr 2021", "May 2021", "Jun 2021",
-  "Jul 2021", "Aug 2021", "Sep 2021", "Oct 2021", "Nov 2021", "Dec 2021",
-  "Jan 2022", "Feb 2022", "Mar 2022", "Apr 2022", "May 2022", "Jun 2022",
-  "Jul 2022", "Aug 2022", "Sep 2022", "Oct 2022", "Nov 2022", "Dec 2022",
-  "Jan 2023", "Feb 2023", "Mar 2023", "Apr 2023", "May 2023", "Jun 2023",
-  "Jul 2023", "Aug 2023", "Sep 2023", "Oct 2023", "Nov 2023", "Dec 2023",
-  "Jan 2024", "Feb 2024", "Mar 2024", "Apr 2024", "May 2024", "Jun 2024",
-  "Jul 2024", "Aug 2024", "Sep 2024", "Oct 2024", "Nov 2024", "Dec 2024",
-];
+const monthYearOptions = [...Array(84)].map((_, i) => {
+  const date = new Date(2018, i);
+  return date.toLocaleString("default", { month: "short", year: "numeric" });
+});
 
 const regionOptions = ["Rural", "Suburban", "Urban"];
 const trafficOptions = ["Low", "Moderate", "High"];
+
+const convertToMonthYear = (label) => {
+  const months = {
+    Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06",
+    Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12",
+  };
+  const [month, year] = label.split(" ");
+  return `${year}-${months[month]}`;
+};
 
 const WeatherDashboard = () => {
   const [selectedRegion, setSelectedRegion] = useState("Rural");
   const [selectedTraffic, setSelectedTraffic] = useState("Low");
   const [timeRange, setTimeRange] = useState([0, monthYearOptions.length - 1]);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [toastOpen, setToastOpen] = useState(false);
 
   const startMonth = monthYearOptions[timeRange[0]];
   const endMonth = monthYearOptions[timeRange[1]];
 
+  const handleExportClick = (e) => {
+    setAnchorEl(e.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const showToast = () => {
+    setToastOpen(true);
+    setTimeout(() => setToastOpen(false), 1500);
+  };
+
+  const handleDownload = async (format) => {
+    const response = await fetch("/data/weather_heatmap.json");
+    const data = await response.json();
+
+    const startKey = convertToMonthYear(startMonth);
+    const endKey = convertToMonthYear(endMonth);
+
+    const filtered = data.filter(
+      (d) =>
+        d.Region_Type === selectedRegion &&
+        d.Traffic_Congestion === selectedTraffic &&
+        d.MonthYear >= startKey &&
+        d.MonthYear <= endKey
+    );
+
+    if (format === "json") {
+      const blob = new Blob([JSON.stringify(filtered, null, 2)], {
+        type: "application/json",
+      });
+      saveAs(blob, "weather_heatmap_data.json");
+    } else {
+      const keys = Object.keys(filtered[0] || {});
+      const csv = [
+        keys.join(","),
+        ...filtered.map((row) => keys.map((k) => row[k]).join(",")),
+      ].join("\n");
+      const blob = new Blob([csv], { type: "text/csv" });
+      saveAs(blob, "weather_heatmap_data.csv");
+    }
+
+    showToast();
+    handleClose();
+  };
+
   return (
     <Box display="flex" height="100%">
       {/* Sidebar Filters */}
-      <Box
-        width="260px"
-        minHeight="100vh"
-        p={2}
-        borderRight="1px solid #e0e0e0"
-        bgcolor="white"
-      >
-        <Typography
-          variant="h5"
-          gutterBottom
-          sx={{ fontWeight: 600, color: "#1E40AF" }}
-        >
+      <Box width="260px" minHeight="100vh" p={2} borderRight="1px solid #e0e0e0" bgcolor="white">
+        <Typography variant="h5" gutterBottom sx={{ fontWeight: 600, color: "#1E40AF" }}>
           Filters
         </Typography>
 
         {/* Region Type - Single Select */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
-            <Typography variant="subtitle2" gutterBottom>
-              Region Type
-            </Typography>
+            <Typography variant="subtitle2" gutterBottom>Region Type</Typography>
             <FormControl component="fieldset">
               <RadioGroup
                 value={selectedRegion}
@@ -89,9 +130,7 @@ const WeatherDashboard = () => {
         {/* Traffic Congestion - Single Select */}
         <Card variant="outlined" className="mb-4">
           <CardContent>
-            <Typography variant="subtitle2" gutterBottom>
-              Traffic Congestion
-            </Typography>
+            <Typography variant="subtitle2" gutterBottom>Traffic Congestion</Typography>
             <FormControl component="fieldset">
               <RadioGroup
                 value={selectedTraffic}
@@ -113,9 +152,7 @@ const WeatherDashboard = () => {
         {/* Time Range Filter */}
         <Card variant="outlined">
           <CardContent>
-            <Typography variant="subtitle2" gutterBottom>
-              Time Range (2018 - 2024)
-            </Typography>
+            <Typography variant="subtitle2" gutterBottom>Time Range (2018 - 2024)</Typography>
             <Box mt={3} px={1}>
               <Box display="flex" justifyContent="space-between" mb={1}>
                 <Typography variant="body2">{startMonth}</Typography>
@@ -137,15 +174,22 @@ const WeatherDashboard = () => {
       <Box flex={1} p={3}>
         <Card variant="outlined">
           <CardContent>
-            <Box display="flex" justifyContent="space-between">
+            <Box display="flex" justifyContent="space-between" alignItems="center">
               <Typography variant="h6" gutterBottom>
                 Average Response Time by Weather Condition and Road Type
               </Typography>
-              <Tooltip title="Displays the average response time for combinations of weather conditions and road types.">
-                <IconButton size="small">
-                  <InfoOutlinedIcon fontSize="small" />
-                </IconButton>
-              </Tooltip>
+              <Box display="flex" alignItems="center" gap={1}>
+                <Tooltip title="Export Data">
+                  <IconButton size="small" onClick={handleExportClick}>
+                    <FileDownloadOutlinedIcon fontSize="small" />
+                  </IconButton>
+                </Tooltip>
+                <Tooltip title="Displays the average response time for combinations of weather conditions and road types.">
+                  <IconButton size="small">
+                    <InfoOutlinedIcon fontSize="small" />
+                  </IconButton>
+                </Tooltip>
+              </Box>
             </Box>
             <Typography variant="subtitle2" gutterBottom>
               Region Type: {selectedRegion} &nbsp;&nbsp;&nbsp; Traffic: {selectedTraffic}
@@ -159,6 +203,42 @@ const WeatherDashboard = () => {
           </CardContent>
         </Card>
       </Box>
+
+      {/* Export Dropdown */}
+      <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
+        <MenuItem onClick={() => handleDownload("json")}>Download JSON</MenuItem>
+        <MenuItem onClick={() => handleDownload("csv")}>Download CSV</MenuItem>
+      </Menu>
+
+      {/* Toast Alert */}
+      <Snackbar
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+        open={toastOpen}
+        autoHideDuration={1500}
+        onClose={() => setToastOpen(false)}
+      >
+        <Alert
+          severity="success"
+          sx={{
+            width: "300px",
+            fontSize: "1rem",
+            fontWeight: 500,
+            p: 2,
+            border: "1px solid #4ade80",
+            boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.1)",
+            backgroundColor: "#ecfdf5",
+            color: "#166534",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          iconMapping={{
+            success: <span style={{ fontSize: "1.4rem", marginRight: "0.5rem" }}>✅</span>,
+          }}
+        >
+          Exported successfully!
+        </Alert>
+      </Snackbar>
     </Box>
   );
 };

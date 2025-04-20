@@ -1,7 +1,7 @@
 {
-  "unique_emergencies": 36,
-  "avg_response_time_min": 17.0,
+  "avg_response_time_min": 16.99,
+  "percent_response_over_15": 61.27,
   "most_common_incident": "Accident",
-  "percent_high_severity": 10.0,
-  "ambulance_availability_rate": 90.0
+  "slowest_region": "Rural – 19.03 min",
+  "avg_hospital_capacity": 54.5
 }
