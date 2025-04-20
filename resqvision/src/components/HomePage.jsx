@@ -47,36 +47,11 @@ const HomePage = ({ setActiveTab }) => {
       <Grid container spacing={3} justifyContent="center" mb={10}>
         {metrics ? (
           <>
-            <Grid item xs={12} md={2.3}>
-              <Paper style={metricStyle}>
-                <Typography variant="h7">Avg Response Time</Typography>
-                <div style={valueStyle}>{metrics.avg_response_time_min} min</div>
-              </Paper>
-            </Grid>
-            <Grid item xs={12} md={2.3}>
-              <Paper style={metricStyle}>
-                <Typography variant="h7">% Delayed Responses</Typography>
-                <div style={valueStyle}>{metrics.percent_response_over_15}%</div>
-              </Paper>
-            </Grid>
-            <Grid item xs={12} md={2.3}>
-              <Paper style={metricStyle}>
-                <Typography variant="h7">Top Incident Type (past 90 days)</Typography>
-                <div style={valueStyle}>{metrics.most_common_incident}</div>
-              </Paper>
-            </Grid>
-            <Grid item xs={12} md={2.3}>
-              <Paper style={metricStyle}>
-                <Typography variant="h7">Slowest Region</Typography>
-                <div style={valueStyle}>{metrics.slowest_region}</div>
-              </Paper>
-            </Grid>
-            <Grid item xs={12} md={2.3}>
-              <Paper style={metricStyle}>
-                <Typography variant="h7">Avg Hospital Capacity</Typography>
-                <div style={valueStyle}>{metrics.avg_hospital_capacity}%</div>
-              </Paper>
-            </Grid>
+            <MetricCardAnimated label="Avg Response Time" value={metrics.avg_response_time_min} unit="min" />
+            <MetricCardAnimated label="% Delayed Responses" value={metrics.percent_response_over_15} unit="%" />
+            <MetricCardStatic label="Top Incident Type (past 90 days)" value={metrics.most_common_incident} />
+            <MetricCardStatic label="Slowest Region" value={metrics.slowest_region} />
+            <MetricCardAnimated label="Avg Hospital Capacity" value={metrics.avg_hospital_capacity} unit="%" />
           </>
         ) : (
           <Typography variant="body1" color="error">Failed to load metrics.</Typography>
@@ -160,3 +135,44 @@ const HomePage = ({ setActiveTab }) => {
 };
 
 export default HomePage;
+
+// ---------- Supporting Components ----------
+
+const MetricCardAnimated = ({ label, value, unit }) => {
+  const [displayValue, setDisplayValue] = useState(0);
+
+  useEffect(() => {
+    let start;
+    const duration = 800;
+    const animate = (timestamp) => {
+      if (!start) start = timestamp;
+      const progress = Math.min((timestamp - start) / duration, 1);
+      const current = parseFloat((value * progress).toFixed(1));
+      setDisplayValue(current);
+      if (progress < 1) {
+        requestAnimationFrame(animate);
+      }
+    };
+    requestAnimationFrame(animate);
+  }, [value]);
+
+  return (
+    <Grid item xs={12} md={2.3}>
+      <Paper style={metricStyle}>
+        <Typography variant="h7">{label}</Typography>
+        <div style={valueStyle}>
+          {displayValue.toFixed(1)}{unit ? ` ${unit}` : ''}
+        </div>
+      </Paper>
+    </Grid>
+  );
+};
+
+const MetricCardStatic = ({ label, value }) => (
+  <Grid item xs={12} md={2.3}>
+    <Paper style={metricStyle}>
+      <Typography variant="h7">{label}</Typography>
+      <div style={valueStyle}>{value}</div>
+    </Paper>
+  </Grid>
+);
