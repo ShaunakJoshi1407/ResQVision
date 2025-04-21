@@ -8,7 +8,7 @@
 ![Material%20UI](https://img.shields.io/badge/MUI-%5E5.x-blueviolet)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 
-🔗 **ResQVision Dashboard**: [https://resqvision-dashboard.netlify.app](https://resqvision-dashboard.netlify.app)
+🔗 [ResQVision Dashboard](https://resqvision-dashboard.netlify.app)
 
 ---
 
