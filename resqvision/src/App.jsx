@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   AppBar,
   Toolbar,
@@ -97,6 +97,17 @@ function AboutPage() {
 function App() {
   const [activeTab, setActiveTab] = useState('home');
 
+  // Restore last selected tab from localStorage
+  useEffect(() => {
+    const lastTab = localStorage.getItem('resqvision_active_tab');
+    if (lastTab) setActiveTab(lastTab);
+  }, []);
+
+  const handleTabChange = (e, newValue) => {
+    setActiveTab(newValue);
+    localStorage.setItem('resqvision_active_tab', newValue);
+  };
+
   const renderContent = () => {
     switch (activeTab) {
       case 'home':
@@ -135,7 +146,7 @@ function App() {
           <Box sx={{ flexGrow: 1 }}>
             <Tabs
               value={['home', 'incident', 'response', 'weather'].includes(activeTab) ? activeTab : false}
-              onChange={(e, newValue) => setActiveTab(newValue)}
+              onChange={handleTabChange}
               textColor="inherit"
               TabIndicatorProps={{ style: { backgroundColor: 'white' } }}
             >
@@ -149,7 +160,7 @@ function App() {
           {/* Right-aligned info tabs */}
           <Tabs
             value={['instructions', 'about'].includes(activeTab) ? activeTab : false}
-            onChange={(e, newValue) => setActiveTab(newValue)}
+            onChange={handleTabChange}
             textColor="inherit"
             TabIndicatorProps={{ style: { backgroundColor: 'white' } }}
           >

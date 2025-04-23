@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Box } from "@mui/material";
 import * as d3 from 'd3';
+import { getDashboardFile } from '../../utils/getDashboardFile';
+import { useDashboardData } from '../../context/DashboardDataContext';
 
 const monthMap = {
   Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06',
@@ -15,12 +16,13 @@ function formatMonthYear(value) {
 const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, endMonth }) => {
   const svgRef = useRef();
   const [hiddenTypes, setHiddenTypes] = useState([]);
-  const [filteredData, setFilteredData] = useState([]);
+  const { incidentTrends } = useDashboardData();
 
   useEffect(() => {
-    d3.json('/data/incident_trends.json').then((data) => {
-      if (!data) return;
+    const svg = d3.select(svgRef.current);
+    svg.selectAll('*').remove();
 
+    const render = (data) => {
       const start = formatMonthYear(startMonth);
       const end = formatMonthYear(endMonth);
 
@@ -31,9 +33,6 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
           d.MonthYear >= start &&
           d.MonthYear <= end
       );
-
-      const svg = d3.select(svgRef.current);
-      svg.selectAll('*').remove();
 
       if (!filtered.length) {
         svg
@@ -59,12 +58,10 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
 
       const aggregated = d3.rollups(
         filtered,
-        v => d3.sum(v, d => d.Count),
+        v => d3.sum(v, d => d.Count || 1),
         d => d.MonthYear,
         d => d.Incident_Type
       );
-
-      setFilteredData(aggregated);
 
       const flatData = [];
       aggregated.forEach(([month, byType]) => {
@@ -161,8 +158,18 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
           .style('font-size', '12px')
           .attr('alignment-baseline', 'middle');
       });
-    });
-  }, [selectedRegions, selectedIncidents, startMonth, endMonth, hiddenTypes]);
+    };
+
+    const mode = localStorage.getItem('incident_dashboard_file_prefix');
+    if (mode === 'client-upload' && incidentTrends) {
+      render(incidentTrends);
+    } else {
+      const file = getDashboardFile('incident_trends', '/data/incident_trends.json');
+      d3.json(file).then((data) => {
+        if (data) render(data);
+      });
+    }
+  }, [selectedRegions, selectedIncidents, startMonth, endMonth, hiddenTypes, incidentTrends]);
 
   return (
     <div className="flex justify-center">

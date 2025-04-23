@@ -1,30 +1,32 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Box } from "@mui/material";
 import * as d3 from 'd3';
+import { getDashboardFile } from '../../utils/getDashboardFile';
+import { useDashboardData } from '../../context/DashboardDataContext';
 
 const SeverityBarChart = ({ selectedRegions, selectedIncidents, startMonth, endMonth }) => {
   const svgRef = useRef();
   const tooltipRef = useRef();
   const [filteredData, setFilteredData] = useState([]);
+  const { severityCounts } = useDashboardData();
 
   useEffect(() => {
-    if (!selectedRegions.length || !selectedIncidents.length || !startMonth || !endMonth) return;
+    const svg = d3.select(svgRef.current);
+    svg.selectAll('*').remove();
 
-    d3.json('/data/severity_counts_monthly.json').then((data) => {
-      if (!data) return;
-
-      const toMonthKey = (label) => {
-        const [month, year] = label.split(' ');
-        const monthMap = {
-          Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06',
-          Jul: '07', Aug: '08', Sep: '09', Oct: '10', Nov: '11', Dec: '12',
-        };
-        return `${year}-${monthMap[month]}`;
+    const toMonthKey = (label) => {
+      const [month, year] = label.split(' ');
+      const monthMap = {
+        Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06',
+        Jul: '07', Aug: '08', Sep: '09', Oct: '10', Nov: '11', Dec: '12',
       };
+      return `${year}-${monthMap[month]}`;
+    };
 
-      const startKey = toMonthKey(startMonth);
-      const endKey = toMonthKey(endMonth);
+    const startKey = toMonthKey(startMonth);
+    const endKey = toMonthKey(endMonth);
 
+    const render = (data) => {
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
@@ -36,7 +38,7 @@ const SeverityBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
       const severityLevels = ['Low', 'Medium', 'High'];
       const severityCounts = d3.rollups(
         filtered,
-        (v) => d3.sum(v, (d) => d.Count),
+        (v) => d3.sum(v, (d) => d.Count || 1),
         (d) => d.Incident_Severity
       )
         .map(([severity, count]) => ({ Severity: severity, Count: count }))
@@ -47,9 +49,6 @@ const SeverityBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
       const margin = { top: 40, right: 30, bottom: 40, left: 100 };
       const width = 400 - margin.left - margin.right;
       const height = 300 - margin.top - margin.bottom;
-
-      const svg = d3.select(svgRef.current);
-      svg.selectAll('*').remove();
 
       if (filtered.length === 0) {
         svg
@@ -140,8 +139,19 @@ const SeverityBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
       bars.transition()
         .duration(800)
         .attr('width', (d) => x(d.Count));
-    });
-  }, [selectedRegions, selectedIncidents, startMonth, endMonth]);
+    };
+
+    const mode = localStorage.getItem('incident_dashboard_file_prefix');
+
+    if (mode === 'client-upload' && severityCounts) {
+      render(severityCounts);
+    } else {
+      const file = getDashboardFile('severity_counts', '/data/severity_counts_monthly.json');
+      d3.json(file).then((data) => {
+        if (data) render(data);
+      });
+    }
+  }, [selectedRegions, selectedIncidents, startMonth, endMonth, severityCounts]);
 
   return (
     <div className="relative flex justify-center">

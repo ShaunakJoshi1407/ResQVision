@@ -1,11 +1,13 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Box } from '@mui/material';
 import * as d3 from 'd3';
+import { getDashboardFile } from '../../utils/getDashboardFile';
+import { useDashboardData } from '../../context/DashboardDataContext';
 
 const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endMonth }) => {
   const svgRef = useRef();
   const tooltipRef = useRef();
-  const [filteredData, setFilteredData] = useState([]);
+  const { incidentTypeCounts } = useDashboardData();
 
   const convertToMonthYear = (label) => {
     const months = {
@@ -17,9 +19,10 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
   };
 
   useEffect(() => {
-    d3.json('/data/incident_type_counts_monthly.json').then((data) => {
-      if (!data) return;
+    const svg = d3.select(svgRef.current);
+    svg.selectAll('*').remove();
 
+    const render = (data) => {
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
@@ -28,18 +31,13 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
           d.MonthYear <= convertToMonthYear(endMonth)
       );
 
-      setFilteredData(filtered);
-
-      const svg = d3.select(svgRef.current);
-      svg.selectAll('*').remove();
-
-      if (filtered.length === 0) {
+      if (!filtered.length) {
         svg
           .attr('width', 320)
           .attr('height', 240)
           .append('text')
-          .attr('x', 200)
-          .attr('y', 150)
+          .attr('x', 160)
+          .attr('y', 120)
           .attr('text-anchor', 'middle')
           .text('No data for the selected filters');
         return;
@@ -47,7 +45,7 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
 
       const incidentCounts = d3.rollups(
         filtered,
-        (v) => d3.sum(v, (d) => d.Count),
+        (v) => d3.sum(v, (d) => d.Count || 1),
         (d) => d.Incident_Type
       ).map(([type, count]) => ({ Incident_Type: type, Count: count }));
 
@@ -122,8 +120,19 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
         .duration(800)
         .attr('y', (d) => y(d.Count))
         .attr('height', (d) => height - y(d.Count));
-    });
-  }, [selectedRegions, selectedIncidents, startMonth, endMonth]);
+    };
+
+    const mode = localStorage.getItem('incident_dashboard_file_prefix');
+
+    if (mode === 'client-upload' && incidentTypeCounts) {
+      render(incidentTypeCounts);
+    } else {
+      const file = getDashboardFile('incident_type_counts', '/data/incident_type_counts_monthly.json');
+      d3.json(file).then((data) => {
+        if (data) render(data);
+      });
+    }
+  }, [selectedRegions, selectedIncidents, startMonth, endMonth, incidentTypeCounts]);
 
   return (
     <div className="relative flex justify-center">
