@@ -49,6 +49,8 @@ const ResponseDashboard = () => {
   const [selectedRegions, setSelectedRegions] = useState([...regionOptions]);
   const [selectedLevels, setSelectedLevels] = useState([...emergencyLevels]);
   const [timeRange, setTimeRange] = useState([0, monthYearOptions.length - 1]);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [menuTarget, setMenuTarget] = useState(null);
   const [toastOpen, setToastOpen] = useState(false);
   const [uploadedFileName, setUploadedFileName] = useState(null);
 
@@ -75,6 +77,125 @@ const ResponseDashboard = () => {
     if (isSelected && current.length === 1) return;
     setter(isSelected ? current.filter((v) => v !== value) : [...current, value]);
   };
+
+  const handleExportClick = (e, chartId) => {
+    setAnchorEl(e.currentTarget);
+    setMenuTarget(chartId);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+    setMenuTarget(null);
+  };
+
+  const showToast = () => {
+    setToastOpen(true);
+    setTimeout(() => setToastOpen(false), 1500);
+  };
+
+  const handleDownload = (format) => {
+    const downloaders = {
+      chart1: { json: downloadChart1JSON, csv: downloadChart1CSV },
+      chart2: { json: downloadChart2JSON, csv: downloadChart2CSV },
+      chart3: { json: downloadChart3JSON, csv: downloadChart3CSV },
+    };
+    downloaders[menuTarget][format]();
+    showToast();
+    handleClose();
+  };
+
+  const exportFiltered = async (filePath, filterFn, fileName, format = "json") => {
+    const res = await fetch(filePath);
+    const data = await res.json();
+    const filtered = data.filter(filterFn);
+
+    if (format === "json") {
+      const blob = new Blob([JSON.stringify(filtered, null, 2)], {
+        type: "application/json",
+      });
+      saveAs(blob, `${fileName}.json`);
+    } else {
+      const keys = Object.keys(filtered[0] || {});
+      const csv = [
+        keys.join(","),
+        ...filtered.map((row) => keys.map((k) => row[k]).join(",")),
+      ].join("\n");
+      const blob = new Blob([csv], { type: "text/csv" });
+      saveAs(blob, `${fileName}.csv`);
+    }
+  }
+
+  const downloadChart1JSON = () =>
+    exportFiltered(
+      "/data/ambulance_response_filtered.json",
+      (d) =>
+        selectedRegions.includes(d.Region_Type) &&
+        selectedLevels.includes(d.Emergency_Level) &&
+        d.MonthYear >= monthRange[0] &&
+        d.MonthYear <= monthRange[1],
+      "ambulance_availability_data",
+      "json"
+  );
+
+  const downloadChart1CSV = () =>
+    exportFiltered(
+      "/data/ambulance_response_filtered.json",
+      (d) =>
+        selectedRegions.includes(d.Region_Type) &&
+        selectedLevels.includes(d.Emergency_Level) &&
+        d.MonthYear >= monthRange[0] &&
+        d.MonthYear <= monthRange[1],
+      "ambulance_availability_data",
+      "csv"
+  );
+
+  const downloadChart2JSON = () =>
+    exportFiltered(
+      "/data/injuries_response.json",
+      (d) =>
+        selectedRegions.includes(d.Region_Type) &&
+        selectedLevels.includes(d.Emergency_Level) &&
+        d.MonthYear >= monthRange[0] &&
+        d.MonthYear <= monthRange[1],
+      "injuries_response_data",
+      "json"
+  );
+
+  const downloadChart2CSV = () =>
+    exportFiltered(
+      "/data/injuries_response.json",
+      (d) =>
+        selectedRegions.includes(d.Region_Type) &&
+        selectedLevels.includes(d.Emergency_Level) &&
+        d.MonthYear >= monthRange[0] &&
+        d.MonthYear <= monthRange[1],
+      "injuries_response_data",
+      "csv"
+  );
+
+  const downloadChart3JSON = () =>
+    exportFiltered(
+      "/data/response_heatmap.json",
+      (d) =>
+        selectedRegions.includes(d.Region_Type) &&
+        selectedLevels.includes(d.Emergency_Level) &&
+        d.MonthYear >= monthRange[0] &&
+        d.MonthYear <= monthRange[1],
+      "response_heatmap_data",
+      "json"
+  );
+
+  const downloadChart3CSV = () =>
+    exportFiltered(
+      "/data/response_heatmap.json",
+      (d) =>
+        selectedRegions.includes(d.Region_Type) &&
+        selectedLevels.includes(d.Emergency_Level) &&
+        d.MonthYear >= monthRange[0] &&
+        d.MonthYear <= monthRange[1],
+      "response_heatmap_data",
+      "csv"
+  );
 
   const handleCSVUpload = (e) => {
     const file = e.target.files[0];
@@ -288,9 +409,21 @@ const ResponseDashboard = () => {
           <Grid item xs={12} md={6}>
             <Card variant="outlined">
               <CardContent>
-                <Typography variant="h6" fontSize="1.01rem">
-                  Avg. Response Time by Ambulance Availability
-                </Typography>
+                <Box display="flex" justifyContent="space-between" alignItems="center">
+                  <Typography variant="h6" fontSize="1.01rem">
+                    Avg. Response Time by Ambulance Availability
+                  </Typography>
+                  <Box display="flex" alignItems="center" gap={1}>
+                    <Tooltip title="Export Data">
+                      <IconButton size="small" onClick={(e) => handleExportClick(e, "chart1")}>
+                        <FileDownloadOutlinedIcon fontSize="small" />
+                      </IconButton>
+                    </Tooltip>
+                    <Tooltip title="Compares average response time for available and unavailable ambulances.">
+                      <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
+                    </Tooltip>
+                  </Box>
+                </Box>
                 <AmbulanceAvailabilityChart
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}
@@ -303,9 +436,21 @@ const ResponseDashboard = () => {
           <Grid item xs={12} md={6}>
             <Card variant="outlined">
               <CardContent>
-                <Typography variant="h6" fontSize="1.1rem">
-                  Avg. Response Time by Number of Injuries
-                </Typography>
+                <Box display="flex" justifyContent="space-between" alignItems="center">
+                  <Typography variant="h6" fontSize="1.1rem">
+                    Avg. Response Time by Number of Injuries
+                  </Typography>
+                  <Box display="flex" alignItems="center" gap={1}>
+                    <Tooltip title="Export Data">
+                      <IconButton size="small" onClick={(e) => handleExportClick(e, "chart2")}>
+                        <FileDownloadOutlinedIcon fontSize="small" />
+                      </IconButton>
+                    </Tooltip>
+                    <Tooltip title="Shows how response time changes with injury count.">
+                      <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
+                    </Tooltip>
+                  </Box>
+                </Box>
                 <InjuriesResponseLineChart
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}
@@ -318,9 +463,21 @@ const ResponseDashboard = () => {
           <Grid item xs={12}>
             <Card variant="outlined">
               <CardContent>
-                <Typography variant="h6" fontSize="1.1rem">
-                  Response Time by Road Type and Distance
-                </Typography>
+                <Box display="flex" justifyContent="space-between" alignItems="center">
+                  <Typography variant="h6" fontSize="1.1rem">
+                    Response Time by Road Type and Distance
+                  </Typography>
+                  <Box display="flex" alignItems="center" gap={1}>
+                    <Tooltip title="Export Data">
+                      <IconButton size="small" onClick={(e) => handleExportClick(e, "chart3")}>
+                        <FileDownloadOutlinedIcon fontSize="small" />
+                      </IconButton>
+                    </Tooltip>
+                    <Tooltip title="Heatmap showing response time by road and distance.">
+                      <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
+                    </Tooltip>
+                  </Box>
+                </Box>
                 <ResponseHeatmap
                   selectedRegions={selectedRegions}
                   selectedLevels={selectedLevels}
@@ -331,6 +488,12 @@ const ResponseDashboard = () => {
           </Grid>
         </Grid>
       </Box>
+
+      {/* Export Menu */}
+      <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
+        <MenuItem onClick={() => handleDownload("json")}>Download JSON</MenuItem>
+        <MenuItem onClick={() => handleDownload("csv")}>Download CSV</MenuItem>
+      </Menu>
 
       <Snackbar
         open={toastOpen}
