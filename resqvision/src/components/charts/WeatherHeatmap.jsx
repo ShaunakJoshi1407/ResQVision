@@ -23,7 +23,7 @@ const WeatherHeatmap = ({
 
   useEffect(() => {
     const svg = d3.select(svgRef.current);
-    svg.selectAll("*").remove();
+    svg.selectAll("*").remove(); // clear entire SVG content
 
     const margin = { top: 110, right: 20, bottom: 60, left: 120 };
     const width = 900 - margin.left - margin.right;
@@ -74,6 +74,7 @@ const WeatherHeatmap = ({
         .interpolator(d3.interpolateYlOrRd)
         .domain(d3.extent(grouped, (d) => d.Avg_Response_Time));
 
+      // Axes
       svgContainer.append("g")
         .attr("transform", `translate(0,${height})`)
         .call(d3.axisBottom(x))
@@ -85,6 +86,7 @@ const WeatherHeatmap = ({
         .selectAll("text")
         .style("font-size", "11px");
 
+      // Axis labels
       svgContainer.append("text")
         .attr("x", width / 2)
         .attr("y", height + 50)
@@ -104,6 +106,7 @@ const WeatherHeatmap = ({
 
       const tooltip = d3.select(tooltipRef.current);
 
+      // Heatmap cells
       svgContainer.selectAll("rect.cell")
         .data(grouped)
         .enter()
@@ -130,6 +133,7 @@ const WeatherHeatmap = ({
           tooltip.style("opacity", 0);
         });
 
+      // Value labels
       svgContainer.selectAll("text.cell-label")
         .data(grouped)
         .enter()
@@ -146,6 +150,10 @@ const WeatherHeatmap = ({
           return luminance < 140 ? "white" : "black";
         })
         .text((d) => d.Avg_Response_Time.toFixed(1));
+
+      // ✅ Legend cleanup and redraw
+      svg.selectAll("defs").remove(); // remove previous gradients
+      svg.selectAll(".legend-elements").remove(); // remove all elements from previous legend
 
       const defs = svg.append("defs");
       const legendWidth = 200;
@@ -167,6 +175,7 @@ const WeatherHeatmap = ({
         .attr("text-anchor", "middle")
         .attr("font-size", "13px")
         .style("font-weight", "500")
+        .attr("class", "legend-elements")
         .text("Response time (min.)");
 
       svg.append("rect")
@@ -174,11 +183,14 @@ const WeatherHeatmap = ({
         .attr("y", 40)
         .attr("width", legendWidth)
         .attr("height", legendHeight)
+        .attr("class", "legend-elements")
         .style("fill", "url(#heatmap-gradient)");
 
       const legendScale = d3.scaleLinear().domain(color.domain()).range([0, legendWidth]);
+
       svg.append("g")
         .attr("transform", `translate(${width / 2 - legendWidth / 2 + margin.left}, ${40 + legendHeight})`)
+        .attr("class", "legend-elements")
         .call(d3.axisBottom(legendScale).ticks(5))
         .select(".domain")
         .remove();

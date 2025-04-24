@@ -115,7 +115,7 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
         .attr('x', width / 2)
         .attr('y', height + 50)
         .attr('text-anchor', 'middle')
-        .style('font-size', '12px')
+        .style('font-size', '16px')
         .text('Month');
 
       container.append('text')
@@ -123,7 +123,7 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
         .attr('x', -height / 2)
         .attr('y', -40)
         .attr('text-anchor', 'middle')
-        .style('font-size', '12px')
+        .style('font-size', '16px')
         .text('Incident Count');
 
       const legend = svg.append('g')
