@@ -204,7 +204,7 @@ const WeatherDashboard = () => {
 
         <Card variant="outlined">
           <CardContent>
-            <Typography variant="subtitle2" gutterBottom>Upload CSV</Typography>
+            <Typography variant="subtitle2" gutterBottom>Upload CSV (Experimental)</Typography>
             <Box display="flex" gap={1}>
               {!uploadedFileName ? (
                 <Button

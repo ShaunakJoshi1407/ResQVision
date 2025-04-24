@@ -151,7 +151,7 @@ function App() {
               TabIndicatorProps={{ style: { backgroundColor: 'white' } }}
             >
               <Tab label="Home" value="home" sx={{ color: 'white', textTransform: 'none' }} />
-              <Tab label="Incident Trends Dashboard" value="incident" sx={{ color: 'white', textTransform: 'none' }} />
+              <Tab label="Incident Dashboard" value="incident" sx={{ color: 'white', textTransform: 'none' }} />
               <Tab label="Response Analysis Dashboard" value="response" sx={{ color: 'white', textTransform: 'none' }} />
               <Tab label="Weather Impact Dashboard" value="weather" sx={{ color: 'white', textTransform: 'none' }} />
             </Tabs>
