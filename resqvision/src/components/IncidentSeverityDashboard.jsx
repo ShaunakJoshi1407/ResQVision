@@ -15,11 +15,14 @@ import {
   Button,
   Snackbar,
   Alert,
+  Menu,
+  MenuItem,
 } from "@mui/material";
 
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
 import RestartAltIcon from "@mui/icons-material/RestartAlt";
+import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
 
 import IncidentBarChart from "./charts/IncidentBarChart";
 import SeverityBarChart from "./charts/SeverityBarChart";
@@ -40,6 +43,9 @@ const IncidentSeverityDashboard = () => {
   const [selectedRegions, setSelectedRegions] = useState([...regionOptions]);
   const [selectedIncidents, setSelectedIncidents] = useState([...incidentOptions]);
   const [timeRange, setTimeRange] = useState([0, monthYearOptions.length - 1]);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [menuTarget, setMenuTarget] = useState(null);
+  const [toastOpen, setToastOpen] = useState(false);
   const [uploadedFileName, setUploadedFileName] = useState(null);
   const [toast, setToast] = useState({ open: false, message: "", severity: "success" });
 
@@ -64,6 +70,42 @@ const IncidentSeverityDashboard = () => {
     const isSelected = current.includes(value);
     if (isSelected && current.length === 1) return;
     setter(isSelected ? current.filter((v) => v !== value) : [...current, value]);
+  };
+
+  const handleExportClick = (e, chartId) => {
+    setAnchorEl(e.currentTarget);
+    setMenuTarget(chartId);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+    setMenuTarget(null);
+  };
+
+  const showToast = () => {
+    setToastOpen(true);
+    setTimeout(() => setToastOpen(false), 1500);
+  };
+
+  const handleDownload = (format) => {
+    if (menuTarget === "chart1") {
+      format === "json" ? downloadChart1JSON() : downloadChart1CSV();
+    } else if (menuTarget === "chart2") {
+      format === "json" ? downloadChart2JSON() : downloadChart2CSV();
+    } else if (menuTarget === "chart3") {
+      format === "json" ? downloadChart3JSON() : downloadChart3CSV();
+    }
+    showToast();
+    handleClose();
+  };
+
+  const convertToMonthYear = (label) => {
+    const months = {
+      Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06",
+      Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12",
+    };
+    const [monthStr, year] = label.split(" ");
+    return `${year}-${months[monthStr]}`;
   };
 
   const handleCSVUpload = (e) => {
@@ -141,6 +183,98 @@ const IncidentSeverityDashboard = () => {
     setToast({ open: true, message: "Reverted to default data", severity: "info" });
     setTimeout(() => window.location.reload(), 1000);
   };
+
+  const exportFiltered = async (filePath, filterFn, fileName, format = "json") => {
+    const res = await fetch(filePath);
+    const data = await res.json();
+    const filtered = data.filter(filterFn);
+    if (format === "json") {
+      const blob = new Blob([JSON.stringify(filtered, null, 2)], {
+        type: "application/json",
+      });
+      saveAs(blob, `${fileName}.json`);
+    } else {
+      const keys = Object.keys(filtered[0] || {});
+      const csv = [
+        keys.join(","),
+        ...filtered.map((row) => keys.map((k) => row[k]).join(",")),
+      ].join("\n");
+      const blob = new Blob([csv], { type: "text/csv" });
+      saveAs(blob, `${fileName}.csv`);
+    }
+  };
+
+  const downloadChart1JSON = () =>
+    exportFiltered(
+      "/data/incident_type_counts_monthly.json",
+      (d) =>
+        selectedRegions.includes(d.Region_Type) &&
+        selectedIncidents.includes(d.Incident_Type) &&
+        d.MonthYear >= convertToMonthYear(startMonth) &&
+        d.MonthYear <= convertToMonthYear(endMonth),
+      "incident_bar_chart_data",
+      "json"
+  );
+
+  const downloadChart1CSV = () =>
+    exportFiltered(
+      "/data/incident_type_counts_monthly.json",
+      (d) =>
+        selectedRegions.includes(d.Region_Type) &&
+        selectedIncidents.includes(d.Incident_Type) &&
+        d.MonthYear >= convertToMonthYear(startMonth) &&
+        d.MonthYear <= convertToMonthYear(endMonth),
+      "incident_bar_chart_data",
+      "csv"
+    );
+
+  const downloadChart2JSON = () =>
+    exportFiltered(
+      "/data/severity_counts_monthly.json",
+      (d) =>
+        selectedRegions.includes(d.Region_Type) &&
+        selectedIncidents.includes(d.Incident_Type) &&
+        d.MonthYear >= convertToMonthYear(startMonth) &&
+        d.MonthYear <= convertToMonthYear(endMonth),
+      "severity_bar_chart_data",
+      "json"
+    );
+
+    const downloadChart2CSV = () =>
+      exportFiltered(
+        "/data/severity_counts_monthly.json",
+        (d) =>
+          selectedRegions.includes(d.Region_Type) &&
+          selectedIncidents.includes(d.Incident_Type) &&
+          d.MonthYear >= convertToMonthYear(startMonth) &&
+          d.MonthYear <= convertToMonthYear(endMonth),
+        "severity_bar_chart_data",
+        "csv"
+      );
+
+    const downloadChart3JSON = () =>
+      exportFiltered(
+        "/data/incident_type_counts_monthly.json",
+        (d) =>
+          selectedRegions.includes(d.Region_Type) &&
+          selectedIncidents.includes(d.Incident_Type) &&
+          d.MonthYear >= convertToMonthYear(startMonth) &&
+          d.MonthYear <= convertToMonthYear(endMonth),
+        "incident_trend_data",
+        "json"
+      );
+
+    const downloadChart3CSV = () =>
+      exportFiltered(
+        "/data/incident_type_counts_monthly.json",
+        (d) =>
+          selectedRegions.includes(d.Region_Type) &&
+          selectedIncidents.includes(d.Incident_Type) &&
+          d.MonthYear >= convertToMonthYear(startMonth) &&
+          d.MonthYear <= convertToMonthYear(endMonth),
+        "incident_trend_data",
+        "csv"
+      );
 
   return (
     <Box display="flex" height="100%">
@@ -271,13 +405,20 @@ const IncidentSeverityDashboard = () => {
                         3: "Incident Trends over Time",
                       }[chartId]}
                     </Typography>
-                    <Tooltip title={{
-                      1: "Shows total number of incidents for each incident type.",
-                      2: "Distribution of severity levels by number of incidents.",
-                      3: "Incident type trends over time. Click legend to filter.",
-                    }[chartId]}>
-                      <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
-                    </Tooltip>
+                    <Box display="flex" alignItems="center" gap={1}>
+                      <Tooltip title="Export Data">
+                        <IconButton size="small" onClick={(e) => handleExportClick(e, `chart${chartId}`)}>
+                          <FileDownloadOutlinedIcon fontSize="small" />
+                        </IconButton>
+                      </Tooltip>
+                      <Tooltip title={{
+                        1: "Shows total number of incidents for each incident type.",
+                        2: "Distribution of severity levels by number of incidents.",
+                        3: "Incident type trends over time. Click legend to filter.",
+                      }[chartId]}>
+                        <IconButton size="small"><InfoOutlinedIcon fontSize="small" /></IconButton>
+                      </Tooltip>
+                    </Box>
                   </Box>
                   {{
                     1: <IncidentBarChart selectedRegions={selectedRegions} selectedIncidents={selectedIncidents} startMonth={startMonth} endMonth={endMonth} />,
@@ -290,6 +431,12 @@ const IncidentSeverityDashboard = () => {
           ))}
         </Grid>
       </Box>
+
+      {/* Export Menu */}
+      <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
+        <MenuItem onClick={() => handleDownload("json")}>Download JSON</MenuItem>
+        <MenuItem onClick={() => handleDownload("csv")}>Download CSV</MenuItem>
+      </Menu>
 
       <Snackbar
         open={toast.open}
