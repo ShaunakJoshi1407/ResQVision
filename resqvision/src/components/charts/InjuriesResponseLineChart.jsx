@@ -1,7 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Box } from "@mui/material";
 import * as d3 from "d3";
+import { useDashboardData } from "../../context/DashboardDataContext";
 
+// Color map for each emergency level
 const COLORS = {
   Minor: "#60a5fa",
   Major: "#facc15",
@@ -16,14 +18,15 @@ const InjuriesResponseLineChart = ({
   const svgRef = useRef();
   const tooltipRef = useRef();
   const [hiddenLevels, setHiddenLevels] = useState([]);
-  const [filteredData, setFilteredData] = useState([]);
+  const { injuriesResponseData } = useDashboardData();
 
   useEffect(() => {
-    d3.json("/data/injuries_response.json").then((data) => {
+    const [startMonth, endMonth] = timeRange;
+
+    const process = (data) => {
       if (!data) return;
-
-      const [startMonth, endMonth] = timeRange;
-
+  
+      // Filter data by region, level, and time
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
@@ -32,11 +35,12 @@ const InjuriesResponseLineChart = ({
           d.MonthYear <= endMonth
       );
 
+      // Aggregate average response time per emergency level and injury count
       const aggregated = d3.rollups(
         filtered,
-        (v) => d3.mean(v, (d) => d.Avg_Response_Time),
+        (v) => d3.mean(v, (d) => +d.Avg_Response_Time),
         (d) => d.Emergency_Level,
-        (d) => d.Number_of_Injuries
+        (d) => +d.Number_of_Injuries
       ).flatMap(([level, arr]) =>
         arr.map(([injuries, avg]) => ({
           Emergency_Level: level,
@@ -44,8 +48,11 @@ const InjuriesResponseLineChart = ({
           Avg_Response_Time: avg,
         }))
       );
-      setFilteredData(aggregated);
 
+      drawChart(aggregated);
+    };
+
+    const drawChart = (aggregated) => {
       const grouped = d3.groups(aggregated, (d) => d.Emergency_Level);
 
       const svg = d3.select(svgRef.current);
@@ -61,11 +68,13 @@ const InjuriesResponseLineChart = ({
         .append("g")
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
+      // X-axis: Number of injuries (1–4+)
       const x = d3
         .scaleLinear()
         .domain([1, 4])
         .range([0, width]);
 
+      // Y-axis: Average response time (linear)
       const y = d3
         .scaleLinear()
         .domain([0, d3.max(aggregated, (d) => d.Avg_Response_Time)])
@@ -81,7 +90,8 @@ const InjuriesResponseLineChart = ({
         );
 
       container.append("g").call(d3.axisLeft(y));
-
+      
+      // Axis labels
       container.append("text")
         .attr("x", width / 2)
         .attr("y", height + 40)
@@ -96,7 +106,8 @@ const InjuriesResponseLineChart = ({
         .text("Avg. Response Time (min)");
 
       const tooltip = d3.select(tooltipRef.current);
-
+      
+      // Plot one line per emergency level
       grouped.forEach(([level, values]) => {
         if (hiddenLevels.includes(level)) return;
 
@@ -113,6 +124,7 @@ const InjuriesResponseLineChart = ({
           .attr("stroke-width", 2.5)
           .attr("d", line);
 
+        // Draw data points with tooltip interaction
         container.selectAll(`circle-${level}`)
           .data(sorted)
           .enter()
@@ -149,6 +161,7 @@ const InjuriesResponseLineChart = ({
           .text((d) => d.Avg_Response_Time.toFixed(2));
       });
 
+      // Interactive legend for toggling emergency levels
       const legend = svg
         .append("g")
         .attr("transform", `translate(${margin.left + 10}, ${margin.top - 50})`);
@@ -183,8 +196,15 @@ const InjuriesResponseLineChart = ({
           .style("font-size", "12px")
           .attr("alignment-baseline", "middle");
       });
-    });
-  }, [selectedRegions, selectedLevels, timeRange, hiddenLevels]);
+    };
+
+   // Determine data source: uploaded CSV or fallback JSON
+    if (injuriesResponseData) {
+      process(injuriesResponseData);
+    } else {
+      d3.json("/data/injuries_response.json").then(process);
+    }
+  }, [selectedRegions, selectedLevels, timeRange, injuriesResponseData, hiddenLevels]);
 
   return (
     <div className="relative flex justify-center">

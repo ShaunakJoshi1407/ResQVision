@@ -1,7 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Box } from "@mui/material";
 import * as d3 from 'd3';
+import { getDashboardFile } from '../../utils/getDashboardFile';
+import { useDashboardData } from '../../context/DashboardDataContext';
 
+// Mapping for converting month abbreviations to numeric format
 const monthMap = {
   Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06',
   Jul: '07', Aug: '08', Sep: '09', Oct: '10', Nov: '11', Dec: '12',
@@ -15,15 +17,17 @@ function formatMonthYear(value) {
 const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, endMonth }) => {
   const svgRef = useRef();
   const [hiddenTypes, setHiddenTypes] = useState([]);
-  const [filteredData, setFilteredData] = useState([]);
+  const { incidentTrends } = useDashboardData();
 
   useEffect(() => {
-    d3.json('/data/incident_trends.json').then((data) => {
-      if (!data) return;
+    const svg = d3.select(svgRef.current);
+    svg.selectAll('*').remove();
 
+    const render = (data) => {
       const start = formatMonthYear(startMonth);
       const end = formatMonthYear(endMonth);
 
+      // Filter data based on selected filters
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
@@ -32,9 +36,7 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
           d.MonthYear <= end
       );
 
-      const svg = d3.select(svgRef.current);
-      svg.selectAll('*').remove();
-
+      // Early exit if no data
       if (!filtered.length) {
         svg
           .attr('width', 600)
@@ -57,15 +59,15 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
         .append('g')
         .attr('transform', `translate(${margin.left},${margin.top})`);
 
+      // Aggregate data by MonthYear and Incident_Type
       const aggregated = d3.rollups(
         filtered,
-        v => d3.sum(v, d => d.Count),
+        v => d3.sum(v, d => d.Count || 1),
         d => d.MonthYear,
         d => d.Incident_Type
       );
 
-      setFilteredData(aggregated);
-
+      // Flatten aggregated data for plotting
       const flatData = [];
       aggregated.forEach(([month, byType]) => {
         byType.forEach(([incident, count]) => {
@@ -75,12 +77,17 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
 
       const trendsByType = d3.group(flatData, d => d.Incident_Type);
       const allMonths = Array.from(new Set(filtered.map((d) => d.MonthYear))).sort();
+      
+      // X-axis: Time (MonthYear)
       const x = d3.scalePoint().domain(allMonths).range([0, width]);
+      
+      // Y-axis: Incident count
       const y = d3.scaleLinear()
         .domain([0, d3.max(flatData, d => d.Count)])
         .nice()
         .range([height, 0]);
 
+      // X-axis tick spacing logic
       const tickInterval = allMonths.length <= 6 ? 1 : allMonths.length <= 12 ? 2 : 3;
 
       container.append('g')
@@ -93,6 +100,7 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
       container.append('g')
         .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('.2s')));
 
+      // Color palette for incident types
       const color = d3.scaleOrdinal()
         .domain(selectedIncidents)
         .range(d3.schemeTableau10);
@@ -118,7 +126,7 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
         .attr('x', width / 2)
         .attr('y', height + 50)
         .attr('text-anchor', 'middle')
-        .style('font-size', '12px')
+        .style('font-size', '16px')
         .text('Month');
 
       container.append('text')
@@ -126,7 +134,7 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
         .attr('x', -height / 2)
         .attr('y', -40)
         .attr('text-anchor', 'middle')
-        .style('font-size', '12px')
+        .style('font-size', '16px')
         .text('Incident Count');
 
       const legend = svg.append('g')
@@ -161,8 +169,19 @@ const IncidentTrendsChart = ({ selectedRegions, selectedIncidents, startMonth, e
           .style('font-size', '12px')
           .attr('alignment-baseline', 'middle');
       });
-    });
-  }, [selectedRegions, selectedIncidents, startMonth, endMonth, hiddenTypes]);
+    };
+
+    // Determine data source: uploaded CSV or fallback JSON
+    const mode = localStorage.getItem('incident_dashboard_file_prefix');
+    if (mode === 'client-upload' && incidentTrends) {
+      render(incidentTrends);
+    } else {
+      const file = getDashboardFile('incident_trends', '/data/incident_trends.json');
+      d3.json(file).then((data) => {
+        if (data) render(data);
+      });
+    }
+  }, [selectedRegions, selectedIncidents, startMonth, endMonth, hiddenTypes, incidentTrends]);
 
   return (
     <div className="flex justify-center">

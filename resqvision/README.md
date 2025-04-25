@@ -19,6 +19,9 @@ Provides an overview of the ResQVision platform with:
   - Response Analysis
   - Weather Impact
 
+### InstructionsPage.jsx
+Contains information on how to use the three dashboards with the given filters. This also gives the user an idea about the insights they can gain from each dashboard.
+
 ### IncidentSeverityDashboard.jsx
 Main dashboard for incident analysis. It includes:
 
@@ -51,6 +54,13 @@ Main dashboard for response time analysis. It includes:
 - Heatmap of average response time based on Road Type and Distance to Incident
 - Filters: Region, Time, Emergency Level
 
+### WeatherDashboard.jsx
+Main dashboard for weather impact analysis. It includes:
+
+**WeatherHeatmap.jsx**
+- Heatmap showing average response times based on Weather Condition and Road Type
+- Filters: Region, Traffic Congestion, Time
+
 ## Data Preprocessing
 
 The `data_preprocessing` directory contains:
@@ -60,3 +70,8 @@ The `data_preprocessing` directory contains:
 
 - `Home_Page_Metrics.ipynb`:  
   Generates `metrics_summary.json`, used to display summary metrics on the homepage.
+
+## Sample Data
+
+- Sample csv files are present in the `data/Sample_data` folder, which could be used for testing the "CSV Upload" feature in all of the dashboards.
+- Sample data can also be created from the main dataset located in the `data` folder, by using the last cell of the notebook `Data Preprocessing.ipynb`.

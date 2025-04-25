@@ -1,12 +1,18 @@
-import React, { useEffect, useRef, useState } from "react";
-import { Box } from "@mui/material";
+import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
+import { useDashboardData } from "../../context/DashboardDataContext";
 
-const WeatherHeatmap = ({ selectedRegions, selectedTraffic, startMonth, endMonth }) => {
+const WeatherHeatmap = ({
+  selectedRegions,
+  selectedTraffic,
+  startMonth,
+  endMonth,
+}) => {
   const svgRef = useRef();
   const tooltipRef = useRef();
-  const [filteredData, setFilteredData] = useState([]);
+  const { weatherHeatmapData } = useDashboardData();
 
+  // Converts "Apr 2020" to "2020-04"
   const convertToMonthYear = (label) => {
     const months = {
       Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06",
@@ -17,28 +23,31 @@ const WeatherHeatmap = ({ selectedRegions, selectedTraffic, startMonth, endMonth
   };
 
   useEffect(() => {
-    d3.json("/data/weather_heatmap.json").then((data) => {
-      const svg = d3.select(svgRef.current);
-      svg.selectAll("*").remove();
+    const svg = d3.select(svgRef.current);
+    svg.selectAll("*").remove(); // clear entire SVG content
 
-      const margin = { top: 110, right: 20, bottom: 60, left: 120 };
-      const width = 900 - margin.left - margin.right;
-      const height = 450 - margin.top - margin.bottom;
+    const margin = { top: 110, right: 20, bottom: 60, left: 120 };
+    const width = 900 - margin.left - margin.right;
+    const height = 450 - margin.top - margin.bottom;
 
-      const [start, end] = [convertToMonthYear(startMonth), convertToMonthYear(endMonth)];
-      const region = selectedRegions[0];
+    const region = selectedRegions[0];
+    const startKey = convertToMonthYear(startMonth);
+    const endKey = convertToMonthYear(endMonth);
 
+    const processData = (data) => {
+      // Filter data by selected filters
       const filtered = data.filter(
         (d) =>
           d.Region_Type === region &&
           d.Traffic_Congestion === selectedTraffic &&
-          d.MonthYear >= start &&
-          d.MonthYear <= end
+          d.MonthYear >= startKey &&
+          d.MonthYear <= endKey
       );
 
+      // Group and aggregate average response time by weather and road type
       const grouped = d3.rollups(
         filtered,
-        (v) => d3.mean(v, (d) => d.Avg_Response_Time),
+        (v) => d3.mean(v, (d) => +d.Response_Time || +d.Avg_Response_Time || 0),
         (d) => d.Weather_Condition,
         (d) => d.Road_Type
       ).flatMap(([weather, roadMap]) =>
@@ -48,7 +57,8 @@ const WeatherHeatmap = ({ selectedRegions, selectedTraffic, startMonth, endMonth
           Avg_Response_Time: avg,
         }))
       );
-      setFilteredData(grouped);
+
+      if (!grouped.length) return;
 
       const svgContainer = svg
         .attr("width", width + margin.left + margin.right)
@@ -67,6 +77,7 @@ const WeatherHeatmap = ({ selectedRegions, selectedTraffic, startMonth, endMonth
         .interpolator(d3.interpolateYlOrRd)
         .domain(d3.extent(grouped, (d) => d.Avg_Response_Time));
 
+      // Axes
       svgContainer.append("g")
         .attr("transform", `translate(0,${height})`)
         .call(d3.axisBottom(x))
@@ -78,7 +89,7 @@ const WeatherHeatmap = ({ selectedRegions, selectedTraffic, startMonth, endMonth
         .selectAll("text")
         .style("font-size", "11px");
 
-      // X-axis label
+      // Axis labels
       svgContainer.append("text")
         .attr("x", width / 2)
         .attr("y", height + 50)
@@ -87,7 +98,6 @@ const WeatherHeatmap = ({ selectedRegions, selectedTraffic, startMonth, endMonth
         .style("font-weight", "500")
         .text("Road Type");
 
-      // Y-axis label
       svgContainer.append("text")
         .attr("transform", "rotate(-90)")
         .attr("x", -height / 2)
@@ -99,6 +109,7 @@ const WeatherHeatmap = ({ selectedRegions, selectedTraffic, startMonth, endMonth
 
       const tooltip = d3.select(tooltipRef.current);
 
+      // Heatmap cells
       svgContainer.selectAll("rect.cell")
         .data(grouped)
         .enter()
@@ -125,6 +136,7 @@ const WeatherHeatmap = ({ selectedRegions, selectedTraffic, startMonth, endMonth
           tooltip.style("opacity", 0);
         });
 
+      // Value labels
       svgContainer.selectAll("text.cell-label")
         .data(grouped)
         .enter()
@@ -136,22 +148,21 @@ const WeatherHeatmap = ({ selectedRegions, selectedTraffic, startMonth, endMonth
         .attr("font-size", "13px")
         .attr("font-weight", "500")
         .attr("fill", (d) => {
-          // Get RGB from color scale
           const rgb = d3.rgb(color(d.Avg_Response_Time));
-          // Calculate luminance
           const luminance = 0.299 * rgb.r + 0.587 * rgb.g + 0.114 * rgb.b;
           return luminance < 140 ? "white" : "black";
         })
-        .text((d) => d.Avg_Response_Time.toFixed(1));      
+        .text((d) => d.Avg_Response_Time.toFixed(1));
+
+      // Create color scale legend
+      svg.selectAll("defs").remove();
+      svg.selectAll(".legend-elements").remove(); 
 
       const defs = svg.append("defs");
       const legendWidth = 200;
       const legendHeight = 10;
 
-      const linearGradient = defs
-        .append("linearGradient")
-        .attr("id", "heatmap-gradient");
-
+      const linearGradient = defs.append("linearGradient").attr("id", "heatmap-gradient");
       linearGradient.selectAll("stop")
         .data(d3.range(0, 1.01, 0.1))
         .enter()
@@ -161,34 +172,40 @@ const WeatherHeatmap = ({ selectedRegions, selectedTraffic, startMonth, endMonth
           color(color.domain()[0] + d * (color.domain()[1] - color.domain()[0]))
         );
 
-      // Legend title
       svg.append("text")
         .attr("x", width / 2 + margin.left)
         .attr("y", 25)
         .attr("text-anchor", "middle")
         .attr("font-size", "13px")
         .style("font-weight", "500")
+        .attr("class", "legend-elements")
         .text("Response time (min.)");
 
-      // Color legend bar
       svg.append("rect")
         .attr("x", width / 2 - legendWidth / 2 + margin.left)
         .attr("y", 40)
         .attr("width", legendWidth)
         .attr("height", legendHeight)
+        .attr("class", "legend-elements")
         .style("fill", "url(#heatmap-gradient)");
 
-      const legendScale = d3.scaleLinear()
-        .domain(color.domain())
-        .range([0, legendWidth]);
+      const legendScale = d3.scaleLinear().domain(color.domain()).range([0, legendWidth]);
 
       svg.append("g")
         .attr("transform", `translate(${width / 2 - legendWidth / 2 + margin.left}, ${40 + legendHeight})`)
+        .attr("class", "legend-elements")
         .call(d3.axisBottom(legendScale).ticks(5))
         .select(".domain")
         .remove();
-    });
-  }, [selectedRegions, selectedTraffic, startMonth, endMonth]);
+    };
+    
+    // Determine data source: uploaded CSV or fallback JSON
+    if (weatherHeatmapData && weatherHeatmapData.length) {
+      processData(weatherHeatmapData);
+    } else {
+      d3.json("/data/weather_heatmap.json").then(processData);
+    }
+  }, [selectedRegions, selectedTraffic, startMonth, endMonth, weatherHeatmapData]);
 
   return (
     <div className="relative flex justify-center">

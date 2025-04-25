@@ -1,4 +1,3 @@
-// components/InstructionsPage.jsx
 import React from 'react';
 import { Box, Typography, Paper } from '@mui/material';
 
@@ -60,6 +59,8 @@ const InstructionsPage = () => {
             <li>Hover over chart elements to see exact values.</li>
             <li>Legends can toggle specific chart lines or categories.</li>
             <li>Tooltips and color cues highlight key trends and anomalies.</li>
+            <li>You can upload your own emergency response CSV file using the upload button at the top of each dashboard.</li>
+            <li>To return to the default data, use the reset button next to the upload option.</li>
           </ul>
         </Box>
       </Paper>

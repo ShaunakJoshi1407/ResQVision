@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Box } from "@mui/material";
 import * as d3 from "d3";
+import { useDashboardData } from "../../context/DashboardDataContext";
 
 const ResponseHeatmap = ({
   selectedRegions = ["Urban", "Suburban", "Rural"],
@@ -9,14 +9,14 @@ const ResponseHeatmap = ({
 }) => {
   const svgRef = useRef();
   const tooltipRef = useRef();
-  const [filteredData, setFilteredData] = useState([]);
+  const { heatmapResponseData } = useDashboardData();
 
   useEffect(() => {
-    d3.json("/data/response_heatmap.json").then((data) => {
+    const [startMonth, endMonth] = timeRange;
+
+    const process = (data) => {
       if (!data) return;
-
-      const [startMonth, endMonth] = timeRange;
-
+      // Filter by region, emergency level, and time range
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
@@ -25,9 +25,10 @@ const ResponseHeatmap = ({
           d.MonthYear <= endMonth
       );
 
+      // Aggregate average response time by road type and distance bin
       const grouped = d3.rollups(
         filtered,
-        (v) => d3.mean(v, (d) => d.Avg_Response_Time),
+        (v) => d3.mean(v, (d) => +d.Avg_Response_Time),
         (d) => d.Road_Type,
         (d) => d.Distance_Bin
       ).flatMap(([road, distMap]) =>
@@ -37,8 +38,11 @@ const ResponseHeatmap = ({
           Avg_Response_Time: avg,
         }))
       );
-      setFilteredData(grouped);
 
+      drawChart(grouped);
+    };
+
+    const drawChart = (data) => {
       const svg = d3.select(svgRef.current);
       svg.selectAll("*").remove();
 
@@ -52,8 +56,8 @@ const ResponseHeatmap = ({
         .append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
-      const roadTypes = Array.from(new Set(grouped.map((d) => d.Road_Type)));
-      const distanceBins = Array.from(new Set(grouped.map((d) => d.Distance_Bin)));
+      const roadTypes = Array.from(new Set(data.map((d) => d.Road_Type)));
+      const distanceBins = Array.from(new Set(data.map((d) => d.Distance_Bin)));
 
       const x = d3.scaleBand().domain(distanceBins).range([0, width]).padding(0.05);
       const y = d3.scaleBand().domain(roadTypes).range([0, height]).padding(0.05);
@@ -61,7 +65,7 @@ const ResponseHeatmap = ({
       const color = d3
         .scaleSequential()
         .interpolator(d3.interpolateYlOrRd)
-        .domain(d3.extent(grouped, (d) => d.Avg_Response_Time));
+        .domain(d3.extent(data, (d) => d.Avg_Response_Time));
 
       container.append("g")
         .attr("transform", `translate(0,${height})`)
@@ -74,6 +78,7 @@ const ResponseHeatmap = ({
         .selectAll("text")
         .style("font-size", "11px");
 
+      // Axis labels
       container.append("text")
         .attr("x", width / 2)
         .attr("y", height + 40)
@@ -93,8 +98,9 @@ const ResponseHeatmap = ({
 
       const tooltip = d3.select(tooltipRef.current);
 
+      // Draw heatmap cells
       container.selectAll("rect.cell")
-        .data(grouped)
+        .data(data)
         .enter()
         .append("rect")
         .attr("class", "cell")
@@ -118,9 +124,10 @@ const ResponseHeatmap = ({
         .on("mouseout", () => {
           tooltip.style("opacity", 0);
         });
-
+      
+      // Add value labels in cells
       container.selectAll("text.cell-label")
-        .data(grouped)
+        .data(data)
         .enter()
         .append("text")
         .attr("x", (d) => x(d.Distance_Bin) + x.bandwidth() / 2)
@@ -135,7 +142,8 @@ const ResponseHeatmap = ({
           return luminance < 140 ? "white" : "black";
         })
         .text((d) => d.Avg_Response_Time.toFixed(1));
-
+      
+      // Gradient legend setup
       const defs = svg.append("defs");
       const legendWidth = 200;
       const legendHeight = 10;
@@ -176,8 +184,15 @@ const ResponseHeatmap = ({
         .call(d3.axisBottom(legendScale).ticks(5))
         .select(".domain")
         .remove();
-    });
-  }, [selectedRegions, selectedLevels, timeRange]);
+    };
+
+    // Determine data source: uploaded CSV or fallback JSON
+    if (heatmapResponseData) {
+      process(heatmapResponseData);
+    } else {
+      d3.json("/data/response_heatmap.json").then(process);
+    }
+  }, [selectedRegions, selectedLevels, timeRange, heatmapResponseData]);
 
   return (
     <div className="relative flex justify-center">
