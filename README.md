@@ -26,6 +26,6 @@
 ```bash
 git clone https://github.com/ShaunakJoshi1407/ResQVision.git
 cd ResQVision
-npm install
-npm run dev
+npm install / pnpm install
+npm run dev / pnpm run dev
 ```
