@@ -97,7 +97,7 @@ function AboutPage() {
 function App() {
   const [activeTab, setActiveTab] = useState('home');
 
-  // Restore last selected tab from localStorage
+  // Restore last selected tab from localStorage after reloading the page
   useEffect(() => {
     const lastTab = localStorage.getItem('resqvision_active_tab');
     if (lastTab) setActiveTab(lastTab);
@@ -142,7 +142,6 @@ function App() {
             ResQVision
           </Typography>
 
-          {/* Left-aligned dashboard tabs */}
           <Box sx={{ flexGrow: 1 }}>
             <Tabs
               value={['home', 'incident', 'response', 'weather'].includes(activeTab) ? activeTab : false}
@@ -157,7 +156,7 @@ function App() {
             </Tabs>
           </Box>
 
-          {/* Right-aligned info tabs */}
+          {/* Right-aligned info tabs specifically for Instructions and About Us*/}
           <Tabs
             value={['instructions', 'about'].includes(activeTab) ? activeTab : false}
             onChange={handleTabChange}
