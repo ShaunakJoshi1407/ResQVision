@@ -31,6 +31,7 @@ import Papa from "papaparse";
 
 import { useDashboardData } from "../context/DashboardDataContext";
 
+// Generate month-year labels from Jan 2018 to Dec 2024
 const monthYearOptions = [...Array(84)].map((_, i) => {
   const date = new Date(2018, i);
   return date.toLocaleString("default", { month: "short", year: "numeric" });
@@ -40,9 +41,12 @@ const regionOptions = ["Rural", "Suburban", "Urban"];
 const incidentOptions = ["Accident", "Fire", "Cardiac Arrest", "Other"];
 
 const IncidentSeverityDashboard = () => {
+  // Global filter states
   const [selectedRegions, setSelectedRegions] = useState([...regionOptions]);
   const [selectedIncidents, setSelectedIncidents] = useState([...incidentOptions]);
   const [timeRange, setTimeRange] = useState([0, monthYearOptions.length - 1]);
+  
+  // Upload/download and toast UI states
   const [anchorEl, setAnchorEl] = useState(null);
   const [menuTarget, setMenuTarget] = useState(null);
   const [toastOpen, setToastOpen] = useState(false);
@@ -58,6 +62,7 @@ const IncidentSeverityDashboard = () => {
   const startMonth = monthYearOptions[timeRange[0]];
   const endMonth = monthYearOptions[timeRange[1]];
 
+  // Load uploaded file state on first render
   useEffect(() => {
     const prefix = localStorage.getItem("incident_dashboard_file_prefix");
     const filename = localStorage.getItem("incident_dashboard_file_name");
@@ -66,12 +71,14 @@ const IncidentSeverityDashboard = () => {
     }
   }, []);
 
+  // Utility: toggle checkbox value in a filter
   const handleToggle = (setter, current, value) => {
     const isSelected = current.includes(value);
     if (isSelected && current.length === 1) return;
     setter(isSelected ? current.filter((v) => v !== value) : [...current, value]);
   };
 
+  // Export menu actions
   const handleExportClick = (e, chartId) => {
     setAnchorEl(e.currentTarget);
     setMenuTarget(chartId);
@@ -99,6 +106,7 @@ const IncidentSeverityDashboard = () => {
     handleClose();
   };
 
+  // Converts "Apr 2019" → "2019-04"
   const convertToMonthYear = (label) => {
     const months = {
       Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06",
@@ -108,6 +116,7 @@ const IncidentSeverityDashboard = () => {
     return `${year}-${months[monthStr]}`;
   };
 
+  // CSV upload and preprocessing
   const handleCSVUpload = (e) => {
     const file = e.target.files[0];
     if (!file) return;
@@ -143,6 +152,7 @@ const IncidentSeverityDashboard = () => {
           incidentTrends[key3] = (incidentTrends[key3] || 0) + 1;
         });
 
+        // Update context state
         setIncidentTypeCounts(
           Object.entries(incidentTypeCounts).map(([k, count]) => {
             const [Incident_Type, Region_Type, MonthYear] = k.split("-");
@@ -170,6 +180,7 @@ const IncidentSeverityDashboard = () => {
     });
   };
 
+  // Resets to default static data
   const handleResetData = () => {
     localStorage.removeItem("incident_dashboard_file_prefix");
     localStorage.removeItem("incident_dashboard_file_name");
@@ -184,6 +195,7 @@ const IncidentSeverityDashboard = () => {
     setTimeout(() => window.location.reload(), 1000);
   };
 
+  // Export filtered data to JSON or CSV
   const exportFiltered = async (filePath, filterFn, fileName, format = "json") => {
     const res = await fetch(filePath);
     const data = await res.json();
@@ -276,6 +288,7 @@ const IncidentSeverityDashboard = () => {
         "csv"
       );
 
+  // Render the dashboard
   return (
     <Box display="flex" height="100%">
       <Box width="260px" minHeight="100vh" p={2} borderRight="1px solid #e0e0e0" bgcolor="white">

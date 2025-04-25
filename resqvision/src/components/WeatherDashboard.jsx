@@ -23,6 +23,7 @@ const regionOptions = ["Rural", "Suburban", "Urban"];
 const trafficOptions = ["Low", "Moderate", "High"];
 
 const convertToMonthYear = (label) => {
+  // Convert month-year string to YYYY-MM format
   const months = {
     Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06",
     Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12",
@@ -49,6 +50,7 @@ const WeatherDashboard = () => {
     if (name) setUploadedFileName(name);
   }, []);
 
+  // Load initial data from local storage
   const handleCSVUpload = (e) => {
     const file = e.target.files[0];
     if (!file) return;
@@ -94,6 +96,7 @@ const WeatherDashboard = () => {
     });
   };
 
+  // Reset uploaded data
   const handleResetData = () => {
     setUploadedFileName(null);
     localStorage.removeItem("weather_dashboard_file_name");
@@ -116,6 +119,7 @@ const WeatherDashboard = () => {
     setTimeout(() => setToastOpen(false), 1500);
   };
 
+  // Download data in selected format
   const handleDownload = async (format) => {
     const response = await fetch("/data/weather_heatmap.json");
     const data = await response.json();
@@ -150,6 +154,7 @@ const WeatherDashboard = () => {
     handleClose();
   };
 
+  // Handle keyboard events for menu
   return (
     <Box display="flex" height="100%">
       <Box width="260px" minHeight="100vh" p={2} borderRight="1px solid #e0e0e0" bgcolor="white">

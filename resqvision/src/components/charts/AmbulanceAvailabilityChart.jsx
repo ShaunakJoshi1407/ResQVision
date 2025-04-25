@@ -27,6 +27,7 @@ const AmbulanceAvailabilityChart = ({
           d.MonthYear <= endMonth
       );
 
+      // Aggregate average response time by ambulance availability
       const aggregated = d3.rollups(
         filtered,
         (v) => d3.mean(v, (d) => +d.Avg_Response_Time),
@@ -42,6 +43,7 @@ const AmbulanceAvailabilityChart = ({
 
     const drawChart = (aggregated) => {
       const svg = d3.select(svgRef.current);
+      // Clear previous content
       svg.selectAll("*").remove();
 
       const margin = { top: 40, right: 30, bottom: 50, left: 80 };
@@ -54,18 +56,21 @@ const AmbulanceAvailabilityChart = ({
         .append("g")
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
+      // X-axis: Ambulance Availability (categorical)
       const x = d3
         .scaleBand()
         .domain(aggregated.map((d) => d.Ambulance_Availability))
         .range([0, width])
         .padding(0.4);
 
+      // Y-axis: Average Response Time (linear)
       const y = d3
         .scaleLinear()
         .domain([0, d3.max(aggregated, (d) => d.Avg_Response_Time)])
         .nice()
         .range([height, 0]);
-
+      
+      // Render axes
       container.append("g")
         .attr("transform", `translate(0, ${height})`)
         .call(d3.axisBottom(x));
@@ -87,6 +92,7 @@ const AmbulanceAvailabilityChart = ({
 
       const tooltip = d3.select(tooltipRef.current);
 
+      // Bars with transitions and tooltip interactivity
       const bars = container.selectAll("rect")
         .data(aggregated)
         .enter()
@@ -129,7 +135,7 @@ const AmbulanceAvailabilityChart = ({
         .attr("fill", "#333")
         .text((d) => d.Avg_Response_Time.toFixed(2));
     };
-
+    // Use context data from csv if available; otherwise, fetch fallback JSON
     if (ambulanceResponseData) {
       process(ambulanceResponseData);
     } else {

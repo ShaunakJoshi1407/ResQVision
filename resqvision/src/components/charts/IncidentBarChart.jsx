@@ -9,6 +9,7 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
   const tooltipRef = useRef();
   const { incidentTypeCounts } = useDashboardData();
 
+  // Convert month label format (e.g., "Jan 2019") to "2019-01"
   const convertToMonthYear = (label) => {
     const months = {
       Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06',
@@ -23,6 +24,7 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
     svg.selectAll('*').remove();
 
     const render = (data) => {
+      // Filter data based on region, incident type, and time range
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
@@ -31,6 +33,8 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
           d.MonthYear <= convertToMonthYear(endMonth)
       );
 
+
+      // Display fallback text if no data matches filters
       if (!filtered.length) {
         svg
           .attr('width', 320)
@@ -43,6 +47,7 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
         return;
       }
 
+      // Aggregate incident counts per type
       const incidentCounts = d3.rollups(
         filtered,
         (v) => d3.sum(v, (d) => d.Count || 1),
@@ -59,12 +64,14 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
         .append('g')
         .attr('transform', `translate(${margin.left},${margin.top})`);
 
+      // X-axis: Incident types (categorical)
       const x = d3
         .scaleBand()
         .domain(incidentCounts.map((d) => d.Incident_Type))
         .range([0, width])
         .padding(0.3);
 
+      // Y-axis: Incident counts (linear)
       const y = d3
         .scaleLinear()
         .domain([0, d3.max(incidentCounts, (d) => d.Count)])
@@ -122,6 +129,7 @@ const IncidentBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
         .attr('height', (d) => height - y(d.Count));
     };
 
+    // Determine data source: uploaded CSV or fallback JSON
     const mode = localStorage.getItem('incident_dashboard_file_prefix');
 
     if (mode === 'client-upload' && incidentTypeCounts) {

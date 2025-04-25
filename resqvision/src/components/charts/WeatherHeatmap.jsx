@@ -12,6 +12,7 @@ const WeatherHeatmap = ({
   const tooltipRef = useRef();
   const { weatherHeatmapData } = useDashboardData();
 
+  // Converts "Apr 2020" to "2020-04"
   const convertToMonthYear = (label) => {
     const months = {
       Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06",
@@ -34,6 +35,7 @@ const WeatherHeatmap = ({
     const endKey = convertToMonthYear(endMonth);
 
     const processData = (data) => {
+      // Filter data by selected filters
       const filtered = data.filter(
         (d) =>
           d.Region_Type === region &&
@@ -42,6 +44,7 @@ const WeatherHeatmap = ({
           d.MonthYear <= endKey
       );
 
+      // Group and aggregate average response time by weather and road type
       const grouped = d3.rollups(
         filtered,
         (v) => d3.mean(v, (d) => +d.Response_Time || +d.Avg_Response_Time || 0),
@@ -151,9 +154,9 @@ const WeatherHeatmap = ({
         })
         .text((d) => d.Avg_Response_Time.toFixed(1));
 
-      // ✅ Legend cleanup and redraw
-      svg.selectAll("defs").remove(); // remove previous gradients
-      svg.selectAll(".legend-elements").remove(); // remove all elements from previous legend
+      // Create color scale legend
+      svg.selectAll("defs").remove();
+      svg.selectAll(".legend-elements").remove(); 
 
       const defs = svg.append("defs");
       const legendWidth = 200;
@@ -195,7 +198,8 @@ const WeatherHeatmap = ({
         .select(".domain")
         .remove();
     };
-
+    
+    // Determine data source: uploaded CSV or fallback JSON
     if (weatherHeatmapData && weatherHeatmapData.length) {
       processData(weatherHeatmapData);
     } else {

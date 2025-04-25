@@ -25,6 +25,7 @@ const monthYearOptions = [...Array(84)].map((_, i) => {
 });
 
 const convertToMonthYear = (label) => {
+  // Convert month label format (e.g., "Jan 2019") to "2019-01"
   const months = {
     Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06",
     Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12",
@@ -77,7 +78,7 @@ const ResponseDashboard = () => {
     if (isSelected && current.length === 1) return;
     setter(isSelected ? current.filter((v) => v !== value) : [...current, value]);
   };
-
+  // Handle the toggle for regions and levels
   const handleExportClick = (e, chartId) => {
     setAnchorEl(e.currentTarget);
     setMenuTarget(chartId);
@@ -87,7 +88,7 @@ const ResponseDashboard = () => {
     setAnchorEl(null);
     setMenuTarget(null);
   };
-
+  // Show toast notification
   const showToast = () => {
     setToastOpen(true);
     setTimeout(() => setToastOpen(false), 1500);
@@ -103,7 +104,7 @@ const ResponseDashboard = () => {
     showToast();
     handleClose();
   };
-
+  // Function to export filtered data
   const exportFiltered = async (filePath, filterFn, fileName, format = "json") => {
     const res = await fetch(filePath);
     const data = await res.json();
@@ -197,6 +198,7 @@ const ResponseDashboard = () => {
       "csv"
   );
 
+  // Function to handle CSV file upload
   const handleCSVUpload = (e) => {
     const file = e.target.files[0];
     if (!file) return;

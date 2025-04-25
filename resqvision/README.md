@@ -70,3 +70,8 @@ The `data_preprocessing` directory contains:
 
 - `Home_Page_Metrics.ipynb`:  
   Generates `metrics_summary.json`, used to display summary metrics on the homepage.
+
+## Sample Data
+
+- Sample csv files are present in the `data/Sample_data` folder, which could be used for testing the "CSV Upload" feature in all of the dashboards.
+- Sample data can also be created from the main dataset located in the `data` folder, by using the last cell of the notebook `Data Preprocessing.ipynb`.

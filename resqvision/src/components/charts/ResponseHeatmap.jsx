@@ -16,7 +16,7 @@ const ResponseHeatmap = ({
 
     const process = (data) => {
       if (!data) return;
-
+      // Filter by region, emergency level, and time range
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
@@ -25,6 +25,7 @@ const ResponseHeatmap = ({
           d.MonthYear <= endMonth
       );
 
+      // Aggregate average response time by road type and distance bin
       const grouped = d3.rollups(
         filtered,
         (v) => d3.mean(v, (d) => +d.Avg_Response_Time),
@@ -77,6 +78,7 @@ const ResponseHeatmap = ({
         .selectAll("text")
         .style("font-size", "11px");
 
+      // Axis labels
       container.append("text")
         .attr("x", width / 2)
         .attr("y", height + 40)
@@ -96,6 +98,7 @@ const ResponseHeatmap = ({
 
       const tooltip = d3.select(tooltipRef.current);
 
+      // Draw heatmap cells
       container.selectAll("rect.cell")
         .data(data)
         .enter()
@@ -121,7 +124,8 @@ const ResponseHeatmap = ({
         .on("mouseout", () => {
           tooltip.style("opacity", 0);
         });
-
+      
+      // Add value labels in cells
       container.selectAll("text.cell-label")
         .data(data)
         .enter()
@@ -138,7 +142,8 @@ const ResponseHeatmap = ({
           return luminance < 140 ? "white" : "black";
         })
         .text((d) => d.Avg_Response_Time.toFixed(1));
-
+      
+      // Gradient legend setup
       const defs = svg.append("defs");
       const legendWidth = 200;
       const legendHeight = 10;
@@ -181,6 +186,7 @@ const ResponseHeatmap = ({
         .remove();
     };
 
+    // Determine data source: uploaded CSV or fallback JSON
     if (heatmapResponseData) {
       process(heatmapResponseData);
     } else {

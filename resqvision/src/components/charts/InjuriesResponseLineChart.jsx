@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 import * as d3 from "d3";
 import { useDashboardData } from "../../context/DashboardDataContext";
 
+// Color map for each emergency level
 const COLORS = {
   Minor: "#60a5fa",
   Major: "#facc15",
@@ -24,7 +25,8 @@ const InjuriesResponseLineChart = ({
 
     const process = (data) => {
       if (!data) return;
-
+  
+      // Filter data by region, level, and time
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
@@ -33,6 +35,7 @@ const InjuriesResponseLineChart = ({
           d.MonthYear <= endMonth
       );
 
+      // Aggregate average response time per emergency level and injury count
       const aggregated = d3.rollups(
         filtered,
         (v) => d3.mean(v, (d) => +d.Avg_Response_Time),
@@ -65,11 +68,13 @@ const InjuriesResponseLineChart = ({
         .append("g")
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
+      // X-axis: Number of injuries (1–4+)
       const x = d3
         .scaleLinear()
         .domain([1, 4])
         .range([0, width]);
 
+      // Y-axis: Average response time (linear)
       const y = d3
         .scaleLinear()
         .domain([0, d3.max(aggregated, (d) => d.Avg_Response_Time)])
@@ -85,7 +90,8 @@ const InjuriesResponseLineChart = ({
         );
 
       container.append("g").call(d3.axisLeft(y));
-
+      
+      // Axis labels
       container.append("text")
         .attr("x", width / 2)
         .attr("y", height + 40)
@@ -100,7 +106,8 @@ const InjuriesResponseLineChart = ({
         .text("Avg. Response Time (min)");
 
       const tooltip = d3.select(tooltipRef.current);
-
+      
+      // Plot one line per emergency level
       grouped.forEach(([level, values]) => {
         if (hiddenLevels.includes(level)) return;
 
@@ -117,6 +124,7 @@ const InjuriesResponseLineChart = ({
           .attr("stroke-width", 2.5)
           .attr("d", line);
 
+        // Draw data points with tooltip interaction
         container.selectAll(`circle-${level}`)
           .data(sorted)
           .enter()
@@ -153,6 +161,7 @@ const InjuriesResponseLineChart = ({
           .text((d) => d.Avg_Response_Time.toFixed(2));
       });
 
+      // Interactive legend for toggling emergency levels
       const legend = svg
         .append("g")
         .attr("transform", `translate(${margin.left + 10}, ${margin.top - 50})`);
@@ -189,6 +198,7 @@ const InjuriesResponseLineChart = ({
       });
     };
 
+   // Determine data source: uploaded CSV or fallback JSON
     if (injuriesResponseData) {
       process(injuriesResponseData);
     } else {

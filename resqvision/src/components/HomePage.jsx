@@ -136,15 +136,16 @@ const HomePage = ({ setActiveTab }) => {
 
 export default HomePage;
 
-// ---------- Supporting Components ----------
-
+// Metric card for animated values
 const MetricCardAnimated = ({ label, value, unit }) => {
   const [displayValue, setDisplayValue] = useState(0);
 
   useEffect(() => {
+    // Animate the value from 0 to the target value
     let start;
     const duration = 800;
     const animate = (timestamp) => {
+      // If this is the first frame, set the start time
       if (!start) start = timestamp;
       const progress = Math.min((timestamp - start) / duration, 1);
       const current = parseFloat((value * progress).toFixed(1));
@@ -168,6 +169,7 @@ const MetricCardAnimated = ({ label, value, unit }) => {
   );
 };
 
+// Static metric card for non-animated values
 const MetricCardStatic = ({ label, value }) => (
   <Grid item xs={12} md={2.3}>
     <Paper style={metricStyle}>

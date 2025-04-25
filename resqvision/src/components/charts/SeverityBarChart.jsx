@@ -27,6 +27,7 @@ const SeverityBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
     const endKey = toMonthKey(endMonth);
 
     const render = (data) => {
+      // Filter data by region, incident type, and time range
       const filtered = data.filter(
         (d) =>
           selectedRegions.includes(d.Region_Type) &&
@@ -35,6 +36,7 @@ const SeverityBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
           d.MonthYear <= endKey
       );
 
+      // Aggregate incident severity counts per severity level
       const severityLevels = ['Low', 'Medium', 'High'];
       const severityCounts = d3.rollups(
         filtered,
@@ -50,6 +52,7 @@ const SeverityBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
       const width = 400 - margin.left - margin.right;
       const height = 300 - margin.top - margin.bottom;
 
+      // Early exit if no data
       if (filtered.length === 0) {
         svg
           .attr('width', 400)
@@ -63,19 +66,22 @@ const SeverityBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
           .text('No data for the selected filters');
         return;
       }
-
+      
+      // Chart setup
       const container = svg
         .attr('width', width + margin.left + margin.right)
         .attr('height', height + margin.top + margin.bottom)
         .append('g')
         .attr('transform', `translate(${margin.left},${margin.top})`);
 
+      // Y-axis: Severity levels (categorical)
       const y = d3
         .scaleBand()
         .domain(severityCounts.map((d) => d.Severity))
         .range([0, height])
         .padding(0.3);
 
+      // X-axis: Incident counts (linear)
       const x = d3
         .scaleLinear()
         .domain([0, d3.max(severityCounts, (d) => d.Count)])
@@ -90,7 +96,8 @@ const SeverityBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
             .ticks(5)
             .tickFormat(d3.format('.2s'))
         );
-
+      
+      // Axis labels
       container
         .append('text')
         .attr('x', width / 2)
@@ -141,6 +148,7 @@ const SeverityBarChart = ({ selectedRegions, selectedIncidents, startMonth, endM
         .attr('width', (d) => x(d.Count));
     };
 
+    // Determine data source: uploaded CSV or fallback JSON
     const mode = localStorage.getItem('incident_dashboard_file_prefix');
 
     if (mode === 'client-upload' && severityCounts) {
